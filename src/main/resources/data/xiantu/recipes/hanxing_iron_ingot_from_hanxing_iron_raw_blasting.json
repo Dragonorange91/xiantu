@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "xiantu:hanxing_iron_raw"
+  },
+  "result": "xiantu:hanxing_iron_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

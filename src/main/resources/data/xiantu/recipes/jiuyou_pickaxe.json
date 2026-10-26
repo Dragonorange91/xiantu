@@ -1,0 +1,25 @@
+{
+  "type": "xiantu:facility_crafting",
+  "category": "equipment",
+  "facility": "jiuyou_pickaxe",
+  "ingredients": [
+    {
+      "item": "xiantu:zixiao_copper_ingot"
+    },
+    {
+      "item": "xiantu:zixiao_copper_ingot"
+    },
+    {
+      "item": "xiantu:zixiao_copper_ingot"
+    },
+    {
+      "item": "xiantu:xuan_tie_pine_stick"
+    },
+    {
+      "item": "xiantu:hanxing_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "xiantu:jiuyou_pickaxe"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:xing_wen_wutong_door"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "xiantu:xing_wen_wutong_door",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ]
+    }
+  ]
+}

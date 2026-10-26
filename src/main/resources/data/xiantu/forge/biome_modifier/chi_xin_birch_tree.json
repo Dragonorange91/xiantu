@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/chi_xin_birch",
+  "features": [
+    "xiantu:chi_xin_birch_tree"
+  ],
+  "step": "vegetal_decoration"
+}

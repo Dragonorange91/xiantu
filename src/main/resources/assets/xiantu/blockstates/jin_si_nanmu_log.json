@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "xiantu:block/jin_si_nanmu_log"
+    },
+    "axis=x": {
+      "model": "xiantu:block/jin_si_nanmu_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "xiantu:block/jin_si_nanmu_log",
+      "x": 90
+    }
+  }
+}

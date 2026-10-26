@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/jin_si_nanmu_eaves",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/jin_si_nanmu_eaves",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/jin_si_nanmu_eaves",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/jin_si_nanmu_eaves",
+      "y": 270
+    }
+  }
+}

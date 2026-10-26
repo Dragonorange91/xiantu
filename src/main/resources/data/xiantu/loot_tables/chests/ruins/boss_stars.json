@@ -1,0 +1,3928 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:demon_core",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{core_grade:6,core_element:\"thunder\",CustomModelData:51}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:thunder_stone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:starlight_stone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:demon_core",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{core_grade:6,core_element:\"metal\",CustomModelData:6}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:purple_pattern_crystal",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:lodestone_shard",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:zifu_silver_raw",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xiantu_wondrous_fire",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:wondrous_fire_5",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:wondrous_fire_6",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "name": "xiantu_exploration_supplies",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xiantu_finished_medicines",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_19",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_19",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_19",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_19",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_20",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_20",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_20",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_20",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_21",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_21",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_21",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_21",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_22",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_22",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_22",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_22",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_23",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_23",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_23",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_23",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_24",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_24",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_24",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_24",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_25",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_25",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_25",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_25",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_26",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_26",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_26",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_26",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_27",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_27",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_27",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_27",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_28",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_28",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_28",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_28",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_29",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_29",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_29",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_29",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_30",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_30",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_30",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_30",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_31",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_31",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_31",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_31",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_32",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_32",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_32",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_32",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_33",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_33",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_33",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:pill_33",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pill_quality:4}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xiantu_finished_talismans",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_fireball",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_fireball",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_fireball",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_fireball",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_fireball",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_fireball",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_thunder",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_thunder",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_thunder",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_thunder",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_thunder",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_thunder",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_sword_qi",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_sword_qi",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_sword_qi",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_sword_qi",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_sword_qi",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_sword_qi",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_explosion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_explosion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_explosion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_explosion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_explosion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_explosion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_diamond",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_diamond",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_reflection",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_reflection",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_reflection",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_reflection",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_reflection",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_reflection",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_lightbody",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_lightbody",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_lightbody",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_lightbody",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_lightbody",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_lightbody",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_speed",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_speed",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_speed",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_speed",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_speed",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_speed",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_invisibility",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_invisibility",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_invisibility",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_invisibility",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_invisibility",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_invisibility",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_concealment",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_concealment",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_concealment",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_concealment",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_concealment",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_concealment",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_healing",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_healing",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_healing",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_healing",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_healing",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_healing",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_detox",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_detox",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_detox",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_detox",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_detox",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_detox",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_cleanse",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_cleanse",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_cleanse",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_cleanse",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_cleanse",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_cleanse",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_soul_seal",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_soul_seal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_soul_seal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_soul_seal",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_soul_seal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_soul_seal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_spirit_lock",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_spirit_lock",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_spirit_lock",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_spirit_lock",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_spirit_lock",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_spirit_lock",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_demon_seal",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_demon_seal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_demon_seal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_demon_seal",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_demon_seal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_demon_seal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_trap",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_trap",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_trap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_trap",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_trap",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_trap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_earth_escape",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_earth_escape",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_earth_escape",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_earth_escape",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_earth_escape",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_earth_escape",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_blink",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_blink",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_blink",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:5,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_blink",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_blink",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_blink",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_long_return",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_long_return",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:talisman_long_return",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TalismanTier:6,TalismanQuality:3}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "xiantu_mineral_assortment",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:cinnabar",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:purple_pattern_crystal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:lodestone_shard",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:moonlit_stone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:cold_soul_crystal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:flame_heart_stone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:thunder_stone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:starlight_stone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:scoria_core",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:void_crystal",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:jiuyou_iron_raw",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:taiyi_gold_raw",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:zifu_silver_raw",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

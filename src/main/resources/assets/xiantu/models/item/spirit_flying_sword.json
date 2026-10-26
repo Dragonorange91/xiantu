@@ -1,0 +1,11 @@
+{
+  "loader": "forge:obj",
+  "model": "xiantu:models/item/qingshuang_sword.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "xiantu:models/armor/cangming_materials"
+  }
+}

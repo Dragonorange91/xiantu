@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "xiantu:five_elements_prison_grand",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:starfall_sanctuary_grand",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:water_curtain_caverns_grand",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 1000,
+    "separation": 900,
+    "salt": 19794004
+  }
+}

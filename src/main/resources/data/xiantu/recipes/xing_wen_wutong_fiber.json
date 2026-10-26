@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:xing_wen_wutong_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:xing_wen_wutong_fiber",
+    "count": 2
+  },
+  "wood": "xing_wen_wutong"
+}

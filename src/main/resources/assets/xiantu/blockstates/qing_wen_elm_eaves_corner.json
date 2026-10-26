@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/qing_wen_elm_eaves_corner",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/qing_wen_elm_eaves_corner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/qing_wen_elm_eaves_corner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/qing_wen_elm_eaves_corner",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:jin_si_nanmu_pillar"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_pillar_base",
+    "count": 2
+  }
+}

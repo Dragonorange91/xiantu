@@ -1,0 +1,354 @@
+{
+  "textures": {
+    "0": "xiantu:block/spring_stone_smooth",
+    "particle": "xiantu:block/spring_stone_smooth"
+  },
+  "elements": [
+    {
+      "name": "broken_stone_0",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        8,
+        3,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            13,
+            8,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            9,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1,
+            13,
+            8,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            9,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1,
+            2,
+            8,
+            9
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            8,
+            9
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "broken_stone_1",
+      "from": [
+        9,
+        0,
+        1
+      ],
+      "to": [
+        14,
+        2,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            14,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            6,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            9,
+            14,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            6,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            14,
+            6
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            14,
+            6
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "broken_stone_2",
+      "from": [
+        7,
+        0,
+        9
+      ],
+      "to": [
+        15,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            12,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            9,
+            12,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            7,
+            12,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            9,
+            12,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            7,
+            9,
+            15,
+            14
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7,
+            9,
+            15,
+            14
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "broken_stone_3",
+      "from": [
+        3,
+        3,
+        4
+      ],
+      "to": [
+        7,
+        6,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            10,
+            7,
+            13
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            4,
+            10,
+            8,
+            13
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3,
+            10,
+            7,
+            13
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            8,
+            13
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            3,
+            4,
+            7,
+            8
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            3,
+            4,
+            7,
+            8
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "broken_stone_4",
+      "from": [
+        8,
+        4,
+        10
+      ],
+      "to": [
+        12,
+        7,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            9,
+            12,
+            12
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            10,
+            9,
+            13,
+            12
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8,
+            9,
+            12,
+            12
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            10,
+            9,
+            13,
+            12
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            8,
+            10,
+            12,
+            13
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8,
+            10,
+            12,
+            13
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

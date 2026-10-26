@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/ruin_broken_wall",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/ruin_broken_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/ruin_broken_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/ruin_broken_wall",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_window",
+    "count": 4
+  }
+}

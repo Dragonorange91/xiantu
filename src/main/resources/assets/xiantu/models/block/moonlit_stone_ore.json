@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xiantu:block/moonlit_stone_ore"
+  }
+}

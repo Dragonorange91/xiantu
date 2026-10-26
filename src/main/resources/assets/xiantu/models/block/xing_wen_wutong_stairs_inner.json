@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "xiantu:block/xing_wen_wutong_planks",
+    "top": "xiantu:block/xing_wen_wutong_planks",
+    "side": "xiantu:block/xing_wen_wutong_planks"
+  }
+}

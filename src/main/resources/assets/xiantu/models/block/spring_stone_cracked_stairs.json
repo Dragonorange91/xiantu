@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "xiantu:block/spring_stone_cracked",
+    "top": "xiantu:block/spring_stone_cracked",
+    "side": "xiantu:block/spring_stone_cracked"
+  }
+}

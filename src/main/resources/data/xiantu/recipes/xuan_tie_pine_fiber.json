@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:xuan_tie_pine_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:xuan_tie_pine_fiber",
+    "count": 2
+  },
+  "wood": "xuan_tie_pine"
+}

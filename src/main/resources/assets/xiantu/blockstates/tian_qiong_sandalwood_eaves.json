@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/tian_qiong_sandalwood_eaves",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/tian_qiong_sandalwood_eaves",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/tian_qiong_sandalwood_eaves",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/tian_qiong_sandalwood_eaves",
+      "y": 270
+    }
+  }
+}

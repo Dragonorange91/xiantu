@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SGS",
+    "C C"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:appraisal_altar",
+    "count": 1
+  }
+}

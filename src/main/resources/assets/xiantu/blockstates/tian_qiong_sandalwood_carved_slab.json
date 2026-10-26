@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/tian_qiong_sandalwood_carved_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/tian_qiong_sandalwood_carved_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/tian_qiong_sandalwood_carved_slab_double"
+    }
+  }
+}

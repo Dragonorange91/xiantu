@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:qing_wen_elm_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_frieze",
+    "count": 6
+  }
+}

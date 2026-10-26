@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:cloud_floating_stone_stele"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "xiantu:cloud_floating_stone_stele",
+          "properties": {
+            "part": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

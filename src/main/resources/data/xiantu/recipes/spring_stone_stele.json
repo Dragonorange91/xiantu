@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:spring_stone_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:spring_stone_stele",
+    "count": 2
+  }
+}

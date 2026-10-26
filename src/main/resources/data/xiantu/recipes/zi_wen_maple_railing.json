@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_wen_maple_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_wen_maple_railing",
+    "count": 6
+  }
+}

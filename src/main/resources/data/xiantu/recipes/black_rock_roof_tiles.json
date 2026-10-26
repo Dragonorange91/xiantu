@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:black_rock"
+    }
+  },
+  "result": {
+    "item": "xiantu:black_rock_roof_tiles",
+    "count": 6
+  }
+}

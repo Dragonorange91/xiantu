@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "xiantu:block/spirit_soil_1_top",
+    "side": "xiantu:block/spirit_soil_1_side",
+    "bottom": "xiantu:block/spirit_soil_1_side"
+  }
+}

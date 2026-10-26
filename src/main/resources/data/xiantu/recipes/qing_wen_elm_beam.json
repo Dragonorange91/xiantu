@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "F "
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    "F": {
+      "item": "xiantu:qing_wen_elm_fiber"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_beam",
+    "count": 2
+  }
+}

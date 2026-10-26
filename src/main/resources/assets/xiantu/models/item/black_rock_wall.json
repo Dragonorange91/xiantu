@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "xiantu:block/xuan_rock_formation_stone"
+  }
+}

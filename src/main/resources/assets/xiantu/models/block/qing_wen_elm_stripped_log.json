@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "xiantu:block/qing_wen_elm_stripped_log_side",
+    "end": "xiantu:block/qing_wen_elm_stripped_log_top"
+  }
+}

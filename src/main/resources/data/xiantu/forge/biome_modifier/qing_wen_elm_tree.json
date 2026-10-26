@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/qing_wen_elm",
+  "features": [
+    "xiantu:qing_wen_elm_tree"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:smooth_stone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:xian_round_stone_table",
+    "count": 1
+  }
+}

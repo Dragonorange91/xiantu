@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xiantu:block/qing_wen_elm_frieze"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "L"
+  ],
+  "key": {
+    "L": {
+      "item": "xiantu:jin_si_nanmu_stripped_log"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_planks",
+    "count": 4
+  },
+  "wood": "jin_si_nanmu"
+}

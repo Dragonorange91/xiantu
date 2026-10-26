@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "xiantu:block/spring_stone_mossy",
+    "top": "xiantu:block/spring_stone_mossy",
+    "side": "xiantu:block/spring_stone_mossy"
+  }
+}

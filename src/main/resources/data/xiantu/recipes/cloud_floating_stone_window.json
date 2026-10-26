@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:cloud_floating_stone"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_floating_stone_window",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:spring_stone"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "xiantu:spring_stone_window",
+    "count": 4
+  }
+}

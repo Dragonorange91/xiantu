@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:wooden_plaque_large"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "xiantu:alchemy_pavilion_plaque"
+  }
+}

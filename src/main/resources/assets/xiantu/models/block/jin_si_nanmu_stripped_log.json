@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "xiantu:block/jin_si_nanmu_stripped_log_side",
+    "end": "xiantu:block/jin_si_nanmu_stripped_log_top"
+  }
+}

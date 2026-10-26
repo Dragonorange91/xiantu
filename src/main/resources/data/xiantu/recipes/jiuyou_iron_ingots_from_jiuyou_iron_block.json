@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "xiantu:jiuyou_iron_block"
+    }
+  ],
+  "result": {
+    "item": "xiantu:jiuyou_iron_ingot",
+    "count": 9
+  }
+}

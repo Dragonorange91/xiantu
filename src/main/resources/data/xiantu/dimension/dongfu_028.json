@@ -1,0 +1,12 @@
+{
+  "type": "xiantu:instance",
+  "generator": {
+    "type": "xiantu:instance",
+    "cave": true,
+    "salt": 28,
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "xiantu:instance"
+    }
+  }
+}

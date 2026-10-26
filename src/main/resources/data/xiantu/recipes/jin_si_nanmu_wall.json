@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:jin_si_nanmu_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_wall",
+    "count": 6
+  }
+}

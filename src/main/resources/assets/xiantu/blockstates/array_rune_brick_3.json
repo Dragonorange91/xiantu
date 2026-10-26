@@ -1,0 +1,104 @@
+{
+  "variants": {
+    "trace=0,facing=north": {
+      "model": "xiantu:block/array_3_rune",
+      "y": 0
+    },
+    "trace=0,facing=east": {
+      "model": "xiantu:block/array_3_rune",
+      "y": 90
+    },
+    "trace=0,facing=south": {
+      "model": "xiantu:block/array_3_rune",
+      "y": 180
+    },
+    "trace=0,facing=west": {
+      "model": "xiantu:block/array_3_rune",
+      "y": 270
+    },
+    "trace=1": {
+      "model": "xiantu:block/array_3_rune_trace_1"
+    },
+    "trace=2": {
+      "model": "xiantu:block/array_3_rune_trace_2"
+    },
+    "trace=3": {
+      "model": "xiantu:block/array_3_rune_trace_3"
+    },
+    "trace=4": {
+      "model": "xiantu:block/array_3_rune_trace_4"
+    },
+    "trace=5": {
+      "model": "xiantu:block/array_3_rune_trace_5"
+    },
+    "trace=6": {
+      "model": "xiantu:block/array_3_rune_trace_6"
+    },
+    "trace=7": {
+      "model": "xiantu:block/array_3_rune_trace_7"
+    },
+    "trace=8": {
+      "model": "xiantu:block/array_3_rune_trace_8"
+    },
+    "trace=9": {
+      "model": "xiantu:block/array_3_rune_trace_9"
+    },
+    "trace=10": {
+      "model": "xiantu:block/array_3_rune_trace_10"
+    },
+    "trace=11": {
+      "model": "xiantu:block/array_3_rune_trace_11"
+    },
+    "trace=12": {
+      "model": "xiantu:block/array_3_rune_trace_12"
+    },
+    "trace=13": {
+      "model": "xiantu:block/array_3_rune_trace_13"
+    },
+    "trace=14": {
+      "model": "xiantu:block/array_3_rune_trace_14"
+    },
+    "trace=15": {
+      "model": "xiantu:block/array_3_rune_trace_15"
+    },
+    "trace=16": {
+      "model": "xiantu:block/array_3_rune_trace_16"
+    },
+    "trace=17": {
+      "model": "xiantu:block/array_3_rune_trace_17"
+    },
+    "trace=18": {
+      "model": "xiantu:block/array_3_rune_trace_18"
+    },
+    "trace=19": {
+      "model": "xiantu:block/array_3_rune_trace_19"
+    },
+    "trace=20": {
+      "model": "xiantu:block/array_3_rune_trace_20"
+    },
+    "trace=21": {
+      "model": "xiantu:block/array_3_rune_trace_21"
+    },
+    "trace=22": {
+      "model": "xiantu:block/array_3_rune_trace_22"
+    },
+    "trace=23": {
+      "model": "xiantu:block/array_3_rune_trace_23"
+    },
+    "trace=24": {
+      "model": "xiantu:block/array_3_rune_trace_24"
+    },
+    "trace=25": {
+      "model": "xiantu:block/array_3_rune_trace_25"
+    },
+    "trace=26": {
+      "model": "xiantu:block/array_3_rune_trace_26"
+    },
+    "trace=27": {
+      "model": "xiantu:block/array_3_rune_trace_27"
+    },
+    "trace=28": {
+      "model": "xiantu:block/array_3_rune_trace_28"
+    }
+  }
+}

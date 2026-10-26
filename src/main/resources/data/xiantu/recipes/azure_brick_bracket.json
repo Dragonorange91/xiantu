@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:azure_brick_pillar"
+    },
+    {
+      "item": "xiantu:azure_brick_pillar_capital"
+    }
+  ],
+  "result": {
+    "item": "xiantu:azure_brick_bracket",
+    "count": 2
+  }
+}

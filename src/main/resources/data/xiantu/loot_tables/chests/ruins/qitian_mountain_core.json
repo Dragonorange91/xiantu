@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "xiantu_original_core",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "xiantu:chests/ruins/tier_6_core_earth"
+        }
+      ]
+    },
+    {
+      "name": "xiantu_jingu_fragment",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:jingu_fragment"
+        }
+      ]
+    }
+  ]
+}

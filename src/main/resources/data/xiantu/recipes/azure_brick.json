@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "BFB",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "B": {
+      "item": "minecraft:stone_bricks"
+    },
+    "F": {
+      "item": "xiantu:fan_ling_shi"
+    }
+  },
+  "result": {
+    "item": "xiantu:azure_brick",
+    "count": 4
+  }
+}

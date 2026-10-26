@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "xiantu:block/jin_si_nanmu_leaves"
+  },
+  "render_type": "minecraft:cutout_mipped"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "xiantu:block/jin_si_nanmu_sapling"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:chi_xin_birch_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:chi_xin_birch_plaque_board",
+    "count": 2
+  }
+}

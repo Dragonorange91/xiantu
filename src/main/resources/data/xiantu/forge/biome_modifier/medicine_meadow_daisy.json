@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/spirit_medicine_plain",
+  "features": [
+    "xiantu:medicine_meadow_daisy"
+  ],
+  "step": "vegetal_decoration"
+}

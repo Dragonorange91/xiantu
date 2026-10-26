@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "xiantu:taiyi_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:taiyi_gold_block"
+  }
+}

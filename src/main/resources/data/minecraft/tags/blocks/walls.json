@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:azure_brick_wall",
+    "xiantu:black_rock_wall",
+    "xiantu:cloud_jade_wall",
+    "xiantu:spring_stone_wall",
+    "xiantu:cloud_floating_stone_wall",
+    "xiantu:azure_brick_mossy_wall",
+    "xiantu:black_rock_mossy_wall",
+    "xiantu:cloud_jade_mossy_wall",
+    "xiantu:spring_stone_mossy_wall",
+    "xiantu:cloud_floating_stone_mossy_wall",
+    "xiantu:qing_wen_elm_wall",
+    "xiantu:chi_xin_birch_wall",
+    "xiantu:zi_wen_maple_wall",
+    "xiantu:xuan_tie_pine_wall",
+    "xiantu:jin_si_nanmu_wall",
+    "xiantu:zi_fu_cedar_wall",
+    "xiantu:xing_wen_wutong_wall",
+    "xiantu:tian_qiong_sandalwood_wall"
+  ]
+}

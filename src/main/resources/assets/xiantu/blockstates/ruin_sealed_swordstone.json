@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/ruin_sealed_swordstone",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/ruin_sealed_swordstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/ruin_sealed_swordstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/ruin_sealed_swordstone",
+      "y": 270
+    }
+  }
+}

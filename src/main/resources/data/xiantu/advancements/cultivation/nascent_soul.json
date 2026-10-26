@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/golden_core",
+  "display": {
+    "icon": {
+      "item": "xiantu:xuan_jing"
+    },
+    "title": {
+      "text": "元婴出窍 · 元婴"
+    },
+    "description": {
+      "text": "首次达到元婴境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

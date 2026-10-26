@@ -1,0 +1,6 @@
+{
+  "parent": "xiantu:block/herb_wild_cross",
+  "textures": {
+    "cross": "xiantu:block/herb_0032_wild"
+  }
+}

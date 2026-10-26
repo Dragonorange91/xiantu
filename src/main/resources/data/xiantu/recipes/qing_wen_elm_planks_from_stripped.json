@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "L"
+  ],
+  "key": {
+    "L": {
+      "item": "xiantu:qing_wen_elm_stripped_log"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_planks",
+    "count": 4
+  },
+  "wood": "qing_wen_elm"
+}

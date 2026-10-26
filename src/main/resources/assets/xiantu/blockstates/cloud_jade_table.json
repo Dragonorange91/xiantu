@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,part=0": {
+      "model": "xiantu:block/cloud_jade_table_part_0",
+      "y": 0
+    },
+    "facing=east,part=0": {
+      "model": "xiantu:block/cloud_jade_table_part_0",
+      "y": 90
+    },
+    "facing=south,part=0": {
+      "model": "xiantu:block/cloud_jade_table_part_0",
+      "y": 180
+    },
+    "facing=west,part=0": {
+      "model": "xiantu:block/cloud_jade_table_part_0",
+      "y": 270
+    },
+    "facing=north,part=1": {
+      "model": "xiantu:block/cloud_jade_table_part_1",
+      "y": 0
+    },
+    "facing=east,part=1": {
+      "model": "xiantu:block/cloud_jade_table_part_1",
+      "y": 90
+    },
+    "facing=south,part=1": {
+      "model": "xiantu:block/cloud_jade_table_part_1",
+      "y": 180
+    },
+    "facing=west,part=1": {
+      "model": "xiantu:block/cloud_jade_table_part_1",
+      "y": 270
+    }
+  }
+}

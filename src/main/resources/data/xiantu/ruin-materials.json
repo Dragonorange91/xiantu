@@ -1,0 +1,4151 @@
+{
+  "source": "Blockbench MCP native exports2026-10-21",
+  "models": [
+    {
+      "id": "azure_brick_broken_pillar",
+      "family": "azure_brick",
+      "name": "残柱断口优化",
+      "existing": true,
+      "cubes": [
+        {
+          "name": "lower_plinth",
+          "from": [
+            2,
+            0,
+            2
+          ],
+          "to": [
+            12,
+            2,
+            14
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "chipped_foot",
+          "from": [
+            12,
+            0,
+            5
+          ],
+          "to": [
+            14,
+            2,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "raised_collar",
+          "from": [
+            3,
+            2,
+            3
+          ],
+          "to": [
+            13,
+            4,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shaft_lower",
+          "from": [
+            4,
+            4,
+            4
+          ],
+          "to": [
+            12,
+            8,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_left",
+          "from": [
+            4,
+            8,
+            4
+          ],
+          "to": [
+            7,
+            13,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_rear",
+          "from": [
+            7,
+            8,
+            8
+          ],
+          "to": [
+            12,
+            11,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_core",
+          "from": [
+            7,
+            8,
+            4
+          ],
+          "to": [
+            10,
+            10,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "broken_tip",
+          "from": [
+            4,
+            13,
+            7
+          ],
+          "to": [
+            6,
+            16,
+            11
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_front",
+          "from": [
+            10,
+            0,
+            0
+          ],
+          "to": [
+            14,
+            2,
+            2
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_side",
+          "from": [
+            0,
+            0,
+            8
+          ],
+          "to": [
+            2,
+            3,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "plinth_bead_2.7",
+          "from": [
+            3.2,
+            2.65,
+            2.7
+          ],
+          "to": [
+            12.7,
+            3.25,
+            3.05
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "plinth_bead_12.85",
+          "from": [
+            3.2,
+            2.65,
+            12.85
+          ],
+          "to": [
+            12.7,
+            3.25,
+            13.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "front_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            4.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            4.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            8.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            8.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            12.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            12.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "fracture_lip",
+          "from": [
+            4,
+            12.6,
+            4
+          ],
+          "to": [
+            6.5,
+            13.25,
+            7
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_notch",
+          "from": [
+            7,
+            10,
+            6
+          ],
+          "to": [
+            8.5,
+            11.2,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "core_chip",
+          "from": [
+            9,
+            10,
+            8
+          ],
+          "to": [
+            11,
+            11.75,
+            10
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_shard",
+          "from": [
+            6,
+            13,
+            8
+          ],
+          "to": [
+            6.8,
+            14.2,
+            10
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "black_rock_broken_pillar",
+      "family": "black_rock",
+      "name": "残柱断口优化",
+      "existing": true,
+      "cubes": [
+        {
+          "name": "lower_plinth",
+          "from": [
+            2,
+            0,
+            2
+          ],
+          "to": [
+            12,
+            2,
+            14
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "chipped_foot",
+          "from": [
+            12,
+            0,
+            5
+          ],
+          "to": [
+            14,
+            2,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "raised_collar",
+          "from": [
+            3,
+            2,
+            3
+          ],
+          "to": [
+            13,
+            4,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shaft_lower",
+          "from": [
+            4,
+            4,
+            4
+          ],
+          "to": [
+            12,
+            8,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_left",
+          "from": [
+            4,
+            8,
+            4
+          ],
+          "to": [
+            7,
+            13,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_rear",
+          "from": [
+            7,
+            8,
+            8
+          ],
+          "to": [
+            12,
+            11,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_core",
+          "from": [
+            7,
+            8,
+            4
+          ],
+          "to": [
+            10,
+            10,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "broken_tip",
+          "from": [
+            4,
+            13,
+            7
+          ],
+          "to": [
+            6,
+            16,
+            11
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_front",
+          "from": [
+            10,
+            0,
+            0
+          ],
+          "to": [
+            14,
+            2,
+            2
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_side",
+          "from": [
+            0,
+            0,
+            8
+          ],
+          "to": [
+            2,
+            3,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "plinth_bead_2.7",
+          "from": [
+            3.2,
+            2.65,
+            2.7
+          ],
+          "to": [
+            12.7,
+            3.25,
+            3.05
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "plinth_bead_12.85",
+          "from": [
+            3.2,
+            2.65,
+            12.85
+          ],
+          "to": [
+            12.7,
+            3.25,
+            13.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "front_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            4.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            4.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            8.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            8.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            12.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            12.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "fracture_lip",
+          "from": [
+            4,
+            12.6,
+            4
+          ],
+          "to": [
+            6.5,
+            13.25,
+            7
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_notch",
+          "from": [
+            7,
+            10,
+            6
+          ],
+          "to": [
+            8.5,
+            11.2,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "core_chip",
+          "from": [
+            9,
+            10,
+            8
+          ],
+          "to": [
+            11,
+            11.75,
+            10
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_shard",
+          "from": [
+            6,
+            13,
+            8
+          ],
+          "to": [
+            6.8,
+            14.2,
+            10
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "cloud_jade_broken_pillar",
+      "family": "cloud_jade",
+      "name": "残柱断口优化",
+      "existing": true,
+      "cubes": [
+        {
+          "name": "lower_plinth",
+          "from": [
+            2,
+            0,
+            2
+          ],
+          "to": [
+            12,
+            2,
+            14
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "chipped_foot",
+          "from": [
+            12,
+            0,
+            5
+          ],
+          "to": [
+            14,
+            2,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "raised_collar",
+          "from": [
+            3,
+            2,
+            3
+          ],
+          "to": [
+            13,
+            4,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shaft_lower",
+          "from": [
+            4,
+            4,
+            4
+          ],
+          "to": [
+            12,
+            8,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_left",
+          "from": [
+            4,
+            8,
+            4
+          ],
+          "to": [
+            7,
+            13,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_rear",
+          "from": [
+            7,
+            8,
+            8
+          ],
+          "to": [
+            12,
+            11,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_core",
+          "from": [
+            7,
+            8,
+            4
+          ],
+          "to": [
+            10,
+            10,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "broken_tip",
+          "from": [
+            4,
+            13,
+            7
+          ],
+          "to": [
+            6,
+            16,
+            11
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_front",
+          "from": [
+            10,
+            0,
+            0
+          ],
+          "to": [
+            14,
+            2,
+            2
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_side",
+          "from": [
+            0,
+            0,
+            8
+          ],
+          "to": [
+            2,
+            3,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "plinth_bead_2.7",
+          "from": [
+            3.2,
+            2.65,
+            2.7
+          ],
+          "to": [
+            12.7,
+            3.25,
+            3.05
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "plinth_bead_12.85",
+          "from": [
+            3.2,
+            2.65,
+            12.85
+          ],
+          "to": [
+            12.7,
+            3.25,
+            13.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "front_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            4.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            4.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            8.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            8.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            12.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            12.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "fracture_lip",
+          "from": [
+            4,
+            12.6,
+            4
+          ],
+          "to": [
+            6.5,
+            13.25,
+            7
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_notch",
+          "from": [
+            7,
+            10,
+            6
+          ],
+          "to": [
+            8.5,
+            11.2,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "core_chip",
+          "from": [
+            9,
+            10,
+            8
+          ],
+          "to": [
+            11,
+            11.75,
+            10
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_shard",
+          "from": [
+            6,
+            13,
+            8
+          ],
+          "to": [
+            6.8,
+            14.2,
+            10
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "spring_stone_broken_pillar",
+      "family": "spring_stone",
+      "name": "残柱断口优化",
+      "existing": true,
+      "cubes": [
+        {
+          "name": "lower_plinth",
+          "from": [
+            2,
+            0,
+            2
+          ],
+          "to": [
+            12,
+            2,
+            14
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "chipped_foot",
+          "from": [
+            12,
+            0,
+            5
+          ],
+          "to": [
+            14,
+            2,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "raised_collar",
+          "from": [
+            3,
+            2,
+            3
+          ],
+          "to": [
+            13,
+            4,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shaft_lower",
+          "from": [
+            4,
+            4,
+            4
+          ],
+          "to": [
+            12,
+            8,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_left",
+          "from": [
+            4,
+            8,
+            4
+          ],
+          "to": [
+            7,
+            13,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_rear",
+          "from": [
+            7,
+            8,
+            8
+          ],
+          "to": [
+            12,
+            11,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_core",
+          "from": [
+            7,
+            8,
+            4
+          ],
+          "to": [
+            10,
+            10,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "broken_tip",
+          "from": [
+            4,
+            13,
+            7
+          ],
+          "to": [
+            6,
+            16,
+            11
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_front",
+          "from": [
+            10,
+            0,
+            0
+          ],
+          "to": [
+            14,
+            2,
+            2
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_side",
+          "from": [
+            0,
+            0,
+            8
+          ],
+          "to": [
+            2,
+            3,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "plinth_bead_2.7",
+          "from": [
+            3.2,
+            2.65,
+            2.7
+          ],
+          "to": [
+            12.7,
+            3.25,
+            3.05
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "plinth_bead_12.85",
+          "from": [
+            3.2,
+            2.65,
+            12.85
+          ],
+          "to": [
+            12.7,
+            3.25,
+            13.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "front_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            4.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            4.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            8.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            8.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            12.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            12.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "fracture_lip",
+          "from": [
+            4,
+            12.6,
+            4
+          ],
+          "to": [
+            6.5,
+            13.25,
+            7
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_notch",
+          "from": [
+            7,
+            10,
+            6
+          ],
+          "to": [
+            8.5,
+            11.2,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "core_chip",
+          "from": [
+            9,
+            10,
+            8
+          ],
+          "to": [
+            11,
+            11.75,
+            10
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_shard",
+          "from": [
+            6,
+            13,
+            8
+          ],
+          "to": [
+            6.8,
+            14.2,
+            10
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "cloud_floating_stone_broken_pillar",
+      "family": "cloud_floating_stone",
+      "name": "残柱断口优化",
+      "existing": true,
+      "cubes": [
+        {
+          "name": "lower_plinth",
+          "from": [
+            2,
+            0,
+            2
+          ],
+          "to": [
+            12,
+            2,
+            14
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "chipped_foot",
+          "from": [
+            12,
+            0,
+            5
+          ],
+          "to": [
+            14,
+            2,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "raised_collar",
+          "from": [
+            3,
+            2,
+            3
+          ],
+          "to": [
+            13,
+            4,
+            13
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shaft_lower",
+          "from": [
+            4,
+            4,
+            4
+          ],
+          "to": [
+            12,
+            8,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_left",
+          "from": [
+            4,
+            8,
+            4
+          ],
+          "to": [
+            7,
+            13,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_rear",
+          "from": [
+            7,
+            8,
+            8
+          ],
+          "to": [
+            12,
+            11,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_core",
+          "from": [
+            7,
+            8,
+            4
+          ],
+          "to": [
+            10,
+            10,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "broken_tip",
+          "from": [
+            4,
+            13,
+            7
+          ],
+          "to": [
+            6,
+            16,
+            11
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_front",
+          "from": [
+            10,
+            0,
+            0
+          ],
+          "to": [
+            14,
+            2,
+            2
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "shard_side",
+          "from": [
+            0,
+            0,
+            8
+          ],
+          "to": [
+            2,
+            3,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "plinth_bead_2.7",
+          "from": [
+            3.2,
+            2.65,
+            2.7
+          ],
+          "to": [
+            12.7,
+            3.25,
+            3.05
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "plinth_bead_12.85",
+          "from": [
+            3.2,
+            2.65,
+            12.85
+          ],
+          "to": [
+            12.7,
+            3.25,
+            13.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "front_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            4.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_3.75",
+          "from": [
+            3.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            4.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            8.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_7.75",
+          "from": [
+            7.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            8.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "front_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            3.7
+          ],
+          "to": [
+            12.25,
+            7.8,
+            4.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "rear_flute_11.75",
+          "from": [
+            11.75,
+            4.1,
+            11.8
+          ],
+          "to": [
+            12.25,
+            7.8,
+            12.3
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "fracture_lip",
+          "from": [
+            4,
+            12.6,
+            4
+          ],
+          "to": [
+            6.5,
+            13.25,
+            7
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_notch",
+          "from": [
+            7,
+            10,
+            6
+          ],
+          "to": [
+            8.5,
+            11.2,
+            8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "core_chip",
+          "from": [
+            9,
+            10,
+            8
+          ],
+          "to": [
+            11,
+            11.75,
+            10
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "fracture_shard",
+          "from": [
+            6,
+            13,
+            8
+          ],
+          "to": [
+            6.8,
+            14.2,
+            10
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_fallen_lintel",
+      "family": "azure_brick",
+      "name": "青云残梁",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "beam_core",
+          "from": [
+            1,
+            1,
+            4
+          ],
+          "to": [
+            14,
+            6,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "decorated_edge",
+          "from": [
+            0,
+            1,
+            3
+          ],
+          "to": [
+            12,
+            3,
+            4
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "broken_ridge",
+          "from": [
+            2,
+            6,
+            5
+          ],
+          "to": [
+            10,
+            8,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fracture_face",
+          "from": [
+            10,
+            6,
+            6
+          ],
+          "to": [
+            13,
+            7,
+            11
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "broken_end",
+          "from": [
+            14,
+            1,
+            7
+          ],
+          "to": [
+            16,
+            4,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "floor_fragment",
+          "from": [
+            0,
+            0,
+            12
+          ],
+          "to": [
+            5,
+            2,
+            15
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "support_stone",
+          "from": [
+            5,
+            0,
+            6
+          ],
+          "to": [
+            11,
+            1,
+            13
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "cornice_front",
+          "from": [
+            1,
+            3,
+            3.65
+          ],
+          "to": [
+            12,
+            3.6,
+            4.15
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "cornice_back",
+          "from": [
+            1,
+            3,
+            11.85
+          ],
+          "to": [
+            13,
+            3.6,
+            12.25
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "cornice_upper",
+          "from": [
+            2,
+            6,
+            4.7
+          ],
+          "to": [
+            9.5,
+            6.5,
+            5.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "exposed_end",
+          "from": [
+            13,
+            3,
+            6
+          ],
+          "to": [
+            14.7,
+            4.5,
+            9
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "frieze_2",
+          "from": [
+            2,
+            4,
+            3.65
+          ],
+          "to": [
+            3.2,
+            5.4,
+            4.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "frieze_5",
+          "from": [
+            5,
+            4,
+            3.65
+          ],
+          "to": [
+            6.2,
+            5.4,
+            4.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "frieze_8",
+          "from": [
+            8,
+            4,
+            3.65
+          ],
+          "to": [
+            9.2,
+            5.4,
+            4.2
+          ],
+          "material": "carved"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_arch_springer",
+      "family": "azure_brick",
+      "name": "青云残拱托",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "pillar_foot",
+          "from": [
+            0,
+            0,
+            4
+          ],
+          "to": [
+            6,
+            3,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "pillar",
+          "from": [
+            1,
+            3,
+            5
+          ],
+          "to": [
+            5,
+            12,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "capital",
+          "from": [
+            0,
+            12,
+            4
+          ],
+          "to": [
+            6,
+            16,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "arch_step_one",
+          "from": [
+            6,
+            10,
+            5
+          ],
+          "to": [
+            9,
+            16,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "arch_step_two",
+          "from": [
+            9,
+            12,
+            5
+          ],
+          "to": [
+            12,
+            16,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "arch_broken_end",
+          "from": [
+            12,
+            14,
+            6
+          ],
+          "to": [
+            15,
+            16,
+            10
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "inner_tooth",
+          "from": [
+            5,
+            8,
+            6
+          ],
+          "to": [
+            7,
+            10,
+            10
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "capital_lip",
+          "from": [
+            0,
+            12.25,
+            3.7
+          ],
+          "to": [
+            6,
+            12.85,
+            12.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "arch_chasing_a",
+          "from": [
+            6,
+            15.2,
+            4.7
+          ],
+          "to": [
+            9,
+            15.75,
+            5.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "arch_chasing_b",
+          "from": [
+            9,
+            15.2,
+            4.7
+          ],
+          "to": [
+            12,
+            15.75,
+            5.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shaft_flute",
+          "from": [
+            2.5,
+            3.2,
+            4.7
+          ],
+          "to": [
+            3.5,
+            11.8,
+            5.2
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "typicalViewingDistance": "2-32 blocks",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_broken_wall",
+      "name": "青云残墙",
+      "family": "azure_brick",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "footing",
+          "from": [
+            0,
+            0,
+            3
+          ],
+          "to": [
+            16,
+            2,
+            13
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "lower_course",
+          "from": [
+            0,
+            2,
+            4
+          ],
+          "to": [
+            16,
+            6,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "left_course",
+          "from": [
+            0,
+            6,
+            4
+          ],
+          "to": [
+            6,
+            10,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "mid_course",
+          "from": [
+            6,
+            6,
+            4
+          ],
+          "to": [
+            11,
+            9,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "right_course",
+          "from": [
+            11,
+            6,
+            5
+          ],
+          "to": [
+            16,
+            7.5,
+            12
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "tall_end",
+          "from": [
+            0,
+            10,
+            4
+          ],
+          "to": [
+            4.5,
+            15,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "mid_tooth",
+          "from": [
+            4.5,
+            10,
+            5
+          ],
+          "to": [
+            6,
+            12,
+            10
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "cap_chip",
+          "from": [
+            0,
+            15,
+            5
+          ],
+          "to": [
+            3,
+            16,
+            11
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "decorative_course",
+          "from": [
+            0,
+            3.8,
+            3.7
+          ],
+          "to": [
+            15.8,
+            4.4,
+            4.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "fallen_chip",
+          "from": [
+            12,
+            0,
+            0
+          ],
+          "to": [
+            15,
+            1.5,
+            2
+          ],
+          "material": "cracked"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_broken_steps",
+      "name": "青云破损踏步",
+      "family": "azure_brick",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "foundation",
+          "from": [
+            0,
+            0,
+            1
+          ],
+          "to": [
+            16,
+            2,
+            16
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "first_tread",
+          "from": [
+            0,
+            2,
+            2
+          ],
+          "to": [
+            13,
+            4,
+            7
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "first_chip",
+          "from": [
+            13,
+            2,
+            3
+          ],
+          "to": [
+            16,
+            3.5,
+            7
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "middle_tread",
+          "from": [
+            0,
+            2,
+            7
+          ],
+          "to": [
+            16,
+            8,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "middle_edge",
+          "from": [
+            0,
+            7.5,
+            6.7
+          ],
+          "to": [
+            11,
+            8.2,
+            7.4
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "upper_tread",
+          "from": [
+            0,
+            8,
+            12
+          ],
+          "to": [
+            10,
+            12,
+            16
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "upper_broken",
+          "from": [
+            10,
+            8,
+            13
+          ],
+          "to": [
+            14,
+            10.8,
+            16
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "upper_tooth",
+          "from": [
+            14,
+            8,
+            14
+          ],
+          "to": [
+            16,
+            9.2,
+            16
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "upper_edge",
+          "from": [
+            0,
+            11.5,
+            11.7
+          ],
+          "to": [
+            9,
+            12.2,
+            12.4
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "loose_chip",
+          "from": [
+            14,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            1,
+            2
+          ],
+          "material": "cracked"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_broken_railing",
+      "name": "云纹残玉栏",
+      "family": "cloud_jade",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "base",
+          "from": [
+            0,
+            0,
+            5
+          ],
+          "to": [
+            16,
+            2,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "post_base",
+          "from": [
+            0,
+            2,
+            4
+          ],
+          "to": [
+            5,
+            3.5,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "post",
+          "from": [
+            1,
+            3.5,
+            5
+          ],
+          "to": [
+            4,
+            14,
+            11
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "capital",
+          "from": [
+            0,
+            14,
+            4
+          ],
+          "to": [
+            5,
+            15.5,
+            12
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "cap_gem",
+          "from": [
+            1,
+            15.5,
+            6
+          ],
+          "to": [
+            3,
+            16,
+            10
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "lower_rail",
+          "from": [
+            4,
+            3,
+            6
+          ],
+          "to": [
+            16,
+            4.5,
+            10
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "upper_rail",
+          "from": [
+            4,
+            11,
+            6
+          ],
+          "to": [
+            12,
+            13,
+            10
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "broken_rail_tip",
+          "from": [
+            12,
+            11,
+            6.5
+          ],
+          "to": [
+            15,
+            12,
+            9
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "baluster_a",
+          "from": [
+            6,
+            4.5,
+            7
+          ],
+          "to": [
+            7,
+            11,
+            9
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "baluster_b",
+          "from": [
+            10,
+            4.5,
+            7
+          ],
+          "to": [
+            11,
+            8,
+            9
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "post_chasing",
+          "from": [
+            0.7,
+            5,
+            4.7
+          ],
+          "to": [
+            4.3,
+            5.5,
+            5.2
+          ],
+          "material": "carved"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_collapsed_qingwa",
+      "name": "青灰坍塌瓦堆",
+      "family": "azure_brick",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "tile_0_0",
+          "from": [
+            0.5,
+            0.0,
+            0.5
+          ],
+          "to": [
+            5.1,
+            0.85,
+            5.5
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_0_0",
+          "from": [
+            1.9,
+            0.85,
+            0.5
+          ],
+          "to": [
+            3.2,
+            1.5,
+            5.1
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_0_1",
+          "from": [
+            5.5,
+            0.65,
+            0.5
+          ],
+          "to": [
+            10.1,
+            1.5,
+            5.5
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_0_1",
+          "from": [
+            6.9,
+            1.5,
+            0.5
+          ],
+          "to": [
+            8.2,
+            2.15,
+            5.1
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_0_2",
+          "from": [
+            10.5,
+            1.3,
+            0.5
+          ],
+          "to": [
+            15.1,
+            2.15,
+            5.5
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_0_2",
+          "from": [
+            11.9,
+            2.15,
+            0.5
+          ],
+          "to": [
+            13.2,
+            2.8,
+            5.1
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_1_0",
+          "from": [
+            0.5,
+            0.65,
+            5.2
+          ],
+          "to": [
+            5.1,
+            1.5,
+            10.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_1_0",
+          "from": [
+            1.9,
+            1.5,
+            5.2
+          ],
+          "to": [
+            3.2,
+            2.15,
+            9.8
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_1_1",
+          "from": [
+            5.5,
+            1.3,
+            5.2
+          ],
+          "to": [
+            10.1,
+            2.15,
+            10.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_1_1",
+          "from": [
+            6.9,
+            2.15,
+            5.2
+          ],
+          "to": [
+            8.2,
+            2.8,
+            9.8
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_1_2",
+          "from": [
+            10.5,
+            0.0,
+            5.2
+          ],
+          "to": [
+            15.1,
+            0.85,
+            10.2
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_1_2",
+          "from": [
+            11.9,
+            0.85,
+            5.2
+          ],
+          "to": [
+            13.2,
+            1.5,
+            9.8
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_2_0",
+          "from": [
+            0.5,
+            1.3,
+            9.9
+          ],
+          "to": [
+            5.1,
+            2.15,
+            14.9
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_2_0",
+          "from": [
+            1.9,
+            2.15,
+            9.9
+          ],
+          "to": [
+            3.2,
+            2.8,
+            14.5
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_2_1",
+          "from": [
+            5.5,
+            0.0,
+            9.9
+          ],
+          "to": [
+            10.1,
+            0.85,
+            14.9
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_2_1",
+          "from": [
+            6.9,
+            0.85,
+            9.9
+          ],
+          "to": [
+            8.2,
+            1.5,
+            14.5
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_2_2",
+          "from": [
+            10.5,
+            0.65,
+            9.9
+          ],
+          "to": [
+            15.1,
+            1.5,
+            14.9
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "ridge_2_2",
+          "from": [
+            11.9,
+            1.5,
+            9.9
+          ],
+          "to": [
+            13.2,
+            2.15,
+            14.5
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "broken_ridge_piece",
+          "from": [
+            5,
+            2,
+            5
+          ],
+          "to": [
+            9,
+            4.2,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "tile_chip",
+          "from": [
+            0,
+            0,
+            14
+          ],
+          "to": [
+            3,
+            1,
+            16
+          ],
+          "material": "smooth"
+        }
+      ],
+      "textures": {
+        "smooth": "town_rebuild/tile",
+        "carved": "town_rebuild/tile_edge",
+        "cracked": "town_rebuild/tile"
+      },
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_carved_floor_fragment",
+      "name": "青云残纹地砖",
+      "family": "azure_brick",
+      "existing": false,
+      "cubes": [
+        {
+          "name": "main_slab",
+          "from": [
+            1,
+            0,
+            1
+          ],
+          "to": [
+            10,
+            1.4,
+            15
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "right_slab",
+          "from": [
+            10,
+            0,
+            1
+          ],
+          "to": [
+            15,
+            1.2,
+            9
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rear_chip",
+          "from": [
+            11,
+            0,
+            11
+          ],
+          "to": [
+            16,
+            0.8,
+            15
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "front_corner",
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            4,
+            0.75,
+            3
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "exposed_core",
+          "from": [
+            8,
+            0,
+            9
+          ],
+          "to": [
+            11,
+            1,
+            12
+          ],
+          "material": "smooth"
+        }
+      ],
+      "target": "Minecraft Java1.20.1 static block",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "budget": "silhouette-driven native cubes, no former 12 cube cap",
+      "shading": "opaque vanilla diffuse",
+      "animation": "none",
+      "geometrySource": "Blockbench MCP native Java cubes 2026-10-21"
+    },
+    {
+      "id": "ruin_sealed_swordstone",
+      "name": "遗迹封剑石",
+      "cubes": [
+        {
+          "name": "rough_base",
+          "from": [
+            1,
+            0,
+            2
+          ],
+          "to": [
+            15,
+            2.5,
+            14
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "stone_body",
+          "from": [
+            2,
+            2.5,
+            3
+          ],
+          "to": [
+            14,
+            5,
+            13
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "broken_shoulder",
+          "from": [
+            3,
+            5,
+            4
+          ],
+          "to": [
+            11,
+            6.2,
+            12
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "blade",
+          "from": [
+            6.7,
+            4,
+            7
+          ],
+          "to": [
+            9.3,
+            12,
+            8.5
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "blade_spine",
+          "from": [
+            7.75,
+            5.2,
+            6.75
+          ],
+          "to": [
+            8.25,
+            11.7,
+            7.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "cross_guard",
+          "from": [
+            4.5,
+            11.4,
+            6.6
+          ],
+          "to": [
+            11.5,
+            12.2,
+            8.9
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "guard_tip_a",
+          "from": [
+            3.8,
+            11,
+            6.8
+          ],
+          "to": [
+            4.5,
+            12.8,
+            8.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "guard_tip_b",
+          "from": [
+            11.5,
+            11,
+            6.8
+          ],
+          "to": [
+            12.2,
+            12.8,
+            8.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "grip",
+          "from": [
+            7.3,
+            12.2,
+            7
+          ],
+          "to": [
+            8.7,
+            15,
+            8.5
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "pommel",
+          "from": [
+            6.8,
+            15,
+            6.8
+          ],
+          "to": [
+            9.2,
+            16,
+            8.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "grip_ring_12.4",
+          "from": [
+            7.1,
+            12.4,
+            6.8
+          ],
+          "to": [
+            8.9,
+            12.65,
+            8.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "grip_ring_13.25",
+          "from": [
+            7.1,
+            13.25,
+            6.8
+          ],
+          "to": [
+            8.9,
+            13.5,
+            8.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "grip_ring_14.1",
+          "from": [
+            7.1,
+            14.1,
+            6.8
+          ],
+          "to": [
+            8.9,
+            14.35,
+            8.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "seal_pin_2",
+          "from": [
+            2,
+            5.2,
+            5
+          ],
+          "to": [
+            3,
+            6.5,
+            6
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "seal_pin_11",
+          "from": [
+            11,
+            5.2,
+            10
+          ],
+          "to": [
+            12,
+            6.5,
+            11
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "seal_pin_4",
+          "from": [
+            4,
+            5.2,
+            10.8
+          ],
+          "to": [
+            5,
+            6.5,
+            11.8
+          ],
+          "material": "carved"
+        }
+      ],
+      "textures": {
+        "carved": "town_rebuild/gold",
+        "smooth": "block_hanxing_iron",
+        "cracked": "black_rock_cracked"
+      },
+      "family": "azure_brick",
+      "existing": false,
+      "target": "Forge1.20.1 desktop static opaque baked cube block; 1m footprint",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "shading": "vanilla diffuse; no PBR, no animation, no ticking",
+      "budget": "silhouette and raised ornament priority; no fixed1000face limit; few per ruin"
+    },
+    {
+      "id": "ruin_star_dial",
+      "name": "古修观星盘",
+      "cubes": [
+        {
+          "name": "square_plinth",
+          "from": [
+            1,
+            0,
+            1
+          ],
+          "to": [
+            15,
+            2,
+            15
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "pedestal",
+          "from": [
+            4,
+            2,
+            4
+          ],
+          "to": [
+            12,
+            5,
+            12
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "lower_dial",
+          "from": [
+            2,
+            5,
+            2
+          ],
+          "to": [
+            14,
+            6,
+            14
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "dial_inset",
+          "from": [
+            3,
+            6,
+            3
+          ],
+          "to": [
+            13,
+            6.8,
+            13
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "gnomon",
+          "from": [
+            7.4,
+            6.8,
+            7.4
+          ],
+          "to": [
+            8.6,
+            12.3,
+            8.6
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "gnomon_cap",
+          "from": [
+            7,
+            12.3,
+            7
+          ],
+          "to": [
+            9,
+            13,
+            9
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_n0",
+          "from": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "to": [
+            14.0,
+            6.3,
+            2.5
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_s0",
+          "from": [
+            2.0,
+            6.0,
+            13.5
+          ],
+          "to": [
+            14.0,
+            6.3,
+            14.0
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_w0",
+          "from": [
+            2.0,
+            6.0,
+            2.5
+          ],
+          "to": [
+            2.5,
+            6.3,
+            13.5
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_e0",
+          "from": [
+            13.5,
+            6.0,
+            2.5
+          ],
+          "to": [
+            14.0,
+            6.3,
+            13.5
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_n1",
+          "from": [
+            2.4,
+            6.35,
+            2.4
+          ],
+          "to": [
+            13.6,
+            6.65,
+            2.9
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_s1",
+          "from": [
+            2.4,
+            6.35,
+            13.1
+          ],
+          "to": [
+            13.6,
+            6.65,
+            13.6
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_w1",
+          "from": [
+            2.4,
+            6.35,
+            2.9
+          ],
+          "to": [
+            2.9,
+            6.65,
+            13.1
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_e1",
+          "from": [
+            13.1,
+            6.35,
+            2.9
+          ],
+          "to": [
+            13.6,
+            6.65,
+            13.1
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_n2",
+          "from": [
+            2.8,
+            6.7,
+            2.8
+          ],
+          "to": [
+            13.2,
+            7.0,
+            3.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_s2",
+          "from": [
+            2.8,
+            6.7,
+            12.7
+          ],
+          "to": [
+            13.2,
+            7.0,
+            13.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_w2",
+          "from": [
+            2.8,
+            6.7,
+            3.3
+          ],
+          "to": [
+            3.3,
+            7.0,
+            12.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_e2",
+          "from": [
+            12.7,
+            6.7,
+            3.3
+          ],
+          "to": [
+            13.2,
+            7.0,
+            12.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_n3",
+          "from": [
+            3.2,
+            7.05,
+            3.2
+          ],
+          "to": [
+            12.8,
+            7.35,
+            3.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_s3",
+          "from": [
+            3.2,
+            7.05,
+            12.3
+          ],
+          "to": [
+            12.8,
+            7.35,
+            12.8
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_w3",
+          "from": [
+            3.2,
+            7.05,
+            3.7
+          ],
+          "to": [
+            3.7,
+            7.35,
+            12.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "rim_e3",
+          "from": [
+            12.3,
+            7.05,
+            3.7
+          ],
+          "to": [
+            12.8,
+            7.35,
+            12.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_5_5",
+          "from": [
+            4.8,
+            6.8,
+            4.8
+          ],
+          "to": [
+            5.2,
+            7.1,
+            5.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_8_4.5",
+          "from": [
+            7.8,
+            6.8,
+            4.3
+          ],
+          "to": [
+            8.2,
+            7.1,
+            4.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_11_5",
+          "from": [
+            10.8,
+            6.8,
+            4.8
+          ],
+          "to": [
+            11.2,
+            7.1,
+            5.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_4.5_8",
+          "from": [
+            4.3,
+            6.8,
+            7.8
+          ],
+          "to": [
+            4.7,
+            7.1,
+            8.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_11.5_8",
+          "from": [
+            11.3,
+            6.8,
+            7.8
+          ],
+          "to": [
+            11.7,
+            7.1,
+            8.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_5_11",
+          "from": [
+            4.8,
+            6.8,
+            10.8
+          ],
+          "to": [
+            5.2,
+            7.1,
+            11.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_8_11.5",
+          "from": [
+            7.8,
+            6.8,
+            11.3
+          ],
+          "to": [
+            8.2,
+            7.1,
+            11.7
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "star_11_11",
+          "from": [
+            10.8,
+            6.8,
+            10.8
+          ],
+          "to": [
+            11.2,
+            7.1,
+            11.2
+          ],
+          "material": "carved"
+        }
+      ],
+      "textures": {
+        "carved": "town_rebuild/gold",
+        "smooth": "black_rock_smooth",
+        "cracked": "azure_brick_cracked"
+      },
+      "family": "azure_brick",
+      "existing": false,
+      "target": "Forge1.20.1 desktop static opaque baked cube block; 1m footprint",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "shading": "vanilla diffuse; no PBR, no animation, no ticking",
+      "budget": "silhouette and raised ornament priority; no fixed1000face limit; few per ruin"
+    },
+    {
+      "id": "ruin_weathered_herb_rack",
+      "name": "残旧药架",
+      "cubes": [
+        {
+          "name": "leg_1_3",
+          "from": [
+            1,
+            0,
+            3
+          ],
+          "to": [
+            3,
+            15,
+            5
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "leg_1_11",
+          "from": [
+            1,
+            0,
+            11
+          ],
+          "to": [
+            3,
+            15,
+            13
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "leg_13_3",
+          "from": [
+            13,
+            0,
+            3
+          ],
+          "to": [
+            15,
+            15,
+            5
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "leg_13_11",
+          "from": [
+            13,
+            0,
+            11
+          ],
+          "to": [
+            15,
+            15,
+            13
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_3_2",
+          "from": [
+            2,
+            3,
+            3.2
+          ],
+          "to": [
+            4,
+            3.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_3_5",
+          "from": [
+            5,
+            3,
+            3.2
+          ],
+          "to": [
+            7,
+            3.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_3_8",
+          "from": [
+            8,
+            3,
+            3.2
+          ],
+          "to": [
+            10,
+            3.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_3_11",
+          "from": [
+            11,
+            3,
+            3.2
+          ],
+          "to": [
+            13,
+            3.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_edge_n3",
+          "from": [
+            0.8,
+            2.85,
+            2.7
+          ],
+          "to": [
+            15.2,
+            4,
+            3.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shelf_edge_s3",
+          "from": [
+            0.8,
+            2.85,
+            12.7
+          ],
+          "to": [
+            15.2,
+            4,
+            13.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shelf_8_2",
+          "from": [
+            2,
+            8,
+            3.2
+          ],
+          "to": [
+            4,
+            8.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_8_5",
+          "from": [
+            5,
+            8,
+            3.2
+          ],
+          "to": [
+            7,
+            8.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_8_8",
+          "from": [
+            8,
+            8,
+            3.2
+          ],
+          "to": [
+            10,
+            8.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_8_11",
+          "from": [
+            11,
+            8,
+            3.2
+          ],
+          "to": [
+            13,
+            8.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_edge_n8",
+          "from": [
+            0.8,
+            7.85,
+            2.7
+          ],
+          "to": [
+            15.2,
+            9,
+            3.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shelf_edge_s8",
+          "from": [
+            0.8,
+            7.85,
+            12.7
+          ],
+          "to": [
+            15.2,
+            9,
+            13.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shelf_13_2",
+          "from": [
+            2,
+            13,
+            3.2
+          ],
+          "to": [
+            4,
+            13.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_13_5",
+          "from": [
+            5,
+            13,
+            3.2
+          ],
+          "to": [
+            7,
+            13.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_13_8",
+          "from": [
+            8,
+            13,
+            3.2
+          ],
+          "to": [
+            10,
+            13.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_13_11",
+          "from": [
+            11,
+            13,
+            3.2
+          ],
+          "to": [
+            13,
+            13.8,
+            12.8
+          ],
+          "material": "smooth"
+        },
+        {
+          "name": "shelf_edge_n13",
+          "from": [
+            0.8,
+            12.85,
+            2.7
+          ],
+          "to": [
+            15.2,
+            14,
+            3.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "shelf_edge_s13",
+          "from": [
+            0.8,
+            12.85,
+            12.7
+          ],
+          "to": [
+            15.2,
+            14,
+            13.3
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "jar_foot33.8",
+          "from": [
+            3,
+            3.8,
+            5
+          ],
+          "to": [
+            5.5,
+            4.2,
+            7.5
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_body33.8",
+          "from": [
+            3.2,
+            4.2,
+            5.2
+          ],
+          "to": [
+            5.3,
+            5.3,
+            7.3
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_lid33.8",
+          "from": [
+            3.3,
+            5.3,
+            5.3
+          ],
+          "to": [
+            5.2,
+            5.6,
+            7.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "jar_foot93.8",
+          "from": [
+            9,
+            3.8,
+            7
+          ],
+          "to": [
+            11.5,
+            4.2,
+            9.5
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_body93.8",
+          "from": [
+            9.2,
+            4.2,
+            7.2
+          ],
+          "to": [
+            11.3,
+            5.3,
+            9.3
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_lid93.8",
+          "from": [
+            9.3,
+            5.3,
+            7.3
+          ],
+          "to": [
+            11.2,
+            5.6,
+            9.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "jar_foot48.8",
+          "from": [
+            4,
+            8.8,
+            6
+          ],
+          "to": [
+            6.5,
+            9.2,
+            8.5
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_body48.8",
+          "from": [
+            4.2,
+            9.2,
+            6.2
+          ],
+          "to": [
+            6.3,
+            10.3,
+            8.3
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_lid48.8",
+          "from": [
+            4.3,
+            10.3,
+            6.3
+          ],
+          "to": [
+            6.2,
+            10.6,
+            8.2
+          ],
+          "material": "carved"
+        },
+        {
+          "name": "jar_foot913.8",
+          "from": [
+            9,
+            13.8,
+            5
+          ],
+          "to": [
+            11.5,
+            14.2,
+            7.5
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_body913.8",
+          "from": [
+            9.2,
+            14.2,
+            5.2
+          ],
+          "to": [
+            11.3,
+            15.3,
+            7.3
+          ],
+          "material": "cracked"
+        },
+        {
+          "name": "jar_lid913.8",
+          "from": [
+            9.3,
+            15.3,
+            5.3
+          ],
+          "to": [
+            11.2,
+            15.6,
+            7.2
+          ],
+          "material": "carved"
+        }
+      ],
+      "textures": {
+        "carved": "town_rebuild/gold",
+        "smooth": "town_rebuild/walnut",
+        "cracked": "cloud_jade_cracked"
+      },
+      "family": "azure_brick",
+      "existing": false,
+      "target": "Forge1.20.1 desktop static opaque baked cube block; 1m footprint",
+      "texture_size": [
+        64,
+        64
+      ],
+      "textureUV": [
+        16,
+        16
+      ],
+      "texels_per_unit": 4,
+      "shading": "vanilla diffuse; no PBR, no animation, no ticking",
+      "budget": "silhouette and raised ornament priority; no fixed1000face limit; few per ruin"
+    }
+  ],
+  "preserved_existing_rubble": "Five existing stone rubble models retained."
+}

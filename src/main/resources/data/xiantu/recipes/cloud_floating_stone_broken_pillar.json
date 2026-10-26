@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:cloud_floating_stone_pillar"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_floating_stone_broken_pillar",
+    "count": 2
+  }
+}

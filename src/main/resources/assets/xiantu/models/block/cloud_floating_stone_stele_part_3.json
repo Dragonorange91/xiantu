@@ -1,0 +1,80 @@
+{
+  "textures": {
+    "0": "xiantu:block/cloud_floating_stone_smooth",
+    "1": "xiantu:block/cloud_floating_stone_carved",
+    "2": "xiantu:block/cloud_floating_stone_stele_front_3",
+    "particle": "xiantu:block/cloud_floating_stone_smooth"
+  },
+  "elements": [
+    {
+      "name": "tablet_0",
+      "from": [
+        2,
+        0,
+        5
+      ],
+      "to": [
+        16,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            14,
+            16
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            5,
+            16,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2,
+            5,
+            16,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

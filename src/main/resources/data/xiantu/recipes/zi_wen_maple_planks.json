@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "L"
+  ],
+  "key": {
+    "L": {
+      "item": "xiantu:zi_wen_maple_log"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_wen_maple_planks",
+    "count": 4
+  },
+  "wood": "zi_wen_maple"
+}

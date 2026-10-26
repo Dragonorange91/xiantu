@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/foundation",
+  "display": {
+    "icon": {
+      "item": "xiantu:ling_yu"
+    },
+    "title": {
+      "text": "金丹凝成 · 金丹"
+    },
+    "description": {
+      "text": "首次达到金丹境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

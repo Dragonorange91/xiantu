@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xiantu:block/cloud_floating_stone_cracked"
+  }
+}

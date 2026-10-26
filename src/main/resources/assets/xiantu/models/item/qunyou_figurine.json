@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/block",
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "particle": "xiantu:item/qunyou_figurine"
+  },
+  "base": {
+    "parent": "xiantu:item/qunyou_figurine_glb"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "xiantu:item/qunyou_figurine"
+      }
+    }
+  }
+}

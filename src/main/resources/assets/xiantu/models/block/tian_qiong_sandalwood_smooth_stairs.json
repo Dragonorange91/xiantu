@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "xiantu:block/tian_qiong_sandalwood_smooth",
+    "top": "xiantu:block/tian_qiong_sandalwood_smooth",
+    "side": "xiantu:block/tian_qiong_sandalwood_smooth"
+  }
+}

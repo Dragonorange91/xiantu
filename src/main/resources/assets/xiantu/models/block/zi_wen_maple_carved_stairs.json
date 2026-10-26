@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "xiantu:block/zi_wen_maple_carved",
+    "top": "xiantu:block/zi_wen_maple_carved",
+    "side": "xiantu:block/zi_wen_maple_carved"
+  }
+}

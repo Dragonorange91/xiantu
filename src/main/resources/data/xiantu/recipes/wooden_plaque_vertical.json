@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stripped_dark_oak_log"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:wooden_plaque_vertical",
+    "count": 1
+  }
+}

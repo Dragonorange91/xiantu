@@ -1,0 +1,13 @@
+allprojects {
+    plugins.withId('java') {
+        tasks.register('verifyIntegrationExamples', JavaCompile) {
+            dependsOn tasks.named('classes')
+            source = project.fileTree(project.file('docs/integration/examples')) { include '**/*.java' }
+            classpath = sourceSets.main.compileClasspath + sourceSets.main.output
+            destinationDirectory = layout.buildDirectory.dir('verification/integration-examples')
+            options.encoding = 'UTF-8'
+            sourceCompatibility = '17'
+            targetCompatibility = '17'
+        }
+    }
+}

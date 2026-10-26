@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "result": {
+    "item": "xiantu:town_paving_lamp",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " C ",
+    "PPP"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:town_vermilion_column"
+    },
+    "P": {
+      "item": "xiantu:town_red_wood"
+    }
+  },
+  "result": {
+    "item": "xiantu:town_vermilion_base",
+    "count": 4
+  }
+}

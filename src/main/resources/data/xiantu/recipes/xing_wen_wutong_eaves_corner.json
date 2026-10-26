@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xing_wen_wutong_eaves"
+    }
+  },
+  "result": {
+    "item": "xiantu:xing_wen_wutong_eaves_corner",
+    "count": 2
+  }
+}

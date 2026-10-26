@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "xiantu:thunder_wastes",
+  "features": [
+    "xiantu:tribulation_stone_outcrop"
+  ],
+  "step": "underground_ores"
+}

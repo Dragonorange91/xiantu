@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:azure_brick_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:azure_brick_stele",
+    "count": 2
+  }
+}

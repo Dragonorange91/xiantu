@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:black_rock_broken_pillar"
+    }
+  ],
+  "result": {
+    "item": "xiantu:black_rock_rubble",
+    "count": 1
+  }
+}

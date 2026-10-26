@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:ling_jing_ore",
+    "xiantu:chisui_copper_ore",
+    "xiantu:purple_pattern_crystal_ore",
+    "xiantu:starlight_stone_ore",
+    "xiantu:chaos_crystal_ore",
+    "xiantu:cold_soul_crystal_ore",
+    "xiantu:flame_heart_stone_ore",
+    "xiantu:thunder_stone_ore",
+    "xiantu:lodestone_ore",
+    "xiantu:moonlit_stone_ore",
+    "xiantu:scoria_core_ore",
+    "xiantu:void_crystal_ore"
+  ]
+}

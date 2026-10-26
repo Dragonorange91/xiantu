@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "xiantu:block/azure_cloud_spirit_brick"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "xiantu:block/jin_si_nanmu_carved",
+    "top": "xiantu:block/jin_si_nanmu_carved",
+    "side": "xiantu:block/jin_si_nanmu_carved"
+  }
+}

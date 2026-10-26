@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/farmland",
+  "textures": {
+    "dirt": "xiantu:block/spirit_soil_3_side",
+    "top": "xiantu:block/spirit_soil_3_dry"
+  }
+}

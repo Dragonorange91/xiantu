@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grove",
+    "minecraft:jagged_peaks",
+    "minecraft:meadow",
+    "minecraft:plains",
+    "minecraft:snowy_slopes",
+    "minecraft:stony_peaks",
+    "minecraft:sunflower_plains",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills"
+  ]
+}

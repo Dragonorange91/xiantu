@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/xing_wen_wutong",
+  "features": [
+    "xiantu:xing_wen_wutong_tree"
+  ],
+  "step": "vegetal_decoration"
+}

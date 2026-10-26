@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "xiantu:spring_stone_smooth"
+    },
+    "C": {
+      "item": "xiantu:spring_stone_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:spring_stone_water_channel",
+    "count": 4
+  }
+}

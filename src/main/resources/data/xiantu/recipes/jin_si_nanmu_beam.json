@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "F "
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:jin_si_nanmu_planks"
+    },
+    "F": {
+      "item": "xiantu:jin_si_nanmu_fiber"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_beam",
+    "count": 2
+  }
+}

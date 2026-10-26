@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:fan_ling_shi",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:beast_bone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0007"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0029"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0030"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0034"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0056"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0058"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:herb_0059"
+        }
+      ]
+    }
+  ]
+}

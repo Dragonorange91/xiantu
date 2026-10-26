@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "F "
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_fu_cedar_planks"
+    },
+    "F": {
+      "item": "xiantu:zi_fu_cedar_fiber"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_fu_cedar_beam",
+    "count": 2
+  }
+}

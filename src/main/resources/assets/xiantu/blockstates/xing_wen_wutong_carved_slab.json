@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/xing_wen_wutong_carved_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/xing_wen_wutong_carved_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/xing_wen_wutong_carved_slab_double"
+    }
+  }
+}

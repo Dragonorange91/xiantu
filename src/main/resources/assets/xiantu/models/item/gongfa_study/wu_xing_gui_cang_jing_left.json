@@ -1,0 +1,7 @@
+{
+  "parent": "xiantu:item/gongfa_study/template_left",
+  "textures": {
+    "0": "xiantu:item/wu_xing_gui_cang_jing_cover",
+    "1": "xiantu:item/wu_xing_gui_cang_jing_cloth"
+  }
+}

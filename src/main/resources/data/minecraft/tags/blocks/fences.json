@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:azure_brick_railing",
+    "xiantu:black_rock_railing",
+    "xiantu:cloud_jade_railing",
+    "xiantu:spring_stone_railing",
+    "xiantu:cloud_floating_stone_railing",
+    "xiantu:qing_wen_elm_railing",
+    "xiantu:chi_xin_birch_railing",
+    "xiantu:zi_wen_maple_railing",
+    "xiantu:xuan_tie_pine_railing",
+    "xiantu:jin_si_nanmu_railing",
+    "xiantu:zi_fu_cedar_railing",
+    "xiantu:xing_wen_wutong_railing",
+    "xiantu:tian_qiong_sandalwood_railing"
+  ]
+}

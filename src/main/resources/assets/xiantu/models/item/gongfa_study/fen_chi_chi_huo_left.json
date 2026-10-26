@@ -1,0 +1,7 @@
+{
+  "parent": "xiantu:item/gongfa_study/template_left",
+  "textures": {
+    "0": "xiantu:item/fen_chi_chi_huo_cover",
+    "1": "xiantu:item/fen_chi_chi_huo_cloth"
+  }
+}

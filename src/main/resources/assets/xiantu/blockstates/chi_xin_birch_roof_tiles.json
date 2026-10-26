@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/chi_xin_birch_roof_tiles"
+    },
+    "type=top": {
+      "model": "xiantu:block/chi_xin_birch_roof_tiles_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/chi_xin_birch_roof_tiles_double"
+    }
+  }
+}

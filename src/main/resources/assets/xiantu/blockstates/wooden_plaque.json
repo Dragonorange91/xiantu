@@ -1,0 +1,164 @@
+{
+  "variants": {
+    "facing=north,part=0": {
+      "model": "xiantu:block/wooden_plaque_part_0",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=0": {
+      "model": "xiantu:block/wooden_plaque_part_0",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=0": {
+      "model": "xiantu:block/wooden_plaque_part_0",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=0": {
+      "model": "xiantu:block/wooden_plaque_part_0",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=1": {
+      "model": "xiantu:block/wooden_plaque_part_1",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=1": {
+      "model": "xiantu:block/wooden_plaque_part_1",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=1": {
+      "model": "xiantu:block/wooden_plaque_part_1",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=1": {
+      "model": "xiantu:block/wooden_plaque_part_1",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=2": {
+      "model": "xiantu:block/wooden_plaque_part_2",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=2": {
+      "model": "xiantu:block/wooden_plaque_part_2",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=2": {
+      "model": "xiantu:block/wooden_plaque_part_2",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=2": {
+      "model": "xiantu:block/wooden_plaque_part_2",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=3": {
+      "model": "xiantu:block/wooden_plaque_part_3",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=3": {
+      "model": "xiantu:block/wooden_plaque_part_3",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=3": {
+      "model": "xiantu:block/wooden_plaque_part_3",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=3": {
+      "model": "xiantu:block/wooden_plaque_part_3",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=4": {
+      "model": "xiantu:block/wooden_plaque_part_4",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=4": {
+      "model": "xiantu:block/wooden_plaque_part_4",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=4": {
+      "model": "xiantu:block/wooden_plaque_part_4",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=4": {
+      "model": "xiantu:block/wooden_plaque_part_4",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=5": {
+      "model": "xiantu:block/wooden_plaque_part_5",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=5": {
+      "model": "xiantu:block/wooden_plaque_part_5",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=5": {
+      "model": "xiantu:block/wooden_plaque_part_5",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=5": {
+      "model": "xiantu:block/wooden_plaque_part_5",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=6": {
+      "model": "xiantu:block/wooden_plaque_part_6",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=6": {
+      "model": "xiantu:block/wooden_plaque_part_6",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=6": {
+      "model": "xiantu:block/wooden_plaque_part_6",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=6": {
+      "model": "xiantu:block/wooden_plaque_part_6",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,part=7": {
+      "model": "xiantu:block/wooden_plaque_part_7",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,part=7": {
+      "model": "xiantu:block/wooden_plaque_part_7",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,part=7": {
+      "model": "xiantu:block/wooden_plaque_part_7",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,part=7": {
+      "model": "xiantu:block/wooden_plaque_part_7",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

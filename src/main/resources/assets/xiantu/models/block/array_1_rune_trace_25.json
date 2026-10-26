@@ -1,0 +1,6 @@
+{
+  "parent": "xiantu:block/array_1_rune_connected",
+  "textures": {
+    "trace": "xiantu:block/array_1_rune_trace_25"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "item": "xiantu:xuan_shui_jue",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

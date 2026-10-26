@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "xiantu:azure_brick_cracked"
+  },
+  "result": "xiantu:ruin_carved_floor_fragment",
+  "count": 1
+}

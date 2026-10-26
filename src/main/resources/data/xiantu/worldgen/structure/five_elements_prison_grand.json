@@ -1,0 +1,8 @@
+{
+  "type": "xiantu:adventure_ruin",
+  "blueprint": "five_elements_prison_grand",
+  "biomes": "#xiantu:has_structure/ruins_land",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

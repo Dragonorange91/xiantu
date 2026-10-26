@@ -1,0 +1,578 @@
+[
+  {
+    "id": "pill_01",
+    "name": "引气散",
+    "rank": 1,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      3,
+      5,
+      10,
+      20,
+      24
+    ],
+    "cooldown": 0,
+    "description": "练气小突破时投入，增加成功率；不直接食用"
+  },
+  {
+    "id": "pill_02",
+    "name": "筑基丹",
+    "rank": 1,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "练气九层突破筑基时投入；不直接食用"
+  },
+  {
+    "id": "pill_03",
+    "name": "聚气丹",
+    "rank": 1,
+    "kind": "cultivation",
+    "duration": 300,
+    "values": [
+      5,
+      10,
+      18,
+      25,
+      35
+    ],
+    "cooldown": 60,
+    "description": "有效聚灵阵内打坐修为速率提高，持续300秒"
+  },
+  {
+    "id": "pill_04",
+    "name": "回灵丹",
+    "rank": 1,
+    "kind": "power",
+    "duration": 0,
+    "values": [
+      30,
+      50,
+      90,
+      100,
+      100
+    ],
+    "cooldown": 20,
+    "description": "立即恢复最大灵力的指定百分比"
+  },
+  {
+    "id": "pill_05",
+    "name": "回春丹",
+    "rank": 1,
+    "kind": "heal",
+    "duration": 0,
+    "values": [
+      20,
+      40,
+      80,
+      100,
+      100
+    ],
+    "cooldown": 30,
+    "description": "立即恢复最大生命的指定百分比"
+  },
+  {
+    "id": "pill_06",
+    "name": "结金丹",
+    "rank": 2,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "筑基大圆满突破金丹时投入"
+  },
+  {
+    "id": "pill_07",
+    "name": "安神丹",
+    "rank": 2,
+    "kind": "soul",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 60,
+    "description": "降低心魔值，不取消已开始的心魔战"
+  },
+  {
+    "id": "pill_08",
+    "name": "大回灵丹",
+    "rank": 2,
+    "kind": "power",
+    "duration": 0,
+    "values": [
+      50,
+      70,
+      100,
+      100,
+      100
+    ],
+    "cooldown": 20,
+    "description": "立即恢复最大灵力的指定百分比"
+  },
+  {
+    "id": "pill_09",
+    "name": "清毒丹",
+    "rank": 2,
+    "kind": "detox",
+    "duration": 0,
+    "values": [
+      1,
+      2,
+      4,
+      999,
+      999
+    ],
+    "cooldown": 15,
+    "description": "清除普通毒和瘴毒；不清蛊毒、丹毒或凋零"
+  },
+  {
+    "id": "pill_10",
+    "name": "狂暴丹",
+    "rank": 2,
+    "kind": "rage",
+    "duration": 30,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 60,
+    "description": "近战伤害提高；与龙血丹取较高值"
+  },
+  {
+    "id": "pill_11",
+    "name": "铁壁丹",
+    "rank": 2,
+    "kind": "defense",
+    "duration": 30,
+    "values": [
+      10,
+      20,
+      25,
+      35,
+      35
+    ],
+    "cooldown": 60,
+    "description": "额外通用减伤；不抵消虚空或强制死亡"
+  },
+  {
+    "id": "pill_12",
+    "name": "避瘴丹",
+    "rank": 2,
+    "kind": "miasma_immunity",
+    "duration": 0,
+    "values": [
+      120,
+      138,
+      162,
+      192,
+      240
+    ],
+    "cooldown": 15,
+    "description": "清除瘴毒并获得相应秒数的瘴毒免疫"
+  },
+  {
+    "id": "pill_13",
+    "name": "培元丹",
+    "rank": 2,
+    "kind": "recovery",
+    "duration": 120,
+    "values": [
+      20,
+      23,
+      27,
+      32,
+      40
+    ],
+    "cooldown": 20,
+    "description": "立即恢复灵力，并提高打坐灵力回复120秒"
+  },
+  {
+    "id": "pill_14",
+    "name": "炼体丹",
+    "rank": 2,
+    "kind": "health",
+    "duration": 300,
+    "values": [
+      10,
+      11.5,
+      13.5,
+      16,
+      20
+    ],
+    "cooldown": 60,
+    "description": "暂时提高最大生命，不免费回复新增生命"
+  },
+  {
+    "id": "pill_15",
+    "name": "结婴丹",
+    "rank": 3,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "金丹大圆满突破元婴时投入"
+  },
+  {
+    "id": "pill_16",
+    "name": "清心丹",
+    "rank": 3,
+    "kind": "soul",
+    "duration": 0,
+    "values": [
+      20,
+      40,
+      80,
+      120,
+      144
+    ],
+    "cooldown": 60,
+    "description": "降低心魔值，最低降至0"
+  },
+  {
+    "id": "pill_17",
+    "name": "天眼丹",
+    "rank": 3,
+    "kind": "true_sight",
+    "duration": 0,
+    "values": [
+      60,
+      180,
+      600,
+      1800,
+      2160
+    ],
+    "cooldown": 60,
+    "description": "24格内揭示本模组幻影或隐匿实体；不透视矿石"
+  },
+  {
+    "id": "pill_18",
+    "name": "养魂丹",
+    "rank": 3,
+    "kind": "soul_heal",
+    "duration": 60,
+    "values": [
+      6,
+      6,
+      8,
+      9,
+      12
+    ],
+    "cooldown": 60,
+    "description": "清除魂伤，并在60秒内逐步降低心魔"
+  },
+  {
+    "id": "pill_19",
+    "name": "化神丹",
+    "rank": 4,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "元婴巅峰突破化神时投入"
+  },
+  {
+    "id": "pill_20",
+    "name": "破障丹",
+    "rank": 4,
+    "kind": "auxiliary",
+    "duration": 0,
+    "values": [
+      5,
+      10,
+      20,
+      30,
+      36
+    ],
+    "cooldown": 0,
+    "description": "突破时投入；与窥天丹二选一"
+  },
+  {
+    "id": "pill_21",
+    "name": "洗髓丹",
+    "rank": 4,
+    "kind": "physique",
+    "duration": 0,
+    "values": [
+      1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cooldown": 0,
+    "description": "确认消耗后生成随机体质候选，可保留原体质"
+  },
+  {
+    "id": "pill_22",
+    "name": "解蛊丹",
+    "rank": 4,
+    "kind": "gu_immunity",
+    "duration": 0,
+    "values": [
+      60,
+      69,
+      81,
+      96,
+      120
+    ],
+    "cooldown": 15,
+    "description": "清除蛊毒并获得相应秒数的蛊毒免疫"
+  },
+  {
+    "id": "pill_23",
+    "name": "固魂丹",
+    "rank": 4,
+    "kind": "soul_guard",
+    "duration": 0,
+    "values": [
+      180,
+      207,
+      243,
+      288,
+      360
+    ],
+    "cooldown": 60,
+    "description": "免疫新魂伤，事件心魔增量减半；不减突破失败心魔"
+  },
+  {
+    "id": "pill_24",
+    "name": "冰肌丹",
+    "rank": 4,
+    "kind": "ice_skin",
+    "duration": 300,
+    "values": [
+      20,
+      23,
+      27,
+      32,
+      40
+    ],
+    "cooldown": 60,
+    "description": "环境火焰减伤50%；其他火伤按品质减免"
+  },
+  {
+    "id": "pill_25",
+    "name": "开窍丹",
+    "rank": 4,
+    "kind": "understanding",
+    "duration": 300,
+    "values": [
+      2,
+      2,
+      2,
+      3,
+      4
+    ],
+    "cooldown": 60,
+    "description": "临时悟性仅提高突破概率，不写入永久悟性"
+  },
+  {
+    "id": "pill_26",
+    "name": "凌虚丹",
+    "rank": 5,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "化神巅峰突破炼虚时投入"
+  },
+  {
+    "id": "pill_27",
+    "name": "窥天丹",
+    "rank": 5,
+    "kind": "auxiliary",
+    "duration": 0,
+    "values": [
+      8,
+      15,
+      30,
+      45,
+      54
+    ],
+    "cooldown": 0,
+    "description": "突破时投入；与破障丹二选一"
+  },
+  {
+    "id": "pill_28",
+    "name": "孕灵丹",
+    "rank": 5,
+    "kind": "capacity",
+    "duration": 300,
+    "values": [
+      15,
+      17.25,
+      20.25,
+      24,
+      30
+    ],
+    "cooldown": 60,
+    "description": "暂时提高最大灵力，不免费填充新增容量"
+  },
+  {
+    "id": "pill_29",
+    "name": "分身丹",
+    "rank": 5,
+    "kind": "decoy",
+    "duration": 0,
+    "values": [
+      20,
+      23,
+      27,
+      32,
+      40
+    ],
+    "cooldown": 120,
+    "description": "生成一个无伤害幻影，吸引普通妖兽；不影响首领"
+  },
+  {
+    "id": "pill_30",
+    "name": "乘化丹",
+    "rank": 6,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "炼虚突破合体、合体突破大乘时投入"
+  },
+  {
+    "id": "pill_31",
+    "name": "万毒解",
+    "rank": 6,
+    "kind": "all_poison_immunity",
+    "duration": 0,
+    "values": [
+      120,
+      138,
+      162,
+      192,
+      240
+    ],
+    "cooldown": 30,
+    "description": "清除全部毒类并短时免疫；不清心魔、丹毒、凋零"
+  },
+  {
+    "id": "pill_32",
+    "name": "龙血丹",
+    "rank": 6,
+    "kind": "dragon_blood",
+    "duration": 300,
+    "values": [
+      15,
+      17.25,
+      20.25,
+      24,
+      30
+    ],
+    "cooldown": 60,
+    "description": "近战伤害提高并免疫新骨伤；不清已有骨伤"
+  },
+  {
+    "id": "pill_33",
+    "name": "破界丹",
+    "rank": 6,
+    "kind": "cross_dimension",
+    "duration": 8,
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cooldown": 600,
+    "description": "准备8秒传送至本人已绑定的另一维度界标；移动受伤中断"
+  },
+  {
+    "id": "pill_34",
+    "name": "渡劫丹",
+    "rank": 7,
+    "kind": "breakthrough",
+    "duration": 0,
+    "values": [
+      10,
+      20,
+      40,
+      60,
+      72
+    ],
+    "cooldown": 0,
+    "description": "大乘巅峰突破渡劫；不跳过天劫"
+  },
+  {
+    "id": "pill_35",
+    "name": "悟道丹",
+    "rank": 7,
+    "kind": "wisdom",
+    "duration": 0,
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      3
+    ],
+    "cooldown": 0,
+    "description": "永久悟性提高，最高20；凡品无效，不扣药"
+  },
+  {
+    "id": "pill_36",
+    "name": "洗灵丹",
+    "rank": 7,
+    "kind": "roots",
+    "duration": 0,
+    "values": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "cooldown": 0,
+    "description": "仅上品及极品有效，重新随机一次灵根"
+  }
+]

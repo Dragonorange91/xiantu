@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "result": {
+    "item": "xiantu:bai_cao_zhen_jing",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

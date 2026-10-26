@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xing_wen_wutong_pillar"
+    }
+  },
+  "result": {
+    "item": "xiantu:xing_wen_wutong_pillar_capital",
+    "count": 2
+  }
+}

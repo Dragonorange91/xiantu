@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "xiantu:hongmeng_alchemy_furnace",
+          "properties": {
+            "part": "0_0_0"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:hongmeng_alchemy_furnace",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "FurnaceQuality",
+                  "target": "FurnaceQuality",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

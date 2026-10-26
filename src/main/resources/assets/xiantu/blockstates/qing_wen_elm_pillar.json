@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "xiantu:block/qing_wen_elm_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "xiantu:block/qing_wen_elm_pillar"
+    },
+    "axis=z": {
+      "model": "xiantu:block/qing_wen_elm_pillar",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/jin_si_nanmu_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/jin_si_nanmu_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/jin_si_nanmu_slab_double"
+    }
+  }
+}

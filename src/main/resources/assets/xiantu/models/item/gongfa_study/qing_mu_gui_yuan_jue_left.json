@@ -1,0 +1,7 @@
+{
+  "parent": "xiantu:item/gongfa_study/template_left",
+  "textures": {
+    "0": "xiantu:item/qing_mu_gui_yuan_jue_cover",
+    "1": "xiantu:item/qing_mu_gui_yuan_jue_cloth"
+  }
+}

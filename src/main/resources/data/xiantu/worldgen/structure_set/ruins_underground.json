@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "xiantu:ancient_cultivator_cave",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:earthvein_mine_palace",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:taixu_tomb_passage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 26,
+    "salt": 19794001
+  }
+}

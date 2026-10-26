@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiantu:item/demon_cores/earth_core_t2"
+  }
+}

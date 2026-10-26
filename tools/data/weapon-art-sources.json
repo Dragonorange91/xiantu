@@ -1,0 +1,249 @@
+{
+  "crescent": {
+    "frames": 11,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00000.png",
+        "sha256": "6a56bc13c2c6fc79dd4fa27848d2ea896d22d98db3bfc309b67c75a5fac8102a"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00001.png",
+        "sha256": "889a5486ea333058b950586274720e6fefe5266454049ede16c48c016374c761"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00002.png",
+        "sha256": "cedb1185b2ec9b08e20c2d820de7f43289472e543efe123365ee3f9b4fe0a59e"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00003.png",
+        "sha256": "81d50edd61fde6d2ec9517658816f672b6acc859912d4320e11e3f9c234eb514"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00004.png",
+        "sha256": "c3eaf7a9fad641e63d8bc3e0de65326d0e87d8c00b75adafefb1c5644d9014a1"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00005.png",
+        "sha256": "36741c2c49499b259d023adcc17657da74a3165a5e67034f8bbd1ec858f7a92b"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00006.png",
+        "sha256": "e2a2de8fe578d87c81d184bd449e9a1f4b3d364f09ec94b2d3a3fd90b4ba5e27"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00007.png",
+        "sha256": "c1577cadf3534a86089dfe6d9519639a2ad15cd9a4f2be1d9690bcbfef3f6db5"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00008.png",
+        "sha256": "0046c6b94ab1844790f271f87c26ebcf69da82ac490ea5b709215c15ff0fc0af"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00009.png",
+        "sha256": "504d21aace94f442e656242a66f1393e659afb905a7b277ec220d71f4034fbc2"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_daoguang_fengbo_00010.png",
+        "sha256": "0ca8a6a51a1522eac51d27c614b9e9e15f8223c43ef1f20c8d1fd0b771233cf4"
+      }
+    ],
+    "runtime_sha256": "8a4e3662d22cb5e5f62474f78e1901f2c293236339fff635b85efd62c04a33b0"
+  },
+  "blade": {
+    "frames": 4,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54102\\images\\daoguang_00000.png",
+        "sha256": "5f049c593360f13a33c2548ffd09c066e88de0371904f9ac85520eba73a02f4e"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54102\\images\\daoguang_00001.png",
+        "sha256": "5e0a5cecdf644a176fe0872189962154b17ad0f78a13c8d57afa8119705a00cf"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54102\\images\\daoguang_00002.png",
+        "sha256": "8e502fd8f0d34c56143edae601728b0a95e3247fe3996861e10b2617c3a5e078"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54102\\images\\daoguang_00003.png",
+        "sha256": "2e594c376eceab2d1ed7480a33242c978985d15c03127670cffb52ac4d02ae8b"
+      }
+    ],
+    "runtime_sha256": "73901fb53bc4085d34ba6a269bf3bc8314eaa7601c4726db4e7e4618fd0792ae"
+  },
+  "wind": {
+    "frames": 7,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00000.png",
+        "sha256": "bb643069fdbe2359f031377d590bf23c67bb7772966e1e786247acd9758751d9"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00001.png",
+        "sha256": "df27df1e0fa2fdf38010c37525306a2d1b61762fa3cd6af54c8e6901d2092aad"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00002.png",
+        "sha256": "5ec5a2d4ebc517c648e00dc65cc62bfec3a8347be7c23087280a160b0f079437"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00003.png",
+        "sha256": "097690a7f57e8344cfa9e68be66b05bfc035569c9c929f2404fc9ea80973b07e"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00004.png",
+        "sha256": "4a5f3d404d8b650c96655c4c5e076a483a2eaf257dc29601b5f61655be0ddb09"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00005.png",
+        "sha256": "a5a87dd1a5e6a578d81b3b00a1f02fcfe5df021fa55c1fc27d11157ebb5d9718"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54104\\images\\A_daoguang_xuanfeng_00006.png",
+        "sha256": "34accb226503056e7f4c475fd0e406acab63637f750682fb5a49a3877f0a37f2"
+      }
+    ],
+    "runtime_sha256": "1cadb7c0833864f96faf7b3d58a9bbc92b1afa7e68c2f5bbcdd38114d937deef"
+  },
+  "impact": {
+    "frames": 8,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00000.png",
+        "sha256": "ca1a65876a3238c7b91672d9e10916a261e99a67b20a8b5ac6d81974a9029632"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00001.png",
+        "sha256": "6f69595e07317c1ed3a5d4a8f2172f0557c46de0083319bb4d0accb81345231f"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00002.png",
+        "sha256": "a615e8b0f28dae669270aa0558afdde8ed7d1fde21c0a52a9ffe710f9b61ec0c"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00003.png",
+        "sha256": "d4ba3e548269ad466d1953a138cfad358b1c70b5d77a875021bea05acd25addd"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00004.png",
+        "sha256": "2960d0c6a04a4fe1e17644f4e877c49d053ff8535cb57d0135fc29e73dc89a14"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00005.png",
+        "sha256": "03726f40777482268f250032927f4d47826809e0458e3c0fc7e9fb3d92c47e33"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00006.png",
+        "sha256": "7f41a469073d383cf987f07f9db4b9a368f54487ab9a1c8753f469c8103681d8"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_hit_ci_gold_00007.png",
+        "sha256": "47f0fd00f5194caab17e4813466d88120fe00d8e9797f1683367040a66a047bc"
+      }
+    ],
+    "runtime_sha256": "295aea359be4e76f6cf971abfbd652e364bc0563ec6ebbc49901088a609956a3"
+  },
+  "flame": {
+    "frames": 11,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00000.png",
+        "sha256": "76de053db98d0608c658c4f6b62cf198564c0bad2b7f68f74c35cdee22137ccb"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00001.png",
+        "sha256": "6aea2a255211b66a3332a1ce877e253476caf2d32401c3af9faffd264aff8f44"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00002.png",
+        "sha256": "1218dd1ed12cb1f336265c2cd7677394703389183a75d03856199a0c7de6834f"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00003.png",
+        "sha256": "52ca970e14b2ff2e272a184b626c045ca095ec4da4dfea93365d3b6a0e0bf72a"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00004.png",
+        "sha256": "b7884efa626fc6fc1925088415294ee73434b9b7b48599a6f2ee8e22bed3f9f4"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00005.png",
+        "sha256": "cab651492c7ab4cd21cc99ae6c32fa8380a91ebc8d8ca042609f539fd8472bf4"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00006.png",
+        "sha256": "bdb6232bef481f5a62419c08eaaf726bbf67841e8a54d65722945983a998929c"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00007.png",
+        "sha256": "cecda427eecf78d6cb25ed4ba4e0df4ffab240b2b876d79364fa4cfc7e8359ef"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00008.png",
+        "sha256": "a7bb0142ff5308dfe91d5b574cbef507d96fb61fe0af62d1c5187b8d17b87acc"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00009.png",
+        "sha256": "8ca678f1ed11291a56b7611b5528081118c8c048ad1a0f5aced780d19122a084"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54130\\images\\daoguangup_00010.png",
+        "sha256": "7165569161bfae22aa10613adffcb433635bf2750dffc90913fdac4f0e12e4a7"
+      }
+    ],
+    "runtime_sha256": "7e420fefa0aae1d116053f668da893e5328d7d7c0bcd96deec07bdceed1d31e2"
+  },
+  "shock": {
+    "frames": 4,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54149\\images\\A_huan_dis0001.png",
+        "sha256": "a8cb7a4bf8244553c64300daee4294b78521b1729e2336c74424dd3d191d799a"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54149\\images\\A_huan_dis0002.png",
+        "sha256": "07670ed5574b0c05b7203dcafe172c7f1d584c2e63831bbd058cfdae8c17112d"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54149\\images\\A_huan_dis0003.png",
+        "sha256": "092f2e6094bc67ebafe64b5811c1e251f316ff9d2dd3dcc1c6c1850a6d281c13"
+      },
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54149\\images\\A_huan_dis0004.png",
+        "sha256": "cb5fa0ff450da97154ab8371fb6363f88e381e561b842229acf66109d21804ab"
+      }
+    ],
+    "runtime_sha256": "0086064b1199a2415252263d226e36dc4892c7e4620a36e12c30367c62b99773"
+  },
+  "vortex": {
+    "frames": 1,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54153\\images\\A_cloud.png",
+        "sha256": "de6f4c59b3142bf960a568045430400a2f4da6e453d27ec0c9dceba71bf20972"
+      }
+    ],
+    "runtime_sha256": "c3c95fb947b3c2e9247de92073ac572866134ff803332799781db465d04cdc92"
+  },
+  "spear": {
+    "frames": 1,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54083\\images\\A_jian_tx.png",
+        "sha256": "282de6e69fae16c4214a489ae5e4f69fe1a6e3910ff388c0c8fa0eab9bff34aa"
+      }
+    ],
+    "runtime_sha256": "a176fd9b48b8fb71e89216dd40fa6b7d6c069f3c29363e47306f6da19162f5ea",
+    "vertical_flip_for_forward_axis": true
+  },
+  "spark": {
+    "frames": 1,
+    "sources": [
+      {
+        "path": "国风修仙技能特效spine骨骼动画源文件仙侠UI场景光效CG美术素材\\战斗特效\\E54102\\images\\A_lan_animTwinkle.png",
+        "sha256": "2f2a2874ce9930950cb8e6b62c850e18a3edb16cdbc74bfd59a2b5124180ac4a"
+      }
+    ],
+    "runtime_sha256": "bf87485ce4949b7cb27f4dfe0c4021a08f5c5c919ff10a6fa1a12ab88dd2a0cb"
+  }
+}

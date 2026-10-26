@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "textures": {
+    "particle": "xiantu:item/ling_yu"
+  },
+  "base": {
+    "parent": "xiantu:item/ling_yu_glb"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "gui_light": "front",
+      "textures": {
+        "layer0": "xiantu:item/ling_yu"
+      }
+    }
+  }
+}

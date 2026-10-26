@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/qing_wen_elm_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/qing_wen_elm_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/qing_wen_elm_slab_double"
+    }
+  }
+}

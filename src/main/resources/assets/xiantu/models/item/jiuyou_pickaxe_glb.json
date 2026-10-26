@@ -1,0 +1,153 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "model": "xiantu:models/item/jiuyou_pickaxe.glb",
+  "textures": {
+    "particle": "xiantu:item/jiuyou_pickaxe"
+  },
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "scale": 0.9457159293645547,
+  "translation": [
+    0.5002307608476779,
+    0.5,
+    0.5004615093646236
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        12,
+        -24,
+        -8
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        13,
+        7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        15
+      ],
+      "translation": [
+        0,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.9775,
+        0.9775,
+        0.9775
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -15
+      ],
+      "translation": [
+        0,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.9775,
+        0.9775,
+        0.9775
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        -15
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.782,
+        0.782,
+        0.782
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        15
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.782,
+        0.782,
+        0.782
+      ]
+    }
+  }
+}

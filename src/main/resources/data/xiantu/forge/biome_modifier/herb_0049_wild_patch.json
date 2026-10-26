@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:medicine/herb_0049",
+  "features": [
+    "xiantu:herb_0049_wild_patch"
+  ],
+  "step": "vegetal_decoration"
+}

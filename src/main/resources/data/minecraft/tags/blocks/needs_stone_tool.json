@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:fan_ling_shi_ore",
+    "xiantu:hanxing_iron_ore",
+    "xiantu:smelting_furnace",
+    "xiantu:cinnabar_ore"
+  ]
+}

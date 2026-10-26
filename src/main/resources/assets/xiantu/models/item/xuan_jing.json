@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "textures": {
+    "particle": "xiantu:item/xuan_jing"
+  },
+  "base": {
+    "parent": "xiantu:item/xuan_jing_glb"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "gui_light": "front",
+      "textures": {
+        "layer0": "xiantu:item/xuan_jing"
+      }
+    }
+  }
+}

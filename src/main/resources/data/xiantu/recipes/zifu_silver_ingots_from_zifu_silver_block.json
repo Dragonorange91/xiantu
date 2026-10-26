@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "xiantu:zifu_silver_block"
+    }
+  ],
+  "result": {
+    "item": "xiantu:zifu_silver_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "ISI",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:ruin_weathered_herb_rack"
+  }
+}

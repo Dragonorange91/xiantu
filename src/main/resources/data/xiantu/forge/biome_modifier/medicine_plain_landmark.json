@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/spirit_medicine_plain",
+  "features": [
+    "xiantu:medicine_plain_landmark"
+  ],
+  "step": "surface_structures"
+}

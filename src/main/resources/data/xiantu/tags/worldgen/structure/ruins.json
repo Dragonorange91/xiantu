@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:ancient_battlefield",
+    "xiantu:broken_bridge_pavilion",
+    "xiantu:cinnabar_seal_tower",
+    "xiantu:guiyuan_herb_garden",
+    "xiantu:water_palace",
+    "xiantu:wilderness_sword_tomb",
+    "xiantu:xuantian_ruined_city",
+    "xiantu:yunling_observatory",
+    "xiantu:ancient_cultivator_cave",
+    "xiantu:earthvein_mine_palace",
+    "xiantu:taixu_tomb_passage",
+    "xiantu:cloudsea_palace",
+    "xiantu:floating_herb_garden",
+    "xiantu:mysterious_bird_nest",
+    "xiantu:ninefold_star_observatory",
+    "xiantu:skyship_wreck",
+    "xiantu:fallen_cultivator_necropolis",
+    "xiantu:five_elements_prison_grand",
+    "xiantu:starfall_sanctuary_grand",
+    "xiantu:water_curtain_caverns_grand"
+  ]
+}

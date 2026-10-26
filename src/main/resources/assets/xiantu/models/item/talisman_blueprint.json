@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:item/xuanmen_initial",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "xiantu:item/xuanmen_initial"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "xiantu:item/xuanmen_true"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "xiantu:item/xuanmen_secret"
+    }
+  ]
+}

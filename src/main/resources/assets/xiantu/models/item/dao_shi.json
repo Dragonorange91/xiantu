@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "textures": {
+    "particle": "xiantu:item/dao_shi"
+  },
+  "base": {
+    "parent": "xiantu:item/dao_shi_glb"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "gui_light": "front",
+      "textures": {
+        "layer0": "xiantu:item/dao_shi"
+      }
+    }
+  }
+}

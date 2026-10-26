@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_wen_maple_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_wen_maple_smooth_slab",
+    "count": 6
+  }
+}

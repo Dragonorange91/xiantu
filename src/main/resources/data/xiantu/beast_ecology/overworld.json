@@ -1,0 +1,470 @@
+{
+  "realm_weights": [
+    [
+      64,
+      24,
+      8,
+      2.8,
+      0.9,
+      0.25,
+      0.03,
+      0.015,
+      0.005
+    ],
+    [
+      40,
+      30,
+      18,
+      8,
+      3,
+      0.8,
+      0.12,
+      0.06,
+      0.02
+    ],
+    [
+      15,
+      25,
+      25,
+      18,
+      10,
+      5,
+      1.2,
+      0.6,
+      0.2
+    ]
+  ],
+  "featured": {
+    "metal": [
+      "minecraft:stony_peaks",
+      "minecraft:dripstone_caves"
+    ],
+    "wood": [
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "minecraft:bamboo_jungle",
+      "minecraft:lush_caves"
+    ],
+    "water": [
+      "minecraft:deep_cold_ocean",
+      "minecraft:deep_frozen_ocean",
+      "minecraft:grove"
+    ],
+    "fire": [
+      "minecraft:badlands",
+      "minecraft:wooded_badlands"
+    ],
+    "earth": [
+      "minecraft:dripstone_caves",
+      "minecraft:stony_peaks"
+    ]
+  },
+  "rare": {
+    "metal": [
+      "minecraft:eroded_badlands"
+    ],
+    "fire": [
+      "minecraft:eroded_badlands"
+    ],
+    "wood": [
+      "minecraft:mushroom_fields"
+    ],
+    "water": [
+      "minecraft:ice_spikes",
+      "minecraft:frozen_peaks"
+    ],
+    "earth": [
+      "minecraft:deep_dark"
+    ]
+  },
+  "species": [
+    {
+      "id": "iron_tooth_badger",
+      "element": "metal",
+      "elite": false,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "minecraft:stony_shore",
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:windswept_hills"
+      ]
+    },
+    {
+      "id": "cracked_blade_wolf",
+      "element": "metal",
+      "elite": false,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "minecraft:stony_peaks",
+        "minecraft:windswept_hills",
+        "minecraft:windswept_gravelly_hills"
+      ]
+    },
+    {
+      "id": "gold_back_beetle",
+      "element": "metal",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_badlands"
+      ]
+    },
+    {
+      "id": "copper_beak_vulture",
+      "element": "metal",
+      "elite": false,
+      "time": "day",
+      "mode": "fly",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_badlands",
+        "minecraft:stony_peaks"
+      ]
+    },
+    {
+      "id": "gold_mane_lion",
+      "element": "metal",
+      "elite": true,
+      "time": "twilight",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "minecraft:eroded_badlands",
+        "minecraft:stony_peaks"
+      ]
+    },
+    {
+      "id": "vine_deer",
+      "element": "wood",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_forest"
+      ]
+    },
+    {
+      "id": "moss_back_bear",
+      "element": "wood",
+      "elite": false,
+      "time": "twilight",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_taiga",
+        "minecraft:dark_forest"
+      ]
+    },
+    {
+      "id": "jade_leaf_mantis",
+      "element": "wood",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_jungle"
+      ]
+    },
+    {
+      "id": "mushroom_toad",
+      "element": "wood",
+      "elite": false,
+      "time": "any",
+      "mode": "cave",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "minecraft:mushroom_fields",
+        "minecraft:lush_caves"
+      ]
+    },
+    {
+      "id": "ancient_branch_python",
+      "element": "wood",
+      "elite": true,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "#minecraft:is_jungle"
+      ]
+    },
+    {
+      "id": "cold_fang_wolf",
+      "element": "water",
+      "elite": false,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "minecraft:snowy_plains",
+        "minecraft:ice_spikes"
+      ]
+    },
+    {
+      "id": "jade_scale_crocodile",
+      "element": "water",
+      "elite": false,
+      "time": "any",
+      "mode": "land",
+      "daylight": true,
+      "shore": true,
+      "biomes": [
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp"
+      ]
+    },
+    {
+      "id": "dark_shell_crab",
+      "element": "water",
+      "elite": false,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": true,
+      "biomes": [
+        "#minecraft:is_beach",
+        "minecraft:cold_ocean",
+        "minecraft:frozen_ocean"
+      ]
+    },
+    {
+      "id": "tide_pattern_ray",
+      "element": "water",
+      "elite": false,
+      "time": "any",
+      "mode": "water",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_frozen_ocean"
+      ]
+    },
+    {
+      "id": "azure_scale_python",
+      "element": "water",
+      "elite": true,
+      "time": "any",
+      "mode": "water",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_peaks",
+        "minecraft:ice_spikes"
+      ]
+    },
+    {
+      "id": "yanwei_fox",
+      "element": "fire",
+      "elite": false,
+      "time": "twilight",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_savanna",
+        "minecraft:desert"
+      ]
+    },
+    {
+      "id": "flint_armored_lizard",
+      "element": "fire",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_badlands",
+        "minecraft:stony_peaks"
+      ]
+    },
+    {
+      "id": "fire_beak_falcon",
+      "element": "fire",
+      "elite": false,
+      "time": "day",
+      "mode": "fly",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_badlands",
+        "minecraft:desert"
+      ]
+    },
+    {
+      "id": "molten_turtle",
+      "element": "fire",
+      "elite": false,
+      "time": "any",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_badlands"
+      ]
+    },
+    {
+      "id": "red_sun_lion",
+      "element": "fire",
+      "elite": true,
+      "time": "twilight",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "minecraft:eroded_badlands",
+        "minecraft:savanna_plateau"
+      ]
+    },
+    {
+      "id": "rock_back_boar",
+      "element": "earth",
+      "elite": false,
+      "time": "twilight",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "minecraft:windswept_hills",
+        "minecraft:windswept_forest",
+        "minecraft:windswept_gravelly_hills"
+      ]
+    },
+    {
+      "id": "sand_armadillo",
+      "element": "earth",
+      "elite": false,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "minecraft:desert",
+        "#minecraft:is_badlands"
+      ]
+    },
+    {
+      "id": "thick_horn_rhino",
+      "element": "earth",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_savanna",
+        "minecraft:stony_peaks"
+      ]
+    },
+    {
+      "id": "crag_rock_spider",
+      "element": "earth",
+      "elite": false,
+      "time": "any",
+      "mode": "cave",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "minecraft:dripstone_caves",
+        "minecraft:deep_dark"
+      ]
+    },
+    {
+      "id": "mountain_bear",
+      "element": "earth",
+      "elite": true,
+      "time": "any",
+      "mode": "cave",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "#minecraft:is_mountain",
+        "minecraft:deep_dark"
+      ]
+    },
+    {
+      "id": "electric_marten",
+      "element": "thunder",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "xiantu:thunder_wastes"
+      ]
+    },
+    {
+      "id": "thunder_deer",
+      "element": "thunder",
+      "elite": false,
+      "time": "day",
+      "mode": "land",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "xiantu:thunder_wastes"
+      ]
+    },
+    {
+      "id": "thunder_feather_raven",
+      "element": "thunder",
+      "elite": false,
+      "time": "twilight",
+      "mode": "fly",
+      "daylight": true,
+      "shore": false,
+      "biomes": [
+        "xiantu:thunder_wastes"
+      ]
+    },
+    {
+      "id": "purple_lightning_bat",
+      "element": "thunder",
+      "elite": false,
+      "time": "night",
+      "mode": "fly",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "xiantu:thunder_wastes"
+      ]
+    },
+    {
+      "id": "thunder_prison_lion",
+      "element": "thunder",
+      "elite": true,
+      "time": "night",
+      "mode": "land",
+      "daylight": false,
+      "shore": false,
+      "biomes": [
+        "xiantu:thunder_wastes"
+      ]
+    }
+  ]
+}

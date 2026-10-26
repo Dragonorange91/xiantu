@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    "minecraft:grove",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:stony_peaks",
+    "minecraft:jagged_peaks",
+    "xiantu:meteor_wasteland"
+  ]
+}

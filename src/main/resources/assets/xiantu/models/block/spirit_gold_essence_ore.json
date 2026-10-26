@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xiantu:block/spirit_gold_essence_ore"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "xiantu:taichu_shenjin_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:taichu_shenjin_block"
+  }
+}

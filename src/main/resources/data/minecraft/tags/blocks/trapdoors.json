@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:azure_brick_trapdoor",
+    "xiantu:black_rock_trapdoor",
+    "xiantu:cloud_jade_trapdoor",
+    "xiantu:spring_stone_trapdoor",
+    "xiantu:cloud_floating_stone_trapdoor",
+    "xiantu:qing_wen_elm_trapdoor",
+    "xiantu:chi_xin_birch_trapdoor",
+    "xiantu:zi_wen_maple_trapdoor",
+    "xiantu:xuan_tie_pine_trapdoor",
+    "xiantu:jin_si_nanmu_trapdoor",
+    "xiantu:zi_fu_cedar_trapdoor",
+    "xiantu:xing_wen_wutong_trapdoor",
+    "xiantu:tian_qiong_sandalwood_trapdoor"
+  ]
+}

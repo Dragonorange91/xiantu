@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:spring_stone"
+    }
+  },
+  "result": {
+    "item": "xiantu:spring_stone_roof_ridge",
+    "count": 6
+  }
+}

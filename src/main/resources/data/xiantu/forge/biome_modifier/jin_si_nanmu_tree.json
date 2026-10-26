@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/jin_si_nanmu",
+  "features": [
+    "xiantu:jin_si_nanmu_tree"
+  ],
+  "step": "vegetal_decoration"
+}

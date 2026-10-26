@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "xiantu:block/black_rock_chest_closed_single",
+      "y": 0
+    },
+    "facing=east,type=single": {
+      "model": "xiantu:block/black_rock_chest_closed_single",
+      "y": 90
+    },
+    "facing=south,type=single": {
+      "model": "xiantu:block/black_rock_chest_closed_single",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "xiantu:block/black_rock_chest_closed_single",
+      "y": 270
+    },
+    "facing=north,type=left": {
+      "model": "xiantu:block/black_rock_chest_closed_left",
+      "y": 0
+    },
+    "facing=east,type=left": {
+      "model": "xiantu:block/black_rock_chest_closed_left",
+      "y": 90
+    },
+    "facing=south,type=left": {
+      "model": "xiantu:block/black_rock_chest_closed_left",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "xiantu:block/black_rock_chest_closed_left",
+      "y": 270
+    },
+    "facing=north,type=right": {
+      "model": "xiantu:block/black_rock_chest_closed_right",
+      "y": 0
+    },
+    "facing=east,type=right": {
+      "model": "xiantu:block/black_rock_chest_closed_right",
+      "y": 90
+    },
+    "facing=south,type=right": {
+      "model": "xiantu:block/black_rock_chest_closed_right",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "xiantu:block/black_rock_chest_closed_right",
+      "y": 270
+    }
+  }
+}

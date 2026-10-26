@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/town_qingwa_eave",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/town_qingwa_eave",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/town_qingwa_eave",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/town_qingwa_eave",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/black_rock_cracked_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/black_rock_cracked_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/black_rock_cracked_slab_double"
+    }
+  }
+}

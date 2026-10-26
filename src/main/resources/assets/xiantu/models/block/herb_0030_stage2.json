@@ -1,0 +1,6 @@
+{
+  "parent": "xiantu:block/herb_crop_cross",
+  "textures": {
+    "cross": "xiantu:block/herb_0030_stage2"
+  }
+}

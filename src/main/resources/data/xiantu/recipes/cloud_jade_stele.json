@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:cloud_jade_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_jade_stele",
+    "count": 2
+  }
+}

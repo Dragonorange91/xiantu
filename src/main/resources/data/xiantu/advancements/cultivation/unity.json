@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/void",
+  "display": {
+    "icon": {
+      "item": "xiantu:xian_yu"
+    },
+    "title": {
+      "text": "道身归一 · 合体"
+    },
+    "description": {
+      "text": "首次达到合体境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:spring_stone_lamp_stand"
+    },
+    {
+      "item": "minecraft:torch"
+    }
+  ],
+  "result": {
+    "item": "xiantu:spring_stone_stone_lamp",
+    "count": 1
+  }
+}

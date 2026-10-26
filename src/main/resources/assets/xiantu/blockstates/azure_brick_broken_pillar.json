@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/azure_brick_broken_pillar",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/azure_brick_broken_pillar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/azure_brick_broken_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/azure_brick_broken_pillar",
+      "y": 270
+    }
+  }
+}

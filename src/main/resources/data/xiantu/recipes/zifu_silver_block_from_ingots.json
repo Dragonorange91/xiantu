@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "xiantu:zifu_silver_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:zifu_silver_block"
+  }
+}

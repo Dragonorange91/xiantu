@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:basalt_deltas",
+    "minecraft:nether_wastes"
+  ],
+  "features": [
+    "xiantu:scoria_core_ore"
+  ],
+  "step": "underground_ores"
+}

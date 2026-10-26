@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    "minecraft:grove",
+    "minecraft:windswept_hills",
+    "#xiantu:spirit_wood/vanilla_forests"
+  ]
+}

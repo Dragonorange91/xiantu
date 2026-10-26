@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["WGW", "W W"],
+  "key": {
+    "W": { "item": "xiantu:town_red_wood" },
+    "G": { "item": "minecraft:gold_nugget" }
+  },
+  "result": { "item": "xiantu:town_carved_panel", "count": 2 }
+}

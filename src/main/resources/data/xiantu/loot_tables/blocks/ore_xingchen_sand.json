@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "xiantu:herb_0020" }],
+    "conditions": [
+      { "condition": "minecraft:survives_explosion" },
+      {
+        "condition": "minecraft:block_state_property",
+        "block": "xiantu:ore_xingchen_sand",
+        "properties": { "natural_node": "true" }
+      }
+    ]
+  }]
+}

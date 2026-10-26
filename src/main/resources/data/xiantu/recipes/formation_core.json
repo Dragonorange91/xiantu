@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CEC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "xiantu:fan_ling_shi"
+    },
+    "C": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "xiantu:formation_core",
+    "count": 1
+  }
+}

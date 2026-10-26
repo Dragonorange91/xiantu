@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 6,
+    "xz_spread": 4,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "xiantu:habitat_simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "xiantu:impact_glass_rock"
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "xiantu:star_dust_sand",
+              "xiantu:meteor_soil",
+              "xiantu:meteor_rock"
+            ],
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xing_wen_wutong_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:xing_wen_wutong_roof_ridge",
+    "count": 6
+  }
+}

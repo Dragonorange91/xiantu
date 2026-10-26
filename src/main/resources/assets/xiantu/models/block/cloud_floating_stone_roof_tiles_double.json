@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "xiantu:block/cloud_floating_stone_smooth",
+    "top": "xiantu:block/cloud_floating_stone_roof",
+    "side": "xiantu:block/cloud_floating_stone_roof"
+  }
+}

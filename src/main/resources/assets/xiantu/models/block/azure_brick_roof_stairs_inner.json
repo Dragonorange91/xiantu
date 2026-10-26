@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "xiantu:block/azure_brick_smooth",
+    "top": "xiantu:block/azure_brick_roof",
+    "side": "xiantu:block/azure_brick_roof"
+  }
+}

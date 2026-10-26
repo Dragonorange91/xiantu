@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "xiantu:hunyuan_stone_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:hunyuan_stone_block"
+  }
+}

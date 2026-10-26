@@ -1,0 +1,36 @@
+{
+  "type": "xiantu:facility_crafting",
+  "facility": "talisman_table",
+  "ingredients": [
+    {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "xiantu:cinnabar"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "xiantu:talisman_writing_table"
+  }
+}

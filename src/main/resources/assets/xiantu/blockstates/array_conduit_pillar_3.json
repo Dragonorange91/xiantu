@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "section=0": {
+      "model": "xiantu:block/array_3_pillar_single"
+    },
+    "section=1": {
+      "model": "xiantu:block/array_3_pillar_bottom"
+    },
+    "section=2": {
+      "model": "xiantu:block/array_3_pillar_middle"
+    },
+    "section=3": {
+      "model": "xiantu:block/array_3_pillar_top"
+    }
+  }
+}

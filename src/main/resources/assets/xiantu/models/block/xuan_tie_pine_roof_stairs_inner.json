@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "xiantu:block/xuan_tie_pine_roof",
+    "top": "xiantu:block/xuan_tie_pine_roof",
+    "side": "xiantu:block/xuan_tie_pine_roof"
+  }
+}

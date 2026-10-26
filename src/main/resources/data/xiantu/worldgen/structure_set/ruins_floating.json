@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "xiantu:cloudsea_palace",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:floating_herb_garden",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:mysterious_bird_nest",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:ninefold_star_observatory",
+      "weight": 1
+    },
+    {
+      "structure": "xiantu:skyship_wreck",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 48,
+    "salt": 19794002
+  }
+}

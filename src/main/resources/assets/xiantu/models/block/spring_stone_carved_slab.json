@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "xiantu:block/spring_stone_carved",
+    "top": "xiantu:block/spring_stone_carved",
+    "side": "xiantu:block/spring_stone_carved"
+  }
+}

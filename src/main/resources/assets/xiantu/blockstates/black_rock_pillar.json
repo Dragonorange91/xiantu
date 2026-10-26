@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "xiantu:block/black_rock_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "xiantu:block/black_rock_pillar"
+    },
+    "axis=z": {
+      "model": "xiantu:block/black_rock_pillar",
+      "x": 90
+    }
+  }
+}

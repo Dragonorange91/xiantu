@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "join=straight_x": {
+      "model": "xiantu:block/zi_fu_cedar_beam",
+      "y": 0
+    },
+    "join=straight_z": {
+      "model": "xiantu:block/zi_fu_cedar_beam",
+      "y": 90
+    },
+    "join=corner_ne": {
+      "model": "xiantu:block/zi_fu_cedar_beam_corner",
+      "y": 0
+    },
+    "join=corner_se": {
+      "model": "xiantu:block/zi_fu_cedar_beam_corner",
+      "y": 90
+    },
+    "join=corner_sw": {
+      "model": "xiantu:block/zi_fu_cedar_beam_corner",
+      "y": 180
+    },
+    "join=corner_nw": {
+      "model": "xiantu:block/zi_fu_cedar_beam_corner",
+      "y": 270
+    },
+    "join=tee_wne": {
+      "model": "xiantu:block/zi_fu_cedar_beam_tee",
+      "y": 0
+    },
+    "join=tee_nes": {
+      "model": "xiantu:block/zi_fu_cedar_beam_tee",
+      "y": 90
+    },
+    "join=tee_esw": {
+      "model": "xiantu:block/zi_fu_cedar_beam_tee",
+      "y": 180
+    },
+    "join=tee_swn": {
+      "model": "xiantu:block/zi_fu_cedar_beam_tee",
+      "y": 270
+    },
+    "join=cross": {
+      "model": "xiantu:block/zi_fu_cedar_beam_cross",
+      "y": 0
+    }
+  }
+}

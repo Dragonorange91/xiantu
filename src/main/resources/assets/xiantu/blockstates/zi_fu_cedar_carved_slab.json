@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/zi_fu_cedar_carved_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/zi_fu_cedar_carved_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/zi_fu_cedar_carved_slab_double"
+    }
+  }
+}

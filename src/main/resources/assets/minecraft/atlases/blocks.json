@@ -1,0 +1,209 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/armor/cangming_materials",
+      "sprite": "xiantu:models/armor/cangming_materials"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/armor/wukong_materials",
+      "sprite": "xiantu:models/armor/wukong_materials"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/jewels",
+      "sprite": "xiantu:models/equipment/jewels"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_035",
+      "sprite": "xiantu:models/equipment/set_035"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_039",
+      "sprite": "xiantu:models/equipment/set_039"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_043",
+      "sprite": "xiantu:models/equipment/set_043"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_047",
+      "sprite": "xiantu:models/equipment/set_047"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_051",
+      "sprite": "xiantu:models/equipment/set_051"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_055",
+      "sprite": "xiantu:models/equipment/set_055"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_059",
+      "sprite": "xiantu:models/equipment/set_059"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_063",
+      "sprite": "xiantu:models/equipment/set_063"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/set_067",
+      "sprite": "xiantu:models/equipment/set_067"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_002",
+      "sprite": "xiantu:models/equipment/weapon_002"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_003",
+      "sprite": "xiantu:models/equipment/weapon_003"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_004",
+      "sprite": "xiantu:models/equipment/weapon_004"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_005",
+      "sprite": "xiantu:models/equipment/weapon_005"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_006",
+      "sprite": "xiantu:models/equipment/weapon_006"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_007",
+      "sprite": "xiantu:models/equipment/weapon_007"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_008",
+      "sprite": "xiantu:models/equipment/weapon_008"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_009",
+      "sprite": "xiantu:models/equipment/weapon_009"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_010",
+      "sprite": "xiantu:models/equipment/weapon_010"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_011",
+      "sprite": "xiantu:models/equipment/weapon_011"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_012",
+      "sprite": "xiantu:models/equipment/weapon_012"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_013",
+      "sprite": "xiantu:models/equipment/weapon_013"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_014",
+      "sprite": "xiantu:models/equipment/weapon_014"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_015",
+      "sprite": "xiantu:models/equipment/weapon_015"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_016",
+      "sprite": "xiantu:models/equipment/weapon_016"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_017",
+      "sprite": "xiantu:models/equipment/weapon_017"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_018",
+      "sprite": "xiantu:models/equipment/weapon_018"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_019",
+      "sprite": "xiantu:models/equipment/weapon_019"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_020",
+      "sprite": "xiantu:models/equipment/weapon_020"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_021",
+      "sprite": "xiantu:models/equipment/weapon_021"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_022",
+      "sprite": "xiantu:models/equipment/weapon_022"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_023",
+      "sprite": "xiantu:models/equipment/weapon_023"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_024",
+      "sprite": "xiantu:models/equipment/weapon_024"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_025",
+      "sprite": "xiantu:models/equipment/weapon_025"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_026",
+      "sprite": "xiantu:models/equipment/weapon_026"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_027",
+      "sprite": "xiantu:models/equipment/weapon_027"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_028",
+      "sprite": "xiantu:models/equipment/weapon_028"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_029",
+      "sprite": "xiantu:models/equipment/weapon_029"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "xiantu:models/equipment/weapon_030",
+      "sprite": "xiantu:models/equipment/weapon_030"
+    }
+  ]
+}

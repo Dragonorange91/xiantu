@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:black_rock"
+    }
+  },
+  "result": {
+    "item": "xiantu:black_rock_lamp_stand",
+    "count": 2
+  }
+}

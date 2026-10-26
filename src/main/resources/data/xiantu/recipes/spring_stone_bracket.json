@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:spring_stone_pillar"
+    },
+    {
+      "item": "xiantu:spring_stone_pillar_capital"
+    }
+  ],
+  "result": {
+    "item": "xiantu:spring_stone_bracket",
+    "count": 2
+  }
+}

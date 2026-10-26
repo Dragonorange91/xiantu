@@ -1,0 +1,287 @@
+{
+  "textures": {
+    "0": "xiantu:block/cloud_jade_smooth",
+    "1": "xiantu:block/cloud_jade_carved",
+    "2": "xiantu:block/appraisal_altar_top",
+    "particle": "xiantu:block/cloud_jade_smooth"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        3,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            13,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            1,
+            13,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1,
+            13,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1,
+            13,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "carved_pedestal",
+      "from": [
+        3,
+        3,
+        3
+      ],
+      "to": [
+        13,
+        11,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5,
+            13,
+            13
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            3,
+            5,
+            13,
+            13
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            3,
+            5,
+            13,
+            13
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            3,
+            5,
+            13,
+            13
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "tabletop",
+      "from": [
+        0,
+        11,
+        0
+      ],
+      "to": [
+        16,
+        15,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            1,
+            16,
+            5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            16,
+            5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            1,
+            16,
+            5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            16,
+            5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "formation_plate",
+      "from": [
+        1,
+        15,
+        1
+      ],
+      "to": [
+        15,
+        15.5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0.5,
+            15,
+            1
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            1,
+            0.5,
+            15,
+            1
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            1,
+            0.5,
+            15,
+            1
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            1,
+            0.5,
+            15,
+            1
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#2"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

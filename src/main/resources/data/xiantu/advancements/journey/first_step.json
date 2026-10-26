@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "xiantu:guiding_stone"
+    },
+    "title": {
+      "text": "初入仙途"
+    },
+    "description": {
+      "text": "抵达修仙城镇，寻访广场上的引路人"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrive": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

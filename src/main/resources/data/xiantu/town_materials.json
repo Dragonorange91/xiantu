@@ -1,0 +1,289 @@
+{
+  "source": "town-blueprints-20261019 Blockbench MCP exports",
+  "blocks": [
+    {
+      "id": "xiantu:town_vermilion_column",
+      "chineseName": "朱漆细木柱",
+      "properties": {
+        "axis": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "elements": 1,
+      "collisionSource": "models/town_vermilion_column.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_vermilion_base",
+      "chineseName": "朱漆柱础",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 3,
+      "collisionSource": "models/town_vermilion_base.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_vermilion_capital",
+      "chineseName": "朱漆柱头",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 3,
+      "collisionSource": "models/town_vermilion_capital.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_vermilion_beam",
+      "chineseName": "朱漆穿枋",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 3,
+      "collisionSource": "models/town_vermilion_beam.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_dougong",
+      "chineseName": "朱漆斗拱",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 8,
+      "collisionSource": "models/town_dougong.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_walnut_lattice",
+      "chineseName": "胡桃木透雕窗",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 8,
+      "collisionSource": "models/town_walnut_lattice.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_vermilion_railing",
+      "chineseName": "朱漆木栏杆",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 5,
+      "collisionSource": "models/town_vermilion_railing.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_low",
+      "chineseName": "青灰缓坡瓦·下段",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_low.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_high",
+      "chineseName": "青灰缓坡瓦·上段",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_high.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_steep",
+      "chineseName": "青灰陡坡瓦",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_steep.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_hip_low",
+      "chineseName": "青灰戗角坡瓦·下段",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_hip_low.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_hip_high",
+      "chineseName": "青灰戗角坡瓦·上段",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_hip_high.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_eave",
+      "chineseName": "青灰滴水翘檐",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_eave.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_swept_eave",
+      "chineseName": "青灰挑角过渡檐",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 4,
+      "collisionSource": "models/town_qingwa_swept_eave.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_corner",
+      "chineseName": "青灰翼角瓦",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 16,
+      "collisionSource": "models/town_qingwa_corner.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_ridge",
+      "chineseName": "青灰压脊",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 3,
+      "collisionSource": "models/town_qingwa_ridge.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_ridge_high",
+      "chineseName": "青灰半格高压脊",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 4,
+      "collisionSource": "models/town_qingwa_ridge_high.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_crown_base",
+      "chineseName": "青灰合脊封板",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 1,
+      "collisionSource": "models/town_qingwa_crown_base.json",
+      "tier": null
+    },
+    {
+      "id": "xiantu:town_qingwa_finial",
+      "chineseName": "青灰鸱尾",
+      "properties": {
+        "facing": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      "elements": 4,
+      "collisionSource": "models/town_qingwa_finial.json",
+      "tier": null
+    }
+  ]
+}

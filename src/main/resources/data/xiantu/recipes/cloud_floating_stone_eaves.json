@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B ",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:cloud_floating_stone"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_floating_stone_eaves",
+    "count": 6
+  }
+}

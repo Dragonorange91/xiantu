@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:cloud_jade_eaves"
+    },
+    {
+      "item": "xiantu:cloud_jade_eaves"
+    }
+  ],
+  "result": {
+    "item": "xiantu:cloud_jade_eaves_corner",
+    "count": 2
+  }
+}

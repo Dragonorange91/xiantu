@@ -1,0 +1,219 @@
+{
+  "textures": {
+    "0": "xiantu:block/cloud_jade_smooth",
+    "1": "xiantu:block/cloud_jade_carved",
+    "2": "xiantu:block/cloud_jade_roof",
+    "3": "xiantu:block/stone_lamp_core",
+    "particle": "xiantu:block/cloud_jade_smooth"
+  },
+  "elements": [
+    {
+      "name": "plinth",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        3,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            13,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2,
+            13,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "carved_stem",
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            2,
+            12,
+            13
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            12,
+            13
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            4,
+            2,
+            12,
+            13
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            12,
+            13
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "offering_plate",
+      "from": [
+        2,
+        14,
+        2
+      ],
+      "to": [
+        14,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

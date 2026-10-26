@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "facing=north,part=0_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_0_0",
+      "y": 0
+    },
+    "facing=east,part=0_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_0_0",
+      "y": 90
+    },
+    "facing=south,part=0_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_0_0",
+      "y": 180
+    },
+    "facing=west,part=0_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_0_0",
+      "y": 270
+    },
+    "facing=north,part=0_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_1_0",
+      "y": 0
+    },
+    "facing=east,part=0_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_1_0",
+      "y": 90
+    },
+    "facing=south,part=0_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_1_0",
+      "y": 180
+    },
+    "facing=west,part=0_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/0_1_0",
+      "y": 270
+    },
+    "facing=north,part=1_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_0_0",
+      "y": 0
+    },
+    "facing=east,part=1_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_0_0",
+      "y": 90
+    },
+    "facing=south,part=1_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_0_0",
+      "y": 180
+    },
+    "facing=west,part=1_0_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_0_0",
+      "y": 270
+    },
+    "facing=north,part=1_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_1_0",
+      "y": 0
+    },
+    "facing=east,part=1_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_1_0",
+      "y": 90
+    },
+    "facing=south,part=1_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_1_0",
+      "y": 180
+    },
+    "facing=west,part=1_1_0": {
+      "model": "xiantu:block/ruin_props/equipment_repair_table/1_1_0",
+      "y": 270
+    }
+  }
+}

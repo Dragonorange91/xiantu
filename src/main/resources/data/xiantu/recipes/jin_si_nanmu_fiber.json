@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:jin_si_nanmu_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_fiber",
+    "count": 2
+  },
+  "wood": "jin_si_nanmu"
+}

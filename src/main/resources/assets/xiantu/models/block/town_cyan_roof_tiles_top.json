@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "xiantu:block/town_cyan_roof",
+    "top": "xiantu:block/town_cyan_roof",
+    "side": "xiantu:block/town_cyan_roof"
+  }
+}
+

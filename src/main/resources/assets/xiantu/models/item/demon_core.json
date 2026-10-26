@@ -1,0 +1,332 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiantu:item/demon_core"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "xiantu:core_model": 1
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t1"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 2
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t2"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 3
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t3"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 4
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t4"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 5
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t5"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 6
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t6"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 7
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t7"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 8
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t8"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 9
+      },
+      "model": "xiantu:item/demon_cores/metal_core_t9"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 10
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t1"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 11
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t2"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 12
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t3"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 13
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t4"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 14
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t5"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 15
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t6"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 16
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t7"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 17
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t8"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 18
+      },
+      "model": "xiantu:item/demon_cores/wood_core_t9"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 19
+      },
+      "model": "xiantu:item/demon_cores/water_core_t1"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 20
+      },
+      "model": "xiantu:item/demon_cores/water_core_t2"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 21
+      },
+      "model": "xiantu:item/demon_cores/water_core_t3"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 22
+      },
+      "model": "xiantu:item/demon_cores/water_core_t4"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 23
+      },
+      "model": "xiantu:item/demon_cores/water_core_t5"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 24
+      },
+      "model": "xiantu:item/demon_cores/water_core_t6"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 25
+      },
+      "model": "xiantu:item/demon_cores/water_core_t7"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 26
+      },
+      "model": "xiantu:item/demon_cores/water_core_t8"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 27
+      },
+      "model": "xiantu:item/demon_cores/water_core_t9"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 28
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t1"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 29
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t2"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 30
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t3"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 31
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t4"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 32
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t5"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 33
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t6"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 34
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t7"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 35
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t8"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 36
+      },
+      "model": "xiantu:item/demon_cores/fire_core_t9"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 37
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t1"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 38
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t2"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 39
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t3"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 40
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t4"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 41
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t5"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 42
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t6"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 43
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t7"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 44
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t8"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 45
+      },
+      "model": "xiantu:item/demon_cores/earth_core_t9"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 46
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t1"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 47
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t2"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 48
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t3"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 49
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t4"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 50
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t5"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 51
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t6"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 52
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t7"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 53
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t8"
+    },
+    {
+      "predicate": {
+        "xiantu:core_model": 54
+      },
+      "model": "xiantu:item/demon_cores/thunder_core_t9"
+    }
+  ]
+}

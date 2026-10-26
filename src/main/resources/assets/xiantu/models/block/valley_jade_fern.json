@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "xiantu:block/valley_jade_fern"
+  }
+}

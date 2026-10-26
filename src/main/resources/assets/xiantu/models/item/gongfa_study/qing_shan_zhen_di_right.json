@@ -1,0 +1,7 @@
+{
+  "parent": "xiantu:item/gongfa_study/template_right",
+  "textures": {
+    "0": "xiantu:item/qing_shan_zhen_di_cover",
+    "1": "xiantu:item/qing_shan_zhen_di_cloth"
+  }
+}

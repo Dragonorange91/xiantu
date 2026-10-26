@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_fu_cedar_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_fu_cedar_frieze",
+    "count": 6
+  }
+}

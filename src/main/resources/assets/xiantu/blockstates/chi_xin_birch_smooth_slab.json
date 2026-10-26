@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/chi_xin_birch_smooth_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/chi_xin_birch_smooth_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/chi_xin_birch_smooth_slab_double"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "xiantu:block/xing_wen_wutong_planks"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "S S",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:black_rock_carved"
+    },
+    "S": {
+      "item": "xiantu:black_rock_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:black_rock_chest",
+    "count": 1
+  }
+}

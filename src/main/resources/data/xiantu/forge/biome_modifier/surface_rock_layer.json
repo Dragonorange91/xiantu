@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "xiantu:thunder_wastes",
+    "xiantu:meteor_wasteland",
+    "xiantu:spirit_medicine_plain"
+  ],
+  "features": [
+    "xiantu:surface_rock_layer"
+  ],
+  "step": "underground_ores"
+}

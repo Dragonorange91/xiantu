@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "xiantu:fan_ling_shi_ore",
+    "xiantu:ling_jing_ore",
+    "xiantu:ling_yu_ore",
+    "xiantu:xuan_jing_ore",
+    "xiantu:di_sui_ore",
+    "xiantu:tian_jing_ore",
+    "xiantu:xian_yu_ore",
+    "xiantu:dao_shi_ore"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/tian_qiong_sandalwood",
+  "features": [
+    "xiantu:tian_qiong_sandalwood_tree"
+  ],
+  "step": "vegetal_decoration"
+}

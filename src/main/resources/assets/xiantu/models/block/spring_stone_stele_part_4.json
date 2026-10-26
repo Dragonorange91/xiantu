@@ -1,0 +1,356 @@
+{
+  "textures": {
+    "0": "xiantu:block/spring_stone_smooth",
+    "1": "xiantu:block/spring_stone_carved",
+    "2": "xiantu:block/spring_stone_stele_front_4",
+    "particle": "xiantu:block/spring_stone_smooth"
+  },
+  "elements": [
+    {
+      "name": "tablet_0",
+      "from": [
+        0,
+        0,
+        5
+      ],
+      "to": [
+        14,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            12,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            12,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            12,
+            14,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            12,
+            11,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            14,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            14,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "tablet_1",
+      "from": [
+        0,
+        4,
+        5
+      ],
+      "to": [
+        13,
+        8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            8,
+            16,
+            12
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            8,
+            11,
+            12
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            13,
+            12
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            8,
+            11,
+            12
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            13,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            13,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "tablet_2",
+      "from": [
+        0,
+        8,
+        5
+      ],
+      "to": [
+        11,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            5,
+            16,
+            8
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            5,
+            11,
+            8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            11,
+            8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            5,
+            11,
+            8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            11,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            11,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "tablet_3",
+      "from": [
+        0,
+        11,
+        5
+      ],
+      "to": [
+        8,
+        14,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2,
+            16,
+            5
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            2,
+            11,
+            5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            8,
+            5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            2,
+            11,
+            5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            8,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            8,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "tablet_4",
+      "from": [
+        0,
+        14,
+        5
+      ],
+      "to": [
+        4,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            0,
+            16,
+            2
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            0,
+            11,
+            2
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            0,
+            11,
+            2
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            4,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            4,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

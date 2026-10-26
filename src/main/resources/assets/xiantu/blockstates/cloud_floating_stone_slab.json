@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/cloud_floating_stone_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/cloud_floating_stone_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/cloud_floating_stone_slab_double"
+    }
+  }
+}

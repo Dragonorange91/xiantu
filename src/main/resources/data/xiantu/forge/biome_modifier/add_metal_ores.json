@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "xiantu:hanxing_iron_ore",
+    "xiantu:chisui_copper_ore",
+    "xiantu:zixiao_copper_ore",
+    "xiantu:jiuyou_iron_ore",
+    "xiantu:taiyi_gold_ore",
+    "xiantu:zifu_silver_ore",
+    "xiantu:hunyuan_stone_ore",
+    "xiantu:taichu_shenjin_ore"
+  ],
+  "step": "underground_ores"
+}

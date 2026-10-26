@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "F "
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:tian_qiong_sandalwood_planks"
+    },
+    "F": {
+      "item": "xiantu:tian_qiong_sandalwood_fiber"
+    }
+  },
+  "result": {
+    "item": "xiantu:tian_qiong_sandalwood_beam",
+    "count": 2
+  }
+}

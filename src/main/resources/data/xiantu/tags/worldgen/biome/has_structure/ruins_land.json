@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:savanna",
+    "minecraft:meadow",
+    "minecraft:grove",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "xiantu:spirit_medicine_plain",
+    "xiantu:meteor_wasteland",
+    "xiantu:thunder_wastes"
+  ]
+}

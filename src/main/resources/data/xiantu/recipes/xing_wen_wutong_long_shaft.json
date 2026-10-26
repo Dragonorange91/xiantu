@@ -1,0 +1,17 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:xing_wen_wutong_stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:xing_wen_wutong_long_shaft",
+    "count": 1
+  },
+  "wood": "xing_wen_wutong"
+}

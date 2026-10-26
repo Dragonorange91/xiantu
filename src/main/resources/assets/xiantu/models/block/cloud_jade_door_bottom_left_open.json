@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "top": "xiantu:block/cloud_jade_door_top",
+    "bottom": "xiantu:block/cloud_jade_door_bottom"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "xiantu:block/herb_0043_stage1"
+    },
+    "age=1": {
+      "model": "xiantu:block/herb_0043_stage2"
+    },
+    "age=2": {
+      "model": "xiantu:block/herb_0043_stage3"
+    },
+    "age=3": {
+      "model": "xiantu:block/herb_0043_stage4"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:jin_si_nanmu_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_frieze",
+    "count": 6
+  }
+}

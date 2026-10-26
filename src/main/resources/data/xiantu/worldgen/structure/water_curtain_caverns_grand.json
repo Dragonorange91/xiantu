@@ -1,0 +1,8 @@
+{
+  "type": "xiantu:adventure_ruin",
+  "blueprint": "water_curtain_caverns_grand",
+  "biomes": "#xiantu:has_structure/ruins_mountain",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

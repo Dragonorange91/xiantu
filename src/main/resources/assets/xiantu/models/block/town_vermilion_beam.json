@@ -1,0 +1,245 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "xiantu:block/town_rebuild/gold",
+    "1": "xiantu:block/town_rebuild/vermilion",
+    "particle": "xiantu:block/town_rebuild/gold"
+  },
+  "elements": [
+    {
+      "name": "beam",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        16,
+        12
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          4
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "gold_line",
+      "from": [
+        0,
+        6,
+        3.75
+      ],
+      "to": [
+        16,
+        7,
+        4.25
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          6,
+          3.75
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9,
+            16,
+            10
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            9,
+            4.25,
+            10
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            9,
+            16,
+            10
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            9,
+            4.25,
+            10
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            3.75,
+            16,
+            4.25
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            3.75,
+            16,
+            4.25
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "gold_line_back",
+      "from": [
+        0,
+        6,
+        11.75
+      ],
+      "to": [
+        16,
+        7,
+        12.25
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          6,
+          11.75
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9,
+            16,
+            10
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            11.75,
+            9,
+            12.25,
+            10
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            9,
+            16,
+            10
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            11.75,
+            9,
+            12.25,
+            10
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            11.75,
+            16,
+            12.25
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            11.75,
+            16,
+            12.25
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

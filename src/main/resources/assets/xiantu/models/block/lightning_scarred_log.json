@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "xiantu:block/lightning_scarred_log_side",
+    "end": "xiantu:block/lightning_scarred_log_top"
+  }
+}

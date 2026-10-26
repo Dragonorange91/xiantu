@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/xuan_tie_pine",
+  "features": [
+    "xiantu:xuan_tie_pine_tree"
+  ],
+  "step": "vegetal_decoration"
+}

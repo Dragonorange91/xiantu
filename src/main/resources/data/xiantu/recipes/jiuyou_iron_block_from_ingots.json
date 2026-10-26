@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "xiantu:jiuyou_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:jiuyou_iron_block"
+  }
+}

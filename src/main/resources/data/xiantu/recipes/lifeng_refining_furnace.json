@@ -1,0 +1,37 @@
+{
+  "type": "xiantu:facility_crafting",
+  "category": "misc",
+  "facility": "refining_station_1",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    {
+      "item": "xiantu:qing_wen_elm_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "xiantu:lifeng_refining_furnace"
+  }
+}

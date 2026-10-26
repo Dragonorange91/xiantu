@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "xiantu:block/zi_fu_cedar_planks"
+  }
+}

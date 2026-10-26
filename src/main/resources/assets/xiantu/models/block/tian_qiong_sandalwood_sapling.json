@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "xiantu:block/tian_qiong_sandalwood_sapling"
+  },
+  "render_type": "minecraft:cutout"
+}

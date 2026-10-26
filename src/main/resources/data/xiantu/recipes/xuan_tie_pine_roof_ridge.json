@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xuan_tie_pine_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:xuan_tie_pine_roof_ridge",
+    "count": 6
+  }
+}

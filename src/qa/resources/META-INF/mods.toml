@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="xiantu_qa"
+version="1"
+displayName="仙途临时回归测试（不发布）"
+authors="龙橘"
+[[dependencies.xiantu_qa]]
+modId="xiantu"
+mandatory=true
+versionRange="[0.1.0,)"
+ordering="AFTER"
+side="BOTH"

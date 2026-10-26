@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:qing_wen_elm_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_roof_tiles",
+    "count": 6
+  }
+}

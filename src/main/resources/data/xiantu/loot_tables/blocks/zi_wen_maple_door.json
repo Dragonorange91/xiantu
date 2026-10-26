@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:zi_wen_maple_door"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "xiantu:zi_wen_maple_door",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ]
+    }
+  ]
+}

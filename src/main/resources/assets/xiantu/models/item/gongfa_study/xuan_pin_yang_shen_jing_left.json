@@ -1,0 +1,7 @@
+{
+  "parent": "xiantu:item/gongfa_study/template_left",
+  "textures": {
+    "0": "xiantu:item/xuan_pin_yang_shen_jing_cover",
+    "1": "xiantu:item/xuan_pin_yang_shen_jing_cloth"
+  }
+}

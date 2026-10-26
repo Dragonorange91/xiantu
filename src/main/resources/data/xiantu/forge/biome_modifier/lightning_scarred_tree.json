@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/thunder_wastes",
+  "features": [
+    "xiantu:lightning_scarred_tree"
+  ],
+  "step": "vegetal_decoration"
+}

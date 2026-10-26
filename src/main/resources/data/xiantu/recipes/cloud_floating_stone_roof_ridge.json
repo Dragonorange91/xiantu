@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:cloud_floating_stone"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_floating_stone_roof_ridge",
+    "count": 6
+  }
+}

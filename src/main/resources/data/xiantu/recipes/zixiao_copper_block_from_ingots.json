@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "xiantu:zixiao_copper_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:zixiao_copper_block"
+  }
+}

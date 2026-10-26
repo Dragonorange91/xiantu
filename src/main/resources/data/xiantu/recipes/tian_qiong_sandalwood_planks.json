@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "L"
+  ],
+  "key": {
+    "L": {
+      "item": "xiantu:tian_qiong_sandalwood_log"
+    }
+  },
+  "result": {
+    "item": "xiantu:tian_qiong_sandalwood_planks",
+    "count": 4
+  },
+  "wood": "tian_qiong_sandalwood"
+}

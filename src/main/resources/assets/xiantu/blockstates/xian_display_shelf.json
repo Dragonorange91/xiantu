@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/xian_display_shelf",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/xian_display_shelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/xian_display_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/xian_display_shelf",
+      "y": 270
+    }
+  }
+}

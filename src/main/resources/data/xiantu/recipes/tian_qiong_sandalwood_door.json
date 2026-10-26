@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:tian_qiong_sandalwood_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:tian_qiong_sandalwood_door",
+    "count": 3
+  }
+}

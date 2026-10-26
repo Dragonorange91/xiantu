@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "xiantu:block/azure_cloud_spirit_brick"
+  }
+}

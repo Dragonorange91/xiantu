@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "SWS",
+    "SS "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "W": {
+      "item": "xiantu:qing_wen_elm_stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:equipment_repair_table"
+  }
+}

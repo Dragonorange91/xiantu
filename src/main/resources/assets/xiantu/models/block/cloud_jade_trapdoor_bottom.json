@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "xiantu:block/cloud_jade_trapdoor"
+  },
+  "render_type": "minecraft:cutout"
+}

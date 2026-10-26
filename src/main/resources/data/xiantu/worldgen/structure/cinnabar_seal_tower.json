@@ -1,0 +1,8 @@
+{
+  "type": "xiantu:adventure_ruin",
+  "blueprint": "cinnabar_seal_tower",
+  "biomes": "#xiantu:has_structure/ruins_land",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

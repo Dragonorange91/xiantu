@@ -1,0 +1,6 @@
+{
+  "parent": "xiantu:block/array_1_base_connected",
+  "textures": {
+    "trace": "xiantu:block/array_1_base_trace_18"
+  }
+}

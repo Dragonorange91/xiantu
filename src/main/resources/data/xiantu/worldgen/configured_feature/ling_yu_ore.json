@@ -1,0 +1,27 @@
+{
+  "type": "xiantu:small_spirit_ore",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        },
+        "state": {
+          "Name": "xiantu:ling_yu_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:deepslate"
+        },
+        "state": {
+          "Name": "xiantu:ling_yu_ore"
+        }
+      }
+    ]
+  }
+}

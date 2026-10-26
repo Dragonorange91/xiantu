@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:qing_wen_elm_log",
+    "xiantu:qing_wen_elm_stripped_log",
+    "xiantu:chi_xin_birch_log",
+    "xiantu:chi_xin_birch_stripped_log",
+    "xiantu:zi_wen_maple_log",
+    "xiantu:zi_wen_maple_stripped_log",
+    "xiantu:xuan_tie_pine_log",
+    "xiantu:xuan_tie_pine_stripped_log",
+    "xiantu:jin_si_nanmu_log",
+    "xiantu:jin_si_nanmu_stripped_log",
+    "xiantu:zi_fu_cedar_log",
+    "xiantu:zi_fu_cedar_stripped_log",
+    "xiantu:xing_wen_wutong_log",
+    "xiantu:xing_wen_wutong_stripped_log",
+    "xiantu:tian_qiong_sandalwood_log",
+    "xiantu:tian_qiong_sandalwood_stripped_log"
+  ]
+}

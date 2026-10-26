@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "xiantu:artisan_forging_table",
+          "properties": {
+            "part": "0_0_0"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:artisan_forging_table"
+        }
+      ]
+    }
+  ]
+}

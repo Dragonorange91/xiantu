@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/unity",
+  "display": {
+    "icon": {
+      "item": "xiantu:dao_shi"
+    },
+    "title": {
+      "text": "大乘圆融 · 大乘"
+    },
+    "description": {
+      "text": "首次达到大乘境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

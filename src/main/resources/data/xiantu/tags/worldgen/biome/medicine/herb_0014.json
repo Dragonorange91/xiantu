@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_river",
+    "minecraft:grove",
+    "minecraft:ice_spikes",
+    "minecraft:meadow",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills"
+  ]
+}

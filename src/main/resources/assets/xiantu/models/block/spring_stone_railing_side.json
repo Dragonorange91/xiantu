@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "xiantu:block/courtyard_water_stone"
+  }
+}

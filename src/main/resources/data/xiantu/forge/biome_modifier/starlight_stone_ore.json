@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_mountain",
+  "features": [
+    "xiantu:starlight_stone_ore"
+  ],
+  "step": "underground_ores"
+}

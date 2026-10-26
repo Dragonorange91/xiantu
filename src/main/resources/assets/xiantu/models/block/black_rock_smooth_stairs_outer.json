@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "xiantu:block/black_rock_smooth",
+    "top": "xiantu:block/black_rock_smooth",
+    "side": "xiantu:block/black_rock_smooth"
+  }
+}

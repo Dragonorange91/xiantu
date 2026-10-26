@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:chi_xin_birch_pillar"
+    }
+  },
+  "result": {
+    "item": "xiantu:chi_xin_birch_pillar_capital",
+    "count": 2
+  }
+}

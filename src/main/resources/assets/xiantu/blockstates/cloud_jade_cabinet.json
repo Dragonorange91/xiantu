@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "facing=north,open=false,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_0",
+      "y": 0
+    },
+    "facing=east,open=false,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_0",
+      "y": 90
+    },
+    "facing=south,open=false,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_0",
+      "y": 180
+    },
+    "facing=west,open=false,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_0",
+      "y": 270
+    },
+    "facing=north,open=false,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_1",
+      "y": 0
+    },
+    "facing=east,open=false,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_1",
+      "y": 90
+    },
+    "facing=south,open=false,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_1",
+      "y": 180
+    },
+    "facing=west,open=false,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_1",
+      "y": 270
+    },
+    "facing=north,open=false,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_2",
+      "y": 0
+    },
+    "facing=east,open=false,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_2",
+      "y": 90
+    },
+    "facing=south,open=false,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_2",
+      "y": 180
+    },
+    "facing=west,open=false,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_2",
+      "y": 270
+    },
+    "facing=north,open=false,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_3",
+      "y": 0
+    },
+    "facing=east,open=false,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_3",
+      "y": 90
+    },
+    "facing=south,open=false,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_3",
+      "y": 180
+    },
+    "facing=west,open=false,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_closed_3",
+      "y": 270
+    },
+    "facing=north,open=true,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_0",
+      "y": 0
+    },
+    "facing=east,open=true,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_0",
+      "y": 90
+    },
+    "facing=south,open=true,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_0",
+      "y": 180
+    },
+    "facing=west,open=true,part=0": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_0",
+      "y": 270
+    },
+    "facing=north,open=true,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_1",
+      "y": 0
+    },
+    "facing=east,open=true,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_1",
+      "y": 90
+    },
+    "facing=south,open=true,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_1",
+      "y": 180
+    },
+    "facing=west,open=true,part=1": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_1",
+      "y": 270
+    },
+    "facing=north,open=true,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_2",
+      "y": 0
+    },
+    "facing=east,open=true,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_2",
+      "y": 90
+    },
+    "facing=south,open=true,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_2",
+      "y": 180
+    },
+    "facing=west,open=true,part=2": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_2",
+      "y": 270
+    },
+    "facing=north,open=true,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_3",
+      "y": 0
+    },
+    "facing=east,open=true,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_3",
+      "y": 90
+    },
+    "facing=south,open=true,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_3",
+      "y": 180
+    },
+    "facing=west,open=true,part=3": {
+      "model": "xiantu:block/cloud_jade_cabinet_open_3",
+      "y": 270
+    }
+  }
+}

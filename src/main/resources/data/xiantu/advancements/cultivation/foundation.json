@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/qi",
+  "display": {
+    "icon": {
+      "item": "xiantu:ling_jing"
+    },
+    "title": {
+      "text": "道基初成 · 筑基"
+    },
+    "description": {
+      "text": "首次达到筑基境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "natural_node=false": { "model": "xiantu:block/ore_xingchen_sand" },
+    "natural_node=true": { "model": "xiantu:block/ore_xingchen_sand" }
+  }
+}

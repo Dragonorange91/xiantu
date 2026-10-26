@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "xiantu:block/zi_fu_cedar_log"
+    },
+    "axis=x": {
+      "model": "xiantu:block/zi_fu_cedar_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "xiantu:block/zi_fu_cedar_log",
+      "x": 90
+    }
+  }
+}

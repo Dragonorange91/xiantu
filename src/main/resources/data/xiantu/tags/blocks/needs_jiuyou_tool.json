@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:xuan_jing_ore",
+    "xiantu:di_sui_ore",
+    "xiantu:tian_jing_ore",
+    "xiantu:jiuyou_iron_ore",
+    "xiantu:taiyi_gold_ore",
+    "xiantu:zifu_silver_ore",
+    "xiantu:ore_xingyun_sand",
+    "xiantu:hellfire_stone_ore",
+    "xiantu:tribulation_stone_ore"
+  ]
+}

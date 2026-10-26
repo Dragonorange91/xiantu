@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "xiantu:block/azure_brick_mossy"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "textures": {
+    "0": "xiantu:block/array_1_stone",
+    "1": "xiantu:block/array_1_wood",
+    "2": "xiantu:block/array_1_metal",
+    "3": "xiantu:block/array_1_base_top",
+    "particle": "xiantu:block/array_1_stone"
+  },
+  "elements": [
+    {
+      "name": "stone_foundation",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            3,
+            16,
+            16
+          ],
+          "texture": "#0",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            16,
+            16
+          ],
+          "texture": "#0",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            3,
+            16,
+            16
+          ],
+          "texture": "#0",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            3,
+            16,
+            16
+          ],
+          "texture": "#0",
+          "cullface": "west"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "inlaid_wood_course",
+      "from": [
+        0,
+        13,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            2,
+            16,
+            3
+          ],
+          "texture": "#1",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            16,
+            3
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            16,
+            3
+          ],
+          "texture": "#1",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            2,
+            16,
+            3
+          ],
+          "texture": "#1",
+          "cullface": "west"
+        }
+      }
+    },
+    {
+      "name": "etched_conductive_plate",
+      "from": [
+        0,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#2",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#2",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#2",
+          "cullface": "west"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3",
+          "cullface": "up"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}

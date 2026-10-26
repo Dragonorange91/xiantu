@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "xiantu:block/cloud_floating_stone_cracked",
+    "top": "xiantu:block/cloud_floating_stone_cracked",
+    "side": "xiantu:block/cloud_floating_stone_cracked"
+  }
+}

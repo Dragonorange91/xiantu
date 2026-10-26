@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:dark_forest",
+    "#xiantu:spirit_wood/vanilla_forests"
+  ]
+}

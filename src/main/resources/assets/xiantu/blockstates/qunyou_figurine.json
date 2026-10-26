@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/qunyou_figurine"
+    },
+    "facing=east": {
+      "model": "xiantu:block/qunyou_figurine"
+    },
+    "facing=south": {
+      "model": "xiantu:block/qunyou_figurine"
+    },
+    "facing=west": {
+      "model": "xiantu:block/qunyou_figurine"
+    }
+  }
+}

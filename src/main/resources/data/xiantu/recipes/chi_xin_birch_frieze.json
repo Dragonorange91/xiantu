@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:chi_xin_birch_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:chi_xin_birch_frieze",
+    "count": 6
+  }
+}

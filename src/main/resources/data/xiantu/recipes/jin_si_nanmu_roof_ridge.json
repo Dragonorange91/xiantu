@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:jin_si_nanmu_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_roof_ridge",
+    "count": 6
+  }
+}

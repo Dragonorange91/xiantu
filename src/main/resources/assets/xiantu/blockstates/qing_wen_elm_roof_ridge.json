@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/qing_wen_elm_roof_ridge",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "xiantu:block/qing_wen_elm_roof_ridge",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "xiantu:block/qing_wen_elm_roof_ridge",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "xiantu:block/qing_wen_elm_roof_ridge",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

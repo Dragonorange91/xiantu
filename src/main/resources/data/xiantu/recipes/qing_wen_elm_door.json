@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:qing_wen_elm_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_door",
+    "count": 3
+  }
+}

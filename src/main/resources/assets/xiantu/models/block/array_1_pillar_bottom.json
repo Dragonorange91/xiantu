@@ -1,0 +1,858 @@
+{
+  "format_version": "26.3",
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:block/block",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "0": "xiantu:block/array_1_stone",
+    "1": "xiantu:block/array_1_metal",
+    "2": "xiantu:block/array_1_wood",
+    "3": "xiantu:block/array_1_pillar_side",
+    "particle": "xiantu:block/array_1_stone"
+  },
+  "elements": [
+    {
+      "name": "carved_plinth_center",
+      "from": [
+        3.8,
+        0,
+        1
+      ],
+      "to": [
+        12.2,
+        1.5,
+        15
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          3.8,
+          0,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            14,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            14,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            14
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            14
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "carved_plinth_west",
+      "from": [
+        1,
+        0,
+        3.8
+      ],
+      "to": [
+        3.8,
+        1.5,
+        12.2
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          1,
+          0,
+          3.8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            8.4
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            8.4
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "carved_plinth_east",
+      "from": [
+        12.2,
+        0,
+        3.8
+      ],
+      "to": [
+        15,
+        1.5,
+        12.2
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          12.2,
+          0,
+          3.8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8.4,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            8.4
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.8,
+            8.4
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "bronze_plinth_center",
+      "from": [
+        4.25,
+        1.5,
+        1.75
+      ],
+      "to": [
+        11.75,
+        2.25,
+        14.25
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          4.25,
+          1.5,
+          1.75
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            12.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            12.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "bronze_plinth_west",
+      "from": [
+        1.75,
+        1.5,
+        4.25
+      ],
+      "to": [
+        4.25,
+        2.25,
+        11.75
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          1.75,
+          1.5,
+          4.25
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            7.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "bronze_plinth_east",
+      "from": [
+        11.75,
+        1.5,
+        4.25
+      ],
+      "to": [
+        14.25,
+        2.25,
+        11.75
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          11.75,
+          1.5,
+          4.25
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            7.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "recessed_wood_socket_center",
+      "from": [
+        5,
+        2.25,
+        3
+      ],
+      "to": [
+        11,
+        3,
+        13
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5,
+          2.25,
+          3
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            6,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            6,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            6,
+            10
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            10
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "recessed_wood_socket_west",
+      "from": [
+        3,
+        2.25,
+        5
+      ],
+      "to": [
+        5,
+        3,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          3,
+          2.25,
+          5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            6
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            6
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "recessed_wood_socket_east",
+      "from": [
+        11,
+        2.25,
+        5
+      ],
+      "to": [
+        13,
+        3,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          11,
+          2.25,
+          5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            0.75
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            6
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            6
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "inscribed_shaft",
+      "from": [
+        5,
+        3,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5,
+          3,
+          5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            6,
+            13
+          ],
+          "texture": "#3"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            13
+          ],
+          "texture": "#3"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            6,
+            13
+          ],
+          "texture": "#3"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            13
+          ],
+          "texture": "#3"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ],
+          "texture": "#3"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ],
+          "texture": "#3"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}

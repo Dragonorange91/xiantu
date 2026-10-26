@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "xiantu_original_observatory_core",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "xiantu:chests/ruins/tier_7_core_thunder"
+        }
+      ]
+    },
+    {
+      "name": "xiantu_nine_heaven_cloud_silk",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xiantu:nine_heaven_cloud_silk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

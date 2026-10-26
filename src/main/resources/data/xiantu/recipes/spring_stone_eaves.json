@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B ",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:spring_stone"
+    }
+  },
+  "result": {
+    "item": "xiantu:spring_stone_eaves",
+    "count": 6
+  }
+}

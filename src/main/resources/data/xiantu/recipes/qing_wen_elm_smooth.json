@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:qing_wen_elm_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:qing_wen_elm_smooth",
+    "count": 4
+  }
+}

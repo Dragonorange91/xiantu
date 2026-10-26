@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:cloud_jade"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_jade_smooth",
+    "count": 4
+  }
+}

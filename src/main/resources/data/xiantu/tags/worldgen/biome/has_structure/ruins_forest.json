@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:swamp",
+    "minecraft:bamboo_jungle",
+    "xiantu:spirit_medicine_plain"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PIP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "xiantu:ancient_burial_coffin"
+  }
+}

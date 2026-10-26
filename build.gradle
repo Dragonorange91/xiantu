@@ -1,0 +1,559 @@
+buildscript {
+    repositories { maven { url = 'https://repo.spongepowered.org/repository/maven-public/' } }
+    dependencies { classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT' }
+}
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+apply plugin: 'org.spongepowered.mixin'
+mixin { add sourceSets.main, 'xiantu.refmap.json'; config 'xiantu.mixins.json' }
+def pythonExecutable = providers.gradleProperty('pythonCommand').orElse('py').get()
+def pythonLauncherArgs = pythonExecutable == 'py' ? ['-3'] : []
+group = 'com.longju.xiantu'
+version = '0.1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods { xiantu { source sourceSets.main } }
+        }
+        client { args '--username', 'Dev' }
+        server { args '--nogui' }
+    }
+}
+// Official API for compilation only. The pinned, optimized runtime is nested below.
+repositories {
+    flatDir { dirs 'libs' }
+    maven { url = 'https://maven.minecraftforge.net' }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.26'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    implementation fg.deobf('org.lytharalab.gfbs:gfbs_gltf:1.5.1:all')
+    implementation fg.deobf('com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.11')
+    // Optional client API only. Photon supplies its own nested LDLib at runtime.
+    compileOnly files('libs/photon-forge-1.20.1-1.1.17.jar', 'libs/ldlib-forge-1.20.1-1.0.42.jar')
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.register('verifyRefining', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.refining.RefiningRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyRefining' }
+
+tasks.register('verifyTradeEconomy', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.trade.TradeEconomyRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTradeEconomy' }
+
+tasks.register('verifyInstanceFoundation', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.instance.InstanceRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyInstanceFoundation' }
+
+tasks.register('verifyWeaponAttackMotion', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.client.equipment.WeaponAttackRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyWeaponAttackMotion' }
+
+tasks.register('verifyBeastAnimationClock', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.client.BeastAnimationClockRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyBeastAnimationClock' }
+tasks.register('verifyBeastSkinPatches', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/skin_patch_contract.py' }
+tasks.named('check') { dependsOn 'verifyBeastSkinPatches' }
+tasks.register('verifyAlchemyCrafting', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.alchemy.AlchemyCraftingRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyAlchemyCrafting' }
+tasks.register('verifySpells', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.spell.SpellRulesRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifySpells' }
+tasks.register('verifyGreatFireball', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.spell.GreatFireballRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyGreatFireball' }
+jar { manifest { attributes(['Specification-Title':'仙途','Specification-Vendor':'龙橘','Specification-Version':'1','Implementation-Title':project.name,'Implementation-Version':project.jar.archiveVersion,'Implementation-Vendor':'龙橘']) } }
+
+// Forge Jar-in-Jar layout, copied without unpacking or remapping GFBS. This also
+// preserves its own six nested libraries and mixin manifest. Keep the normal
+// reobfJar release path; the separate QA mod must not embed a second runtime.
+def embeddedGfbsResources = layout.buildDirectory.dir('generated/gfbs-embedded')
+tasks.register('prepareEmbeddedGfbs', Exec) {
+    inputs.files('libs/gfbs_gltf-1.5.1-xiantu-optimized.jar',
+            'libs/GFBS-glTF-LICENSE.txt', 'tools/prepare_embedded_gfbs.py',
+            'tools/verify_gfbs_runtime.py')
+    outputs.dir(embeddedGfbsResources)
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/prepare_embedded_gfbs.py',
+            '--output', embeddedGfbsResources.get().asFile.absolutePath
+}
+tasks.named('jar', Jar) {
+    dependsOn 'prepareEmbeddedGfbs'
+    from(embeddedGfbsResources)
+}
+tasks.register('verifyEmbeddedGfbsSource', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_gfbs_runtime.py', '--source-only'
+}
+tasks.named('check') { dependsOn 'verifyEmbeddedGfbsSource' }
+
+tasks.register('verifyMedicine', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.alchemy.MedicineRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifyMedicineIntegration', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.medicine.MedicineIntegrationRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifyFormation', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.formation.FormationRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifyRealm', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.cultivation.RealmRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifySpiritStones', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.item.SpiritStoneTierRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifySpiritStoneAssets', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.item.SpiritStoneAssetRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifySpiritOreMining', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.mining.SpiritOreMiningRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifySpiritOreWorldgen', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.mining.SpiritOreWorldgenRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifySpiritStoneAbsorption', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.item.SpiritStoneAbsorptionRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifyReincarnationStone', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.item.ReincarnationStoneRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') {
+    dependsOn 'verifyItemGlb'
+    dependsOn 'verifyReincarnationStoneGlb'
+    dependsOn 'verifyBuildingMaterialResources'
+    dependsOn 'verifyMedicineIntegrationAssets'
+    dependsOn 'verifyMedicine', 'verifyMedicineIntegration', 'verifyFormation', 'verifyRealm', 'verifySpiritStones',
+            'verifySpiritStoneAssets', 'verifySpiritOreMining', 'verifySpiritOreWorldgen',
+            'verifySpiritStoneAbsorption', 'verifyReincarnationStone'
+}
+
+tasks.register('verifyBuildingMaterialResources', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_building_material_resources.py'
+}
+tasks.register('verifyTownMaterials', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_town_materials.py'
+}
+tasks.named('check') { dependsOn 'verifyTownMaterials' }
+tasks.register('verifyMedicineIntegrationAssets', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_medicine_integration.py'
+}
+tasks.register('verifyItemGlb', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_item_glb.py'
+}
+
+tasks.register('verifyQunyouFigurine', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_qunyou_figurine.py'
+}
+tasks.named('check') { dependsOn 'verifyQunyouFigurine' }
+
+tasks.register('verifyReincarnationStoneGlb', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_reincarnation_stone_glb.py'
+}
+
+tasks.register('verifyPickaxeGlb') {
+    dependsOn 'verifyItemGlb'
+}
+
+tasks.register('verifyMeditationCushionUv', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_meditation_cushion_uv.py' }
+tasks.named('check') { dependsOn 'verifyMeditationCushionUv' }
+
+// Disposable in-game integration harness, excluded from the single release mod.
+sourceSets {
+    qa {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+tasks.register('qaJar', Jar) {
+    archiveBaseName = 'xiantu-qa'
+    from sourceSets.qa.output
+}
+reobf { qaJar {} }
+tasks.named('qaJar').configure { finalizedBy 'reobfQaJar' }
+
+tasks.register('verifySpiritWoodResources', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_spirit_wood_resources.py' }
+tasks.named('check') { dependsOn 'verifySpiritWoodResources' }
+
+tasks.register("verifyMaterialAppraisal", Exec) { commandLine pythonExecutable, *pythonLauncherArgs, "tools/verify_material_appraisal.py" }
+tasks.named("check") { dependsOn "verifyMaterialAppraisal" }
+tasks.register('verifyGongfa', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.gongfa.GongfaRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyGongfa' }
+
+tasks.register('verifyPhysique', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.cultivation.PhysiqueRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyPhysique' }
+
+tasks.register('verifyInnerDemon', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.cultivation.InnerDemonRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.register('verifyThunderTribulation', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.cultivation.ThunderTribulationRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyInnerDemon', 'verifyThunderTribulation' }
+tasks.register('verifyTerrainAssets', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_terrain_assets.py' }
+tasks.named('check') { dependsOn 'verifyTerrainAssets' }
+tasks.register('verifyMeteoriteWorldgen', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.worldgen.MeteoriteWorldgenRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyMeteoriteWorldgen' }
+tasks.register('verifyTerrainBiomeClimate', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.terrain.TerrainBiomeClimateRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTerrainBiomeClimate' }
+tasks.register('verifySpiritWoodWorldgen', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.wood.SpiritWoodWorldgenRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifySpiritWoodWorldgen' }
+tasks.register('verifyTownBlueprintMaterials', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_town_blueprint_materials.py' }
+tasks.register('verifySpiritTreeGeometry', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.wood.SpiritTreeGeometryRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTownBlueprintMaterials', 'verifySpiritTreeGeometry' }
+tasks.register('verifyMedicineWorldgen', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_medicine_worldgen.py'
+}
+tasks.named('check') { dependsOn 'verifyMedicineWorldgen' }
+tasks.register('verifyMedicineAssets', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_medicine_assets.py', '--check-only'
+}
+tasks.named('check') { dependsOn 'verifyMedicineAssets' }
+tasks.register('verifyMetalMaterials', Exec) {
+    commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_metal_material_integration.py'
+}
+tasks.named('check') { dependsOn 'verifyMetalMaterials' }
+tasks.register('buildYanweiFoxStaticLod', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/build_yanwei_fox_static_lod.py' }
+processResources.dependsOn 'buildYanweiFoxStaticLod'
+tasks.register('verifyYanweiFox', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_yanwei_fox.py' }
+tasks.named('check') { dependsOn 'verifyYanweiFox' }
+tasks.register('verifyCrackedBladeWolf', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_cracked_blade_wolf.py' }
+tasks.named('check') { dependsOn 'verifyCrackedBladeWolf' }
+tasks.register('verifyPeacefulBeastTesting', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_peaceful_beast_testing.py' }
+tasks.named('check') { dependsOn 'verifyPeacefulBeastTesting' }
+
+tasks.register('verifyColdFangWolf', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_cold_fang_wolf.py' }
+tasks.named('check') { dependsOn 'verifyColdFangWolf' }
+tasks.register('verifyThunderRaven', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_thunder_raven.py' }
+tasks.named('check') { dependsOn 'verifyThunderRaven' }
+
+tasks.register('verifyVineDeer', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_vine_deer.py' }
+tasks.named('check') { dependsOn 'verifyVineDeer' }
+
+tasks.register('verifyThunderDeer', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_thunder_deer.py' }
+tasks.named('check') { dependsOn 'verifyThunderDeer' }
+
+tasks.register('verifyMossBear', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_moss_bear.py' }
+tasks.named('check') { dependsOn 'verifyMossBear' }
+
+tasks.register('verifyIronBadger', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_iron_badger.py' }
+tasks.named('check') { dependsOn 'verifyIronBadger' }
+
+tasks.register('verifyRockBoar', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_rock_boar.py' }
+tasks.named('check') { dependsOn 'verifyRockBoar' }
+
+tasks.register('verifyMountainBear', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_mountain_bear.py' }
+tasks.named('check') { dependsOn 'verifyMountainBear' }
+
+tasks.register('verifyThickHornRhino', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_thick_horn_rhino.py' }
+tasks.named('check') { dependsOn 'verifyThickHornRhino' }
+
+tasks.register('verifyGoldManeLion', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_gold_mane_lion.py' }
+tasks.named('check') { dependsOn 'verifyGoldManeLion' }
+
+tasks.register('verifyRedSunLion', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_red_sun_lion.py' }
+tasks.named('check') { dependsOn 'verifyRedSunLion' }
+
+tasks.register('verifyMotionReadability', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_motion_readability.py' }
+tasks.named('check') { dependsOn 'verifyMotionReadability' }
+
+tasks.register('verifyCompletionModels', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_completion_models.py' }
+tasks.named('check') { dependsOn 'verifyCompletionModels' }
+
+tasks.register('verifyElementalCombat', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.combat.ElementalRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyElementalCombat' }
+
+tasks.register('verifyBossCombat', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.entity.BossCombatRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyBossCombat' }
+
+tasks.register('verifyPhotonV10', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_photon_v10.py' }
+tasks.named('check') { dependsOn 'verifyPhotonV10' }
+
+tasks.register('verifyTownTerrain', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.worldgen.TownTerrainRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTownTerrain' }
+
+tasks.register('verifyTerrainWholeCells', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.terrain.TerrainWholeCellRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTerrainWholeCells' }
+
+tasks.register('verifyBeastResources', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.entity.BeastResourceRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyBeastResources' }
+
+tasks.register('verifyResourceRevision', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_resource_revision_20261020.py' }
+tasks.named('check') { dependsOn 'verifyResourceRevision' }
+
+tasks.register('verifyBeastRealms', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.entity.BeastRealmRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyBeastRealms' }
+
+tasks.register('verifyWorkstationPlantResources', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_workstation_plant_resources.py' }
+tasks.named('check') { dependsOn 'verifyWorkstationPlantResources' }
+
+
+tasks.register('verifyChunkAura', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.formation.ChunkAuraRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyChunkAura' }
+
+tasks.register('verifyCultivationPacing', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.cultivation.CultivationPacingRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyCultivationPacing' }
+
+tasks.register('verifyRuinMaterials', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_ruin_materials_20261020.py' }
+tasks.named('check') { dependsOn 'verifyRuinMaterials' }
+
+tasks.register('verifyEquipmentSamples', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_equipment_samples.py' }
+tasks.named('check') { dependsOn 'verifyEquipmentSamples' }
+
+tasks.register('verifyEquipmentBatch', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_equipment_batch_runtime.py' }
+tasks.named('check') { dependsOn 'verifyEquipmentBatch' }
+tasks.register('verifyRuinIntegration', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.worldgen.RuinIntegrationRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+check.dependsOn tasks.named('verifyRuinIntegration')
+
+tasks.register('verifyRuinInteriors', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_ruin_interiors_20261025.py' }
+check.dependsOn tasks.named('verifyRuinInteriors')
+tasks.register('verifyRuinStructuralRepairs', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_three_ruins_20261025.py' }
+check.dependsOn tasks.named('verifyRuinStructuralRepairs')
+tasks.register('verifyManualProjectionRevision', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_manual_projection_20261025.py' }
+check.dependsOn tasks.named('verifyManualProjectionRevision')
+
+tasks.register("verifyPillResources", Exec) { commandLine pythonExecutable, *pythonLauncherArgs, "tools/verify_pills.py" }
+tasks.named("check") { dependsOn "verifyPillResources" }
+tasks.register("verifyCraftingTreatises", Exec) { commandLine pythonExecutable, *pythonLauncherArgs, "tools/verify_crafting_treatises.py" }
+tasks.named("check") { dependsOn "verifyCraftingTreatises" }
+
+tasks.register("verifyInstanceResources", Exec) { commandLine pythonExecutable, *pythonLauncherArgs, "tools/verify_instance_resources.py" }
+tasks.named("check") { dependsOn "verifyInstanceResources" }
+tasks.register("verifyWeaponSkills", Exec) { commandLine pythonExecutable, *pythonLauncherArgs, "tools/verify_weapon_skill_settings.py" }
+tasks.named("check") { dependsOn "verifyWeaponSkills" }
+
+tasks.register("verifyRealmNativeWorldgen", Exec) { commandLine pythonExecutable, *pythonLauncherArgs, "tools/verify_realm_native_worldgen.py" }
+tasks.named("check") { dependsOn "verifyRealmNativeWorldgen" }
+
+tasks.register('verifyTalismanCinnabarArt', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_talisman_cinnabar_art_20261025.py' }
+tasks.named('check') { dependsOn 'verifyTalismanCinnabarArt' }
+
+tasks.register('verifyTalismanTomes', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.talisman.TalismanTomesRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTalismanTomes' }
+
+tasks.register('verifyTalismanGlyphs', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.talisman.TalismanGlyphRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyTalismanGlyphs' }
+
+tasks.register('verifyTalismanSimplification', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_talisman_simplification_20261025.py' }
+tasks.named('check') { dependsOn 'verifyTalismanSimplification' }
+
+tasks.register('verifyHeldItemEdges', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_held_item_edges_20261025.py' }
+tasks.named('check') { dependsOn 'verifyHeldItemEdges' }
+
+tasks.register('verifySpellIcons', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_spell_icons_20261025.py' }
+tasks.named('check') { dependsOn 'verifySpellIcons' }
+
+tasks.register('verifyBossFlight', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.entity.BossFlightRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyBossFlight' }
+
+tasks.register('verifySwordFlightPrediction', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.spell.SwordFlightPredictionRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifySwordFlightPrediction' }
+
+tasks.register('verifyStudyBookAssets', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_gongfa_book_assets.py' }
+tasks.named('check') { dependsOn 'verifyStudyBookAssets' }
+
+tasks.register('verifyFormationQiFlow', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.formation.FormationQiFlowRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifyFormationQiFlow' }
+
+tasks.register('verifyRuinLootWindows', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_ruin_loot_windows_20261025.py' }
+tasks.named('check') { dependsOn 'verifyRuinLootWindows' }
+
+tasks.register('verifyEarlyGongfaLoot', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/sync_early_gongfa_loot.py', '--check' }
+tasks.named('check') { dependsOn 'verifyEarlyGongfaLoot' }
+
+
+tasks.register('verifySupportSpells', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.longju.xiantu.spell.SupportSpellRegression'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+}
+tasks.named('check') { dependsOn 'verifySupportSpells' }
+
+tasks.register('verifyBeastAnatomy', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/beast_anatomy_contract.py' }
+tasks.named('check') { dependsOn 'verifyBeastAnatomy' }
+
+tasks.register('verifyCombatArtResources', Exec) { commandLine pythonExecutable, *pythonLauncherArgs, 'tools/verify_combat_art_resources.py' }
+tasks.named('check') { dependsOn 'verifyCombatArtResources' }
+
+// Code and asset licensing remain distinct in the release artifact.
+tasks.named('jar', Jar) {
+    from(project.files('LICENSE', 'ASSET_LICENSE.md', 'THIRD_PARTY_NOTICES.md')) { into 'META-INF' }
+}

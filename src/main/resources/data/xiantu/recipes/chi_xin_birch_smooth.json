@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:chi_xin_birch_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:chi_xin_birch_smooth",
+    "count": 4
+  }
+}

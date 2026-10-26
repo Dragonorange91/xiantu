@@ -1,0 +1,392 @@
+{
+  "size": [
+    145,
+    40,
+    133
+  ],
+  "center": [
+    72,
+    66
+  ],
+  "plaza": [
+    59,
+    53,
+    85,
+    79
+  ],
+  "placements": [
+    {
+      "id": "wanbao_pavilion",
+      "origin": [
+        12,
+        0,
+        12
+      ],
+      "rotation": 180
+    },
+    {
+      "id": "forging_shop",
+      "origin": [
+        92,
+        0,
+        12
+      ],
+      "rotation": 180
+    },
+    {
+      "id": "alchemy_pavilion",
+      "origin": [
+        11,
+        0,
+        86
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "talisman_workshop",
+      "origin": [
+        93,
+        0,
+        86
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        54,
+        0,
+        18
+      ],
+      "rotation": 90
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        76,
+        0,
+        18
+      ],
+      "rotation": 270
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        54,
+        0,
+        98
+      ],
+      "rotation": 90
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        76,
+        0,
+        98
+      ],
+      "rotation": 270
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        12,
+        0,
+        48
+      ],
+      "rotation": 180
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        116,
+        0,
+        48
+      ],
+      "rotation": 180
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        12,
+        0,
+        70
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "residence_small",
+      "origin": [
+        116,
+        0,
+        70
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "market_gate",
+      "origin": [
+        61,
+        0,
+        0
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "market_gate",
+      "origin": [
+        61,
+        0,
+        116
+      ],
+      "rotation": 180
+    }
+  ],
+  "plots": [
+    [
+      59,
+      53,
+      85,
+      79
+    ],
+    [
+      12,
+      12,
+      52,
+      46
+    ],
+    [
+      92,
+      12,
+      132,
+      46
+    ],
+    [
+      11,
+      86,
+      53,
+      120
+    ],
+    [
+      93,
+      86,
+      133,
+      120
+    ],
+    [
+      54,
+      18,
+      68,
+      34
+    ],
+    [
+      76,
+      18,
+      90,
+      34
+    ],
+    [
+      54,
+      98,
+      68,
+      114
+    ],
+    [
+      76,
+      98,
+      90,
+      114
+    ],
+    [
+      12,
+      48,
+      28,
+      62
+    ],
+    [
+      116,
+      48,
+      132,
+      62
+    ],
+    [
+      12,
+      70,
+      28,
+      84
+    ],
+    [
+      116,
+      70,
+      132,
+      84
+    ],
+    [
+      4,
+      4,
+      9,
+      9
+    ],
+    [
+      135,
+      4,
+      140,
+      9
+    ],
+    [
+      4,
+      123,
+      9,
+      128
+    ],
+    [
+      135,
+      123,
+      140,
+      128
+    ],
+    [
+      61,
+      0,
+      83,
+      16
+    ],
+    [
+      61,
+      116,
+      83,
+      132
+    ],
+    [
+      40,
+      81,
+      46,
+      85
+    ],
+    [
+      98,
+      81,
+      104,
+      85
+    ],
+    [
+      53,
+      42,
+      57,
+      46
+    ],
+    [
+      87,
+      42,
+      91,
+      46
+    ],
+    [
+      53,
+      87,
+      57,
+      91
+    ],
+    [
+      87,
+      87,
+      91,
+      91
+    ],
+    [
+      40,
+      59,
+      44,
+      63
+    ],
+    [
+      100,
+      59,
+      104,
+      63
+    ]
+  ],
+  "trees": [
+    [
+      55,
+      44
+    ],
+    [
+      89,
+      44
+    ],
+    [
+      55,
+      89
+    ],
+    [
+      89,
+      89
+    ],
+    [
+      42,
+      61
+    ],
+    [
+      102,
+      61
+    ]
+  ],
+  "ponds": [
+    [
+      43,
+      83
+    ],
+    [
+      101,
+      83
+    ]
+  ],
+  "merchants": [
+    {
+      "profession": "wanbao_merchant",
+      "position": [
+        32,
+        2,
+        24
+      ],
+      "yaw": 0
+    },
+    {
+      "profession": "smith_merchant",
+      "position": [
+        117,
+        2,
+        22
+      ],
+      "yaw": 0
+    },
+    {
+      "profession": "alchemy_merchant",
+      "position": [
+        32,
+        2,
+        108
+      ],
+      "yaw": 180
+    },
+    {
+      "profession": "talisman_merchant",
+      "position": [
+        109,
+        2,
+        110
+      ],
+      "yaw": 180
+    },
+    {
+      "profession": "town_guide",
+      "position": [
+        66,
+        1,
+        72
+      ],
+      "yaw": 0
+    }
+  ]
+}

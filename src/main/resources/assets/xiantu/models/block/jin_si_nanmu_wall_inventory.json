@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "xiantu:block/jin_si_nanmu_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "xiantu:item/gongfa_study/template_left",
+  "textures": {
+    "0": "xiantu:item/tai_shang_yan_dao_jing_cover",
+    "1": "xiantu:item/tai_shang_yan_dao_jing_cloth"
+  }
+}

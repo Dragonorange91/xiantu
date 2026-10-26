@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "xiantu:block/black_rock_smooth",
+    "top": "xiantu:block/black_rock_roof",
+    "side": "xiantu:block/black_rock_roof"
+  }
+}

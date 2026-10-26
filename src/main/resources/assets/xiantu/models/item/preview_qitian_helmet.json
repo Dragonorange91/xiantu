@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiantu:item/equipment_preview/preview_qitian_helmet"
+  }
+}

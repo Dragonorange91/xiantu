@@ -1,0 +1,14 @@
+{
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "xiantu:item/kaitian_refining_furnace_held"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "xiantu:item/workstations/kaitian_refining_furnace"
+      }
+    }
+  }
+}

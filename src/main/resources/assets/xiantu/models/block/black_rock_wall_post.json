@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "xiantu:block/xuan_rock_formation_stone"
+  }
+}

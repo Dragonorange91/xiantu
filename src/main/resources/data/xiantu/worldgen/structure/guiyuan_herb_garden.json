@@ -1,0 +1,8 @@
+{
+  "type": "xiantu:adventure_ruin",
+  "blueprint": "guiyuan_herb_garden",
+  "biomes": "#xiantu:has_structure/ruins_forest",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

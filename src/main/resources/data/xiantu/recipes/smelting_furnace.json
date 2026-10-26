@@ -1,0 +1,37 @@
+{
+  "type": "xiantu:facility_crafting",
+  "category": "misc",
+  "facility": "smelting_furnace",
+  "ingredients": [
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    }
+  ],
+  "result": {
+    "item": "xiantu:smelting_furnace"
+  }
+}

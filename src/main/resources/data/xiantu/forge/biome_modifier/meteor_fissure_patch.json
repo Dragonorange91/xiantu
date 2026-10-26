@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/meteor_wasteland",
+  "features": ["xiantu:meteor_fissure_patch"],
+  "step": "vegetal_decoration"
+}

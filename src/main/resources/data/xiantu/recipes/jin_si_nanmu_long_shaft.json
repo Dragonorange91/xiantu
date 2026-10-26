@@ -1,0 +1,17 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:jin_si_nanmu_stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_long_shaft",
+    "count": 1
+  },
+  "wood": "jin_si_nanmu"
+}

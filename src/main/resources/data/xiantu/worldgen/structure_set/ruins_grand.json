@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "xiantu:fallen_cultivator_necropolis",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "salt": 19794003
+  }
+}

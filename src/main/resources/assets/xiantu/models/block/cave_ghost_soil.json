@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xiantu:block/cave_ghost_soil"
+  }
+}

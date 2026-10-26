@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "xiantu:block/cloud_jade_carved",
+    "top": "xiantu:block/cloud_jade_carved",
+    "side": "xiantu:block/cloud_jade_carved"
+  }
+}

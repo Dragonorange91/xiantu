@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xing_wen_wutong_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:xing_wen_wutong_smooth_slab",
+    "count": 6
+  }
+}

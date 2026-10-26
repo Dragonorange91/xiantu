@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:jin_si_nanmu_eaves"
+    }
+  },
+  "result": {
+    "item": "xiantu:jin_si_nanmu_eaves_corner",
+    "count": 2
+  }
+}

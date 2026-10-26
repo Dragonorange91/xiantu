@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:cloud_jade"
+    },
+    {
+      "item": "xiantu:cloud_jade"
+    },
+    {
+      "item": "minecraft:calcite"
+    }
+  ],
+  "result": {
+    "item": "xiantu:cloud_floating_stone",
+    "count": 4
+  }
+}

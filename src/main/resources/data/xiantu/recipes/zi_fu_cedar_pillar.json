@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_fu_cedar_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_fu_cedar_pillar",
+    "count": 2
+  }
+}

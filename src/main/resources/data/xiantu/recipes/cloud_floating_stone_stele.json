@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:cloud_floating_stone_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_floating_stone_stele",
+    "count": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "xiantu:block/cloud_pattern_jade_stone"
+  }
+}

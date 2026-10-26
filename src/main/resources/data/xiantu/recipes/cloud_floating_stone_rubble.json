@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:cloud_floating_stone_broken_pillar"
+    }
+  ],
+  "result": {
+    "item": "xiantu:cloud_floating_stone_rubble",
+    "count": 1
+  }
+}

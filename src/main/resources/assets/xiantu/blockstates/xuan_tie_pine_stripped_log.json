@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "xiantu:block/xuan_tie_pine_stripped_log"
+    },
+    "axis=x": {
+      "model": "xiantu:block/xuan_tie_pine_stripped_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "xiantu:block/xuan_tie_pine_stripped_log",
+      "x": 90
+    }
+  }
+}

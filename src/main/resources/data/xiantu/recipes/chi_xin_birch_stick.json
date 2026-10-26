@@ -1,0 +1,17 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:chi_xin_birch_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:chi_xin_birch_stick",
+    "count": 4
+  },
+  "wood": "chi_xin_birch"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "xiantu:block/qing_wen_elm_planks",
+    "top": "xiantu:block/qing_wen_elm_planks",
+    "side": "xiantu:block/qing_wen_elm_planks"
+  }
+}

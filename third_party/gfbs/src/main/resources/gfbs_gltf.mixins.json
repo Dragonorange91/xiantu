@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.lytharalab.gfbs.gltf.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "gfbs_gltf.refmap.json",
+  "mixins": [
+    "EntityCollisionMixin"
+  ],
+  "client": [
+    "RenderSystemAccessor",
+    "FrustumInvoker",
+    "VertexBufferAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

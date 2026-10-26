@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:tian_qiong_sandalwood_slab"
+    }
+  },
+  "result": {
+    "item": "xiantu:tian_qiong_sandalwood_carved",
+    "count": 1
+  }
+}

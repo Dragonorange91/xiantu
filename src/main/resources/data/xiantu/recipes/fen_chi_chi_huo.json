@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": {
+    "item": "xiantu:fen_chi_chi_huo",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

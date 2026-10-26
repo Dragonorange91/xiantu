@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiantu:item/talisman_long_return"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -10,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.58,
+        0.58
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        10,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.58,
+        0.58
+      ]
+    }
+  }
+}

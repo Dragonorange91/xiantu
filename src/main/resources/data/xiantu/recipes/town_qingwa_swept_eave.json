@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "xiantu:town_cyan_roof"
+  },
+  "result": "xiantu:town_qingwa_swept_eave",
+  "count": 1
+}

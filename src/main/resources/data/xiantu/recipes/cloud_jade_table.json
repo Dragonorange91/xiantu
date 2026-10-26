@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "S S"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:cloud_jade_carved"
+    },
+    "S": {
+      "item": "xiantu:cloud_jade_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:cloud_jade_table",
+    "count": 1
+  }
+}

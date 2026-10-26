@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/spirit",
+  "display": {
+    "icon": {
+      "item": "xiantu:tian_jing"
+    },
+    "title": {
+      "text": "炼虚问道 · 炼虚"
+    },
+    "description": {
+      "text": "首次达到炼虚境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

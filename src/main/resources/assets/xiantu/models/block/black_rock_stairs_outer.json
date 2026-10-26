@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "xiantu:block/xuan_rock_formation_stone",
+    "top": "xiantu:block/xuan_rock_formation_stone",
+    "side": "xiantu:block/xuan_rock_formation_stone"
+  }
+}

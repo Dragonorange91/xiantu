@@ -1,0 +1,14 @@
+{
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "xiantu:item/taixu_alchemy_furnace_held"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "xiantu:item/workstations/taixu_alchemy_furnace"
+      }
+    }
+  }
+}

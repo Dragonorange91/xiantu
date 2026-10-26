@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BFB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:chi_xin_birch_planks"
+    },
+    "F": {
+      "item": "xiantu:chi_xin_birch_fiber"
+    }
+  },
+  "result": {
+    "item": "xiantu:chi_xin_birch_bracket",
+    "count": 2
+  }
+}

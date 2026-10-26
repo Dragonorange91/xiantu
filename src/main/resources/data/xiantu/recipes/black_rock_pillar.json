@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:black_rock"
+    }
+  ],
+  "result": {
+    "item": "xiantu:black_rock_pillar",
+    "count": 1
+  }
+}

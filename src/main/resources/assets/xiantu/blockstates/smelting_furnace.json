@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xiantu:block/smelting_furnace",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "xiantu:block/smelting_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xiantu:block/smelting_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xiantu:block/smelting_furnace",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,501 @@
+[
+  {
+    "id": "refining_station_2",
+    "name": "2阶淬火炉升级",
+    "output": "xiantu:cuihuo_refining_furnace",
+    "tier": 2,
+    "furnace": 1,
+    "realm": 1,
+    "upgrade": true,
+    "ingredients": [
+      {
+        "item": "xiantu:chi_xin_birch_planks",
+        "count": 4
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "refining_station_3",
+    "name": "3阶百炼炉升级",
+    "output": "xiantu:bailian_refining_furnace",
+    "tier": 3,
+    "furnace": 2,
+    "realm": 2,
+    "upgrade": true,
+    "ingredients": [
+      {
+        "item": "xiantu:zi_wen_maple_planks",
+        "count": 4
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "refining_station_4",
+    "name": "4阶天工炉升级",
+    "output": "xiantu:tiangong_refining_furnace",
+    "tier": 4,
+    "furnace": 3,
+    "realm": 3,
+    "upgrade": true,
+    "ingredients": [
+      {
+        "item": "xiantu:xuan_tie_pine_planks",
+        "count": 4
+      },
+      {
+        "item": "xiantu:jiuyou_iron_ingot",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "refining_station_5",
+    "name": "5阶造化炉升级",
+    "output": "xiantu:zaohua_refining_furnace",
+    "tier": 5,
+    "furnace": 4,
+    "realm": 4,
+    "upgrade": true,
+    "ingredients": [
+      {
+        "item": "xiantu:jin_si_nanmu_planks",
+        "count": 4
+      },
+      {
+        "item": "xiantu:taiyi_gold_ingot",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "refining_station_6",
+    "name": "6阶开天炉升级",
+    "output": "xiantu:kaitian_refining_furnace",
+    "tier": 6,
+    "furnace": 5,
+    "realm": 5,
+    "upgrade": true,
+    "ingredients": [
+      {
+        "item": "xiantu:zi_fu_cedar_planks",
+        "count": 4
+      },
+      {
+        "item": "xiantu:zifu_silver_ingot",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "alchemy_furnace_1",
+    "name": "1阶青木丹炉",
+    "output": "xiantu:qingmu_alchemy_furnace",
+    "tier": 1,
+    "furnace": 1,
+    "realm": 0,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:qing_wen_elm_planks",
+        "count": 3
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 3
+      },
+      {
+        "item": "minecraft:cobblestone",
+        "count": 2
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "alchemy_furnace_2",
+    "name": "2阶赤炎丹炉",
+    "output": "xiantu:chiyan_alchemy_furnace",
+    "tier": 2,
+    "furnace": 2,
+    "realm": 1,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:qingmu_alchemy_furnace",
+        "count": 1
+      },
+      {
+        "item": "xiantu:chi_xin_birch_planks",
+        "count": 4
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 3
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "alchemy_furnace_3",
+    "name": "3阶紫金炉",
+    "output": "xiantu:zijin_alchemy_furnace",
+    "tier": 3,
+    "furnace": 3,
+    "realm": 2,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:chiyan_alchemy_furnace",
+        "count": 1
+      },
+      {
+        "item": "xiantu:zi_wen_maple_planks",
+        "count": 4
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 3
+      },
+      {
+        "item": "xiantu:purple_pattern_crystal",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "alchemy_furnace_4",
+    "name": "4阶玄天丹炉",
+    "output": "xiantu:xuantian_alchemy_furnace",
+    "tier": 4,
+    "furnace": 4,
+    "realm": 3,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:zijin_alchemy_furnace",
+        "count": 1
+      },
+      {
+        "item": "xiantu:xuan_tie_pine_planks",
+        "count": 4
+      },
+      {
+        "item": "xiantu:jiuyou_iron_ingot",
+        "count": 3
+      },
+      {
+        "item": "xiantu:starlight_stone",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "alchemy_furnace_5",
+    "name": "5阶太虚丹炉",
+    "output": "xiantu:taixu_alchemy_furnace",
+    "tier": 5,
+    "furnace": 5,
+    "realm": 4,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:xuantian_alchemy_furnace",
+        "count": 1
+      },
+      {
+        "item": "xiantu:jin_si_nanmu_planks",
+        "count": 4
+      },
+      {
+        "item": "xiantu:taiyi_gold_ingot",
+        "count": 3
+      },
+      {
+        "item": "xiantu:void_crystal",
+        "count": 1
+      },
+      {
+        "item": "xiantu:beast_bone",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "alchemy_furnace_6",
+    "name": "6阶鸿蒙丹炉",
+    "output": "xiantu:hongmeng_alchemy_furnace",
+    "tier": 6,
+    "furnace": 6,
+    "realm": 5,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:taixu_alchemy_furnace",
+        "count": 1
+      },
+      {
+        "item": "xiantu:zi_fu_cedar_planks",
+        "count": 4
+      },
+      {
+        "item": "xiantu:zifu_silver_ingot",
+        "count": 3
+      },
+      {
+        "item": "xiantu:chaos_crystal",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "array_eye_2",
+    "name": "2级聚灵阵眼",
+    "output": "xiantu:array_eye_2",
+    "tier": 2,
+    "furnace": 2,
+    "realm": 1,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:formation_core",
+        "count": 1
+      },
+      {
+        "item": "xiantu:chisui_copper_ingot",
+        "count": 4
+      },
+      {
+        "item": "xiantu:chi_xin_birch_planks",
+        "count": 2
+      },
+      {
+        "item": "xiantu:ling_jing",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "array_base_2",
+    "name": "2级聚灵阵基",
+    "output": "xiantu:array_base_2",
+    "tier": 2,
+    "furnace": 2,
+    "realm": 1,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_base_1",
+        "count": 4
+      },
+      {
+        "item": "xiantu:chisui_copper_ingot",
+        "count": 2
+      },
+      {
+        "item": "xiantu:chi_xin_birch_planks",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "array_rune_brick_2",
+    "name": "2级聚灵阵纹砖",
+    "output": "xiantu:array_rune_brick_2",
+    "tier": 2,
+    "furnace": 2,
+    "realm": 1,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_rune_brick_1",
+        "count": 4
+      },
+      {
+        "item": "xiantu:chisui_copper_ingot",
+        "count": 1
+      },
+      {
+        "item": "xiantu:chi_xin_birch_planks",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "array_conduit_pillar_2",
+    "name": "2级聚灵导灵柱",
+    "output": "xiantu:array_conduit_pillar_2",
+    "tier": 2,
+    "furnace": 2,
+    "realm": 1,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_conduit_pillar_1",
+        "count": 4
+      },
+      {
+        "item": "xiantu:chisui_copper_ingot",
+        "count": 2
+      },
+      {
+        "item": "xiantu:chi_xin_birch_planks",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "array_eye_3",
+    "name": "3级聚灵阵眼",
+    "output": "xiantu:array_eye_3",
+    "tier": 3,
+    "furnace": 4,
+    "realm": 3,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_eye_2",
+        "count": 1
+      },
+      {
+        "item": "xiantu:jiuyou_iron_ingot",
+        "count": 4
+      },
+      {
+        "item": "xiantu:xuan_tie_pine_planks",
+        "count": 2
+      },
+      {
+        "item": "xiantu:xuan_jing",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "array_base_3",
+    "name": "3级聚灵阵基",
+    "output": "xiantu:array_base_3",
+    "tier": 3,
+    "furnace": 4,
+    "realm": 3,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_base_2",
+        "count": 4
+      },
+      {
+        "item": "xiantu:jiuyou_iron_ingot",
+        "count": 2
+      },
+      {
+        "item": "xiantu:xuan_tie_pine_planks",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "array_rune_brick_3",
+    "name": "3级聚灵阵纹砖",
+    "output": "xiantu:array_rune_brick_3",
+    "tier": 3,
+    "furnace": 4,
+    "realm": 3,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_rune_brick_2",
+        "count": 4
+      },
+      {
+        "item": "xiantu:jiuyou_iron_ingot",
+        "count": 1
+      },
+      {
+        "item": "xiantu:xuan_tie_pine_planks",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "array_conduit_pillar_3",
+    "name": "3级聚灵导灵柱",
+    "output": "xiantu:array_conduit_pillar_3",
+    "tier": 3,
+    "furnace": 4,
+    "realm": 3,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:array_conduit_pillar_2",
+        "count": 4
+      },
+      {
+        "item": "xiantu:jiuyou_iron_ingot",
+        "count": 2
+      },
+      {
+        "item": "xiantu:xuan_tie_pine_planks",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "jiuyou_pickaxe",
+    "name": "九幽镐",
+    "output": "xiantu:jiuyou_pickaxe",
+    "tier": 4,
+    "furnace": 4,
+    "realm": 3,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:zixiao_copper_ingot",
+        "count": 3
+      },
+      {
+        "item": "xiantu:xuan_tie_pine_stick",
+        "count": 1
+      },
+      {
+        "item": "xiantu:hanxing_pickaxe",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "hundun_pickaxe",
+    "name": "混沌镐",
+    "output": "xiantu:hundun_pickaxe",
+    "tier": 7,
+    "furnace": 6,
+    "realm": 6,
+    "upgrade": false,
+    "ingredients": [
+      {
+        "item": "xiantu:zifu_silver_ingot",
+        "count": 3
+      },
+      {
+        "item": "xiantu:xing_wen_wutong_stick",
+        "count": 1
+      },
+      {
+        "item": "xiantu:jiuyou_pickaxe",
+        "count": 1
+      }
+    ]
+  }
+]

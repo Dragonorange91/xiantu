@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/meteor_wasteland",
+  "features": [
+    "xiantu:meteor_rock_outcrop"
+  ],
+  "step": "surface_structures"
+}

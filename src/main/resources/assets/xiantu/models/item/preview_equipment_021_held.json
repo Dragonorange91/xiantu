@@ -1,0 +1,115 @@
+{
+  "loader": "forge:obj",
+  "model": "xiantu:models/item/equipment/equipment_021.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "xiantu:models/equipment/weapon_021"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -60,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -60,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -55,
+        0,
+        0
+      ],
+      "translation": [
+        1,
+        1,
+        -1
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -55,
+        0,
+        0
+      ],
+      "translation": [
+        1,
+        1,
+        -1
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        35
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ]
+    }
+  }
+}

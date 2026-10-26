@@ -1,0 +1,194 @@
+{
+  "textures": {
+    "0": "xiantu:item/xuan_yuan_yang_qi_jue_cover",
+    "1": "xiantu:item/xuan_yuan_yang_qi_jue_cloth",
+    "2": "xiantu:item/gongfa_book_pages",
+    "3": "xiantu:item/gongfa_reading_paper",
+    "particle": "xiantu:item/xuan_yuan_yang_qi_jue_cover"
+  },
+  "elements": [
+    {
+      "name": "right_cover",
+      "from": [
+        8,
+        1,
+        8.3
+      ],
+      "to": [
+        18.5,
+        15,
+        8.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            14
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            14
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.5,
+            0.3
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.5,
+            0.3
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "right_pages",
+      "from": [
+        8,
+        1.2,
+        7.95
+      ],
+      "to": [
+        18.2,
+        14.8,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.35,
+            13.6
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.35,
+            13.6
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.35
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.35
+          ],
+          "texture": "#2"
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "left",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "right",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "leaf",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        4
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false
+}

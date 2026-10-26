@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "xiantu:block/zi_wen_maple_planks"
+  }
+}

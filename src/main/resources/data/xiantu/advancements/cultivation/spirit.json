@@ -1,0 +1,23 @@
+{
+  "parent": "xiantu:cultivation/nascent_soul",
+  "display": {
+    "icon": {
+      "item": "xiantu:di_sui"
+    },
+    "title": {
+      "text": "神游天地 · 化神"
+    },
+    "description": {
+      "text": "首次达到化神境界"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

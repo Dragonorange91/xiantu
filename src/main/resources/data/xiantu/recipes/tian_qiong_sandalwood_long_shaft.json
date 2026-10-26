@@ -1,0 +1,17 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:tian_qiong_sandalwood_stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:tian_qiong_sandalwood_long_shaft",
+    "count": 1
+  },
+  "wood": "tian_qiong_sandalwood"
+}

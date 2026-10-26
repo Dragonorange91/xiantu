@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "xiantu:town_qingwa_low"
+  },
+  "result": "xiantu:ruin_collapsed_qingwa",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "xiantu:block/courtyard_water_stone",
+    "top": "xiantu:block/courtyard_water_stone",
+    "side": "xiantu:block/courtyard_water_stone"
+  }
+}

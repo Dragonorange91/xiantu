@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "xiantu:block/zi_wen_maple_door_bottom",
+    "top": "xiantu:block/zi_wen_maple_door_top"
+  },
+  "render_type": "minecraft:cutout"
+}

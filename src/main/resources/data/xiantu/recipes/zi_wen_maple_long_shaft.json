@@ -1,0 +1,17 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:zi_wen_maple_stick"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_wen_maple_long_shaft",
+    "count": 1
+  },
+  "wood": "zi_wen_maple"
+}

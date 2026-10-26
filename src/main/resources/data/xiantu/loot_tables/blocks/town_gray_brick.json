@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "xiantu:town_gray_brick" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }]
+}

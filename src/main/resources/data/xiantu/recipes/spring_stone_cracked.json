@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "xiantu:spring_stone"
+  },
+  "result": "xiantu:spring_stone_cracked",
+  "experience": 0.1,
+  "cookingtime": 200
+}

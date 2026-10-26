@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "C C"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:town_vermilion_beam"
+    },
+    "C": {
+      "item": "xiantu:town_vermilion_column"
+    }
+  },
+  "result": {
+    "item": "xiantu:town_vermilion_railing",
+    "count": 4
+  }
+}

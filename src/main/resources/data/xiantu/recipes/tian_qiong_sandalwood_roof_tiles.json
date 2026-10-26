@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:tian_qiong_sandalwood_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:tian_qiong_sandalwood_roof_tiles",
+    "count": 6
+  }
+}

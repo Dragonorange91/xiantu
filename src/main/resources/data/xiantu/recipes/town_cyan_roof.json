@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BB", "BB"],
+  "key": { "B": { "item": "minecraft:prismarine_bricks" } },
+  "result": { "item": "xiantu:town_cyan_roof", "count": 4 }
+}

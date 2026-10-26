@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:spirit_wood/zi_wen_maple",
+  "features": [
+    "xiantu:zi_wen_maple_tree"
+  ],
+  "step": "vegetal_decoration"
+}

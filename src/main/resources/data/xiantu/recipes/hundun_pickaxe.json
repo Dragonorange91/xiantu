@@ -1,0 +1,25 @@
+{
+  "type": "xiantu:facility_crafting",
+  "category": "equipment",
+  "facility": "hundun_pickaxe",
+  "ingredients": [
+    {
+      "item": "xiantu:zifu_silver_ingot"
+    },
+    {
+      "item": "xiantu:zifu_silver_ingot"
+    },
+    {
+      "item": "xiantu:zifu_silver_ingot"
+    },
+    {
+      "item": "xiantu:xing_wen_wutong_stick"
+    },
+    {
+      "item": "xiantu:jiuyou_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "xiantu:hundun_pickaxe"
+  }
+}

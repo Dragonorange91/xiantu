@@ -1,0 +1,7 @@
+{
+  "type": "xiantu:cultivation_town",
+  "biomes": "#xiantu:has_structure/cultivation_town",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

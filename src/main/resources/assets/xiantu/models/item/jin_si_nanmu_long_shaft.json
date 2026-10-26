@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xiantu:item/jin_si_nanmu_long_shaft"
+  }
+}

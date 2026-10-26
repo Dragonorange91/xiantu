@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiantu:spring_stone_broken_pillar"
+    }
+  ],
+  "result": {
+    "item": "xiantu:spring_stone_rubble",
+    "count": 1
+  }
+}

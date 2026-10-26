@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "F "
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_wen_maple_planks"
+    },
+    "F": {
+      "item": "xiantu:zi_wen_maple_fiber"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_wen_maple_beam",
+    "count": 2
+  }
+}

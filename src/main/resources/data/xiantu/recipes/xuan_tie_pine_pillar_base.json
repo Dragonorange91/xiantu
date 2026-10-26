@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xuan_tie_pine_pillar"
+    }
+  },
+  "result": {
+    "item": "xiantu:xuan_tie_pine_pillar_base",
+    "count": 2
+  }
+}

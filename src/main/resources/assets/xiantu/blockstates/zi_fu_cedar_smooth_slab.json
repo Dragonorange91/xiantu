@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/zi_fu_cedar_smooth_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/zi_fu_cedar_smooth_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/zi_fu_cedar_smooth_slab_double"
+    }
+  }
+}

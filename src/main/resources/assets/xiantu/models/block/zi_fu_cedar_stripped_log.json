@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "xiantu:block/zi_fu_cedar_stripped_log_side",
+    "end": "xiantu:block/zi_fu_cedar_stripped_log_top"
+  }
+}

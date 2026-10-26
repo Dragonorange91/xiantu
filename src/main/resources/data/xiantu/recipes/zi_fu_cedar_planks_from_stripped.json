@@ -1,0 +1,16 @@
+{
+  "type": "xiantu:spirit_wood_processing",
+  "pattern": [
+    "L"
+  ],
+  "key": {
+    "L": {
+      "item": "xiantu:zi_fu_cedar_stripped_log"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_fu_cedar_planks",
+    "count": 4
+  },
+  "wood": "zi_fu_cedar"
+}

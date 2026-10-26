@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.longju.xiantu.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "xiantu.refmap.json",
+  "mixins": [
+    "SpiritSwordDismountMixin",
+    "RuinBlockMutationMixin",
+    "NaturalHealingMixin",
+    "InstanceTeleportMixin",
+    "InstanceDeathMixin",
+    "InstanceCollisionMixin",
+    "InstanceServerAccess",
+    "InstanceBorderAccess",
+    "InstanceBorderDelegateAccess"
+  ],
+  "client": [
+    "client.HumanoidWeaponAttackMixin",
+    "client.WeaponUseHandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

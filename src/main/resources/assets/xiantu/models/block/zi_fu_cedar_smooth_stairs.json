@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "xiantu:block/zi_fu_cedar_smooth",
+    "top": "xiantu:block/zi_fu_cedar_smooth",
+    "side": "xiantu:block/zi_fu_cedar_smooth"
+  }
+}

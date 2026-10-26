@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dripstone_caves",
+    "minecraft:grove",
+    "minecraft:lush_caves",
+    "minecraft:meadow",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "xiantu:azure_brick_pillar"
+    }
+  },
+  "result": {
+    "item": "xiantu:azure_brick_broken_pillar",
+    "count": 2
+  }
+}

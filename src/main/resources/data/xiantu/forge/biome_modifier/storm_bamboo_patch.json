@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/thunder_wastes",
+  "features": [
+    "xiantu:storm_bamboo_patch"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "xiantu:zixiao_copper_block"
+    }
+  ],
+  "result": {
+    "item": "xiantu:zixiao_copper_ingot",
+    "count": 9
+  }
+}

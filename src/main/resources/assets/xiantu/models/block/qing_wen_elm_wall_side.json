@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "xiantu:block/qing_wen_elm_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/tian_qiong_sandalwood_smooth_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/tian_qiong_sandalwood_smooth_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/tian_qiong_sandalwood_smooth_slab_double"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "textures": {
+    "0": "xiantu:block/qing_wen_elm_smooth",
+    "1": "xiantu:block/qing_wen_elm_carved",
+    "particle": "xiantu:block/qing_wen_elm_smooth"
+  },
+  "elements": [
+    {
+      "name": "part_0",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        6,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            4,
+            10,
+            12,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4,
+            10,
+            12,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "part_1",
+      "from": [
+        0,
+        6,
+        3
+      ],
+      "to": [
+        16,
+        8,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            10
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            3,
+            8,
+            13,
+            10
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            10
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            3,
+            8,
+            13,
+            10
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "part_2",
+      "from": [
+        0,
+        8,
+        5
+      ],
+      "to": [
+        16,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            5,
+            0,
+            11,
+            8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            0,
+            11,
+            8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            16,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            16,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

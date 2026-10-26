@@ -1,0 +1,78 @@
+{
+  "textures": {
+    "0": "xiantu:block/wooden_plaque_medium_part_8",
+    "particle": "xiantu:block/wooden_plaque_medium_part_8"
+  },
+  "elements": [
+    {
+      "name": "wooden_board_section",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            15.5,
+            1,
+            16,
+            15
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            15
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            15,
+            0.5
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1,
+            15.5,
+            15,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

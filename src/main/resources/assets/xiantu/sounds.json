@@ -1,0 +1,10 @@
+{
+  "terrain.thunder_wastes_entry": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "xiantu:ambient/thunder_wastes_thunder"
+      }
+    ]
+  }
+}

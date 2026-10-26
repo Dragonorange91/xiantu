@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  },
+  "result": {
+    "item": "xiantu:wooden_plaque_large",
+    "count": 1
+  }
+}

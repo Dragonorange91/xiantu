@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "xiantu:block/xuan_tie_pine_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "xiantu:block/xuan_tie_pine_pillar"
+    },
+    "axis=z": {
+      "model": "xiantu:block/xuan_tie_pine_pillar",
+      "x": 90
+    }
+  }
+}

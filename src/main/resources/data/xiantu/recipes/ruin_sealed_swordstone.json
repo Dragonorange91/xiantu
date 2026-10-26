@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "ISI",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:iron_sword"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "xiantu:ruin_sealed_swordstone"
+  }
+}

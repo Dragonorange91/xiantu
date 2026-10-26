@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "xiantu:block/spirit_farmland_3"
+    },
+    "moisture=1": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    },
+    "moisture=2": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    },
+    "moisture=3": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    },
+    "moisture=4": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    },
+    "moisture=5": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    },
+    "moisture=6": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    },
+    "moisture=7": {
+      "model": "xiantu:block/spirit_farmland_3_moist"
+    }
+  }
+}

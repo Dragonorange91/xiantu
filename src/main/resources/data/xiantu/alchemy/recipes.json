@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "pill_01",
+    "name": "引气散",
+    "rank": 1,
+    "element": "wood",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0058",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:herb_0030",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_02",
+    "name": "筑基丹",
+    "rank": 1,
+    "element": "earth",
+    "kind": "breakthrough",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0058",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0006",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_bone",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_06",
+    "name": "结金丹",
+    "rank": 2,
+    "element": "metal",
+    "kind": "breakthrough",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0039",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0050",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_horn",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_15",
+    "name": "结婴丹",
+    "rank": 3,
+    "element": "water",
+    "kind": "breakthrough",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0038",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0046",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0008",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_silk",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 3,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_19",
+    "name": "化神丹",
+    "rank": 4,
+    "element": "wood",
+    "kind": "breakthrough",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0016",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0054",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_horn",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_26",
+    "name": "凌虚丹",
+    "rank": 5,
+    "element": "metal",
+    "kind": "breakthrough",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0051",
+        "count": 11,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0020",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0040",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_scale",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 5,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_30",
+    "name": "乘化丹",
+    "rank": 6,
+    "element": "wood",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0013",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0004",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0048",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:herb_0012",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 6,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_34",
+    "name": "渡劫丹",
+    "rank": 7,
+    "element": "water",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0003",
+        "count": 11,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0014",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0055",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:herb_0011",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 7,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_07",
+    "name": "安神丹",
+    "rank": 2,
+    "element": "water",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0006",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_16",
+    "name": "清心丹",
+    "rank": 3,
+    "element": "water",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0038",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0006",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0031",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 3,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_20",
+    "name": "破障丹",
+    "rank": 4,
+    "element": "earth",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0036",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0039",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_27",
+    "name": "窥天丹",
+    "rank": 5,
+    "element": "metal",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0051",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0037",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0035",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 5,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_03",
+    "name": "聚气丹",
+    "rank": 1,
+    "element": "wood",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0058",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0030",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_35",
+    "name": "悟道丹",
+    "rank": 7,
+    "element": "wood",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0003",
+        "count": 11,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0046",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0047",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 7,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_36",
+    "name": "洗灵丹",
+    "rank": 7,
+    "element": "water",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0003",
+        "count": 11,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0025",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0045",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 7,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_04",
+    "name": "回灵丹",
+    "rank": 1,
+    "element": "water",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0058",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0005",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_08",
+    "name": "大回灵丹",
+    "rank": 2,
+    "element": "water",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0005",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_05",
+    "name": "回春丹",
+    "rank": 1,
+    "element": "wood",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0058",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0007",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_09",
+    "name": "清毒丹",
+    "rank": 2,
+    "element": "wood",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0026",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_venom_sac",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_10",
+    "name": "狂暴丹",
+    "rank": 2,
+    "element": "fire",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0030",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0042",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_blood_sac",
+        "count": 3,
+        "group": "blend",
+        "grade": 2,
+        "element": "fire"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "fire",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_11",
+    "name": "铁壁丹",
+    "rank": 2,
+    "element": "earth",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0034",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_bone",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_carapace",
+        "count": 3,
+        "group": "blend",
+        "grade": 2
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_17",
+    "name": "天眼丹",
+    "rank": 3,
+    "element": "metal",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0038",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0035",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_horn",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 3,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_21",
+    "name": "洗髓丹",
+    "rank": 4,
+    "element": "earth",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0025",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0054",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_12",
+    "name": "避瘴丹",
+    "rank": 2,
+    "element": "wood",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_venom_sac",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_22",
+    "name": "解蛊丹",
+    "rank": 4,
+    "element": "fire",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0042",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0026",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_venom_sac",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "fire",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_31",
+    "name": "万毒解",
+    "rank": 6,
+    "element": "wood",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0013",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0054",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_venom_sac",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 6,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_13",
+    "name": "培元丹",
+    "rank": 2,
+    "element": "earth",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0010",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_18",
+    "name": "养魂丹",
+    "rank": 3,
+    "element": "wood",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0038",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0005",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0008",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 3,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_23",
+    "name": "固魂丹",
+    "rank": 4,
+    "element": "earth",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0008",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0034",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_14",
+    "name": "炼体丹",
+    "rank": 2,
+    "element": "earth",
+    "kind": "basic",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0043",
+        "count": 6,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0052",
+        "count": 3,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_bone",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_blood_sac",
+        "count": 3,
+        "group": "blend",
+        "grade": 2,
+        "element": "earth"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_32",
+    "name": "龙血丹",
+    "rank": 6,
+    "element": "fire",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0013",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0024",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0009",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:herb_0052",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 6,
+        "element": "fire",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_24",
+    "name": "冰肌丹",
+    "rank": 4,
+    "element": "water",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0031",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0006",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:beast_scale",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_25",
+    "name": "开窍丹",
+    "rank": 4,
+    "element": "metal",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0032",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0046",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0050",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "pill_28",
+    "name": "孕灵丹",
+    "rank": 5,
+    "element": "wood",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0051",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0004",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0008",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 5,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_29",
+    "name": "分身丹",
+    "rank": 5,
+    "element": "water",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0051",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0040",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0005",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:herb_0022",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 5,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "pill_33",
+    "name": "破界丹",
+    "rank": 6,
+    "element": "metal",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0013",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0040",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:causality_stone",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 6,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "formula_pill_03_ginseng",
+    "pill": "pill_03",
+    "name": "青芽聚气方",
+    "rank": 1,
+    "element": "wood",
+    "kind": "cultivation",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0058",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0010",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "formula_pill_05_spring",
+    "pill": "pill_05",
+    "name": "春露回春方",
+    "rank": 1,
+    "element": "water",
+    "kind": "heal",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0007",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0005",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:herb_0056",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 1,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 1,
+      "blend": 0
+    }
+  },
+  {
+    "id": "formula_pill_09_clearmist",
+    "pill": "pill_09",
+    "name": "清雾解毒方",
+    "rank": 2,
+    "element": "wood",
+    "kind": "detox",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0026",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0029",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_venom_sac",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "formula_pill_13_warmroot",
+    "pill": "pill_13",
+    "name": "厚土培元方",
+    "rank": 2,
+    "element": "earth",
+    "kind": "recovery",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0010",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0052",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_bone",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 2,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 1,
+      "blend": 0
+    }
+  },
+  {
+    "id": "formula_pill_16_quietheart",
+    "pill": "pill_16",
+    "name": "静心凝神方",
+    "rank": 3,
+    "element": "water",
+    "kind": "soul",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0006",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0031",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_silk",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 3,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 1,
+      "blend": 0
+    }
+  },
+  {
+    "id": "formula_pill_17_sight",
+    "pill": "pill_17",
+    "name": "照影明目方",
+    "rank": 3,
+    "element": "metal",
+    "kind": "true_sight",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0035",
+        "count": 7,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0046",
+        "count": 5,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_horn",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 3,
+        "element": "metal",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "formula_pill_21_washmarrow",
+    "pill": "pill_21",
+    "name": "玉髓洗身方",
+    "rank": 4,
+    "element": "earth",
+    "kind": "physique",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0025",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0054",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_carapace",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "earth",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 0
+    }
+  },
+  {
+    "id": "formula_pill_24_frostskin",
+    "pill": "pill_24",
+    "name": "寒魄冰肌方",
+    "rank": 4,
+    "element": "water",
+    "kind": "ice_skin",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0031",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0006",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_scale",
+        "count": 3,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 4,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 1,
+      "blend": 1
+    }
+  },
+  {
+    "id": "formula_pill_28_capacity",
+    "pill": "pill_28",
+    "name": "纳灵扩元方",
+    "rank": 5,
+    "element": "wood",
+    "kind": "capacity",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0004",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0008",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_sinew",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 5,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "formula_pill_29_mirror",
+    "pill": "pill_29",
+    "name": "镜身化影方",
+    "rank": 5,
+    "element": "water",
+    "kind": "rare",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0022",
+        "count": 9,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0040",
+        "count": 6,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_silk",
+        "count": 5,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 5,
+        "element": "water",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 1,
+      "blend": 0
+    }
+  },
+  {
+    "id": "formula_pill_31_purgedark",
+    "pill": "pill_31",
+    "name": "玄清万毒方",
+    "rank": 6,
+    "element": "wood",
+    "kind": "all_poison_immunity",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0026",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0054",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_venom_sac",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 6,
+        "element": "wood",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 0,
+      "blend": 1
+    }
+  },
+  {
+    "id": "formula_pill_32_dragonblood",
+    "pill": "pill_32",
+    "name": "龙髓煅血方",
+    "rank": 6,
+    "element": "fire",
+    "kind": "dragon_blood",
+    "ingredients": [
+      {
+        "item": "xiantu:herb_0024",
+        "count": 10,
+        "group": "main"
+      },
+      {
+        "item": "xiantu:herb_0009",
+        "count": 7,
+        "group": "auxiliary"
+      },
+      {
+        "item": "xiantu:beast_blood_sac",
+        "count": 6,
+        "group": "blend"
+      },
+      {
+        "item": "xiantu:demon_core",
+        "count": 1,
+        "grade": 6,
+        "element": "fire",
+        "group": "blend"
+      }
+    ],
+    "heat": {
+      "warm": 1,
+      "blend": 1
+    }
+  }
+]

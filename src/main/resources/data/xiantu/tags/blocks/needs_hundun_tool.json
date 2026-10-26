@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "xiantu:xian_yu_ore",
+    "xiantu:dao_shi_ore",
+    "xiantu:hunyuan_stone_ore",
+    "xiantu:taichu_shenjin_ore",
+    "xiantu:causality_stone_ore",
+    "xiantu:spirit_gold_essence_ore"
+  ]
+}

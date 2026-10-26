@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#xiantu:terrain/meteor_wasteland",
+  "features": ["xiantu:impact_glass_patch"],
+  "step": "vegetal_decoration"
+}

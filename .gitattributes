@@ -1,0 +1,19 @@
+* text=auto
+*.java text eol=lf
+*.py text eol=lf
+*.gradle text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.glb binary
+*.blend binary
+*.nbt binary
+*.ogg binary
+*.jar binary
+
+# Asset sources are large; preserve exact authored bytes in LFS.
+asset_sources/** filter=lfs diff=lfs merge=lfs -text
+src/main/resources/assets/**/*.glb filter=lfs diff=lfs merge=lfs -text
+src/main/resources/assets/**/*.obj filter=lfs diff=lfs merge=lfs -text
+src/main/resources/assets/**/models/armor/*.json filter=lfs diff=lfs merge=lfs -text
+src/main/resources/data/xiantu/instance/*.json filter=lfs diff=lfs merge=lfs -text

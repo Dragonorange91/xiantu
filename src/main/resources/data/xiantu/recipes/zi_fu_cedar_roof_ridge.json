@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:zi_fu_cedar_smooth"
+    }
+  },
+  "result": {
+    "item": "xiantu:zi_fu_cedar_roof_ridge",
+    "count": 6
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "xiantu:xuan_tie_pine_planks"
+    }
+  },
+  "result": {
+    "item": "xiantu:xuan_tie_pine_wall",
+    "count": 6
+  }
+}

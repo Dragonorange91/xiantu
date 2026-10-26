@@ -1,0 +1,149 @@
+{
+  "textures": {
+    "0": "xiantu:block/azure_brick_smooth",
+    "1": "xiantu:block/azure_brick_carved",
+    "2": "xiantu:block/azure_brick_stele_front_1",
+    "particle": "xiantu:block/azure_brick_smooth"
+  },
+  "elements": [
+    {
+      "name": "tablet_0",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            4,
+            12,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            4,
+            12,
+            12,
+            16
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "tablet_1",
+      "from": [
+        2,
+        4,
+        5
+      ],
+      "to": [
+        16,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            14,
+            12
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            5,
+            0,
+            11,
+            12
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            16,
+            12
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5,
+            0,
+            11,
+            12
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            5,
+            16,
+            11
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2,
+            5,
+            16,
+            11
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block"
+}

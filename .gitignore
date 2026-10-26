@@ -1,0 +1,47 @@
+# Reproducible products and local state
+/.gradle/
+/.gradle-user/
+/build/
+/run/
+/work/
+/logs/
+/xiantu-runtime/
+/.idea/
+/.vscode/
+*.iml
+*.log
+*.jfr
+*.hprof
+__pycache__/
+*.py[cod]
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!third_party/gfbs/gradle/wrapper/gradle-wrapper.jar
+third_party/gfbs/.gradle/
+third_party/gfbs/build/
+third_party/gfbs/run/
+third_party/gfbs/logs/
+
+# Private configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+*.pem
+*.key
+
+# Assets are public files with separate rights described in ASSET_LICENSE.md.
+# Publish integration docs, retain historical local records outside Git.
+/docs/*
+!/docs/API.md
+!/docs/integration/
+!/docs/OPEN_SOURCE_CONTENTS.md
+/仙途工程交接文档.md
+
+# Disposable test artifacts
+**/crash-reports/
+**/test-results/
+**/captures/
+*.log.gz

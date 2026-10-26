@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "P P",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:spruce_planks"
+    },
+    "B": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "xiantu:xian_wood_wardrobe",
+    "count": 1
+  }
+}

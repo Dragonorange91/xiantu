@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "xiantu:block/storm_bamboo_bottom" },
+    "half=upper": { "model": "xiantu:block/storm_bamboo_top" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xiantu:block/azure_brick_slab"
+    },
+    "type=top": {
+      "model": "xiantu:block/azure_brick_slab_top"
+    },
+    "type=double": {
+      "model": "xiantu:block/azure_brick_slab_double"
+    }
+  }
+}

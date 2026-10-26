@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "xiantu:block/xing_wen_wutong_roof",
+    "top": "xiantu:block/xing_wen_wutong_roof",
+    "side": "xiantu:block/xing_wen_wutong_roof"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "xiantu:black_rock_carved"
+    }
+  },
+  "result": {
+    "item": "xiantu:black_rock_stele",
+    "count": 2
+  }
+}

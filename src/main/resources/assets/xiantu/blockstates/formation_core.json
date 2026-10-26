@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "xiantu:block/array_1_eye"
+    },
+    "lit=true": {
+      "model": "xiantu:block/array_1_eye_lit"
+    }
+  }
+}
